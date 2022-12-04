@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "00-kiml-diode")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-diode.pretty")(options "")(descr ""))
+  (lib (name "00-kiml-maxlab-logos")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-maxlab-logos.pretty")(options "")(descr ""))
+  (lib (name "00-kiml-connector-usb")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-connector-usb.pretty")(options "")(descr ""))
+  (lib (name "00-kiml-button-switch-smd")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-button-switch-smd.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIML_ROOT}/footprints")(options "")(descr ""))
+)
