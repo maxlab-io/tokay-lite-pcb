@@ -35,4 +35,5 @@
   (lib (name "04-mcu")(type "KiCad")(uri "${KIML_ROOT}/symbols/04-mcu.kicad_sym")(options "")(descr ""))
   (lib (name "00-kiml-rf-module")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-rf-module.kicad_sym")(options "")(descr ""))
   (lib (name "00-kiml-ircut-driver")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-ircut-driver.kicad_sym")(options "")(descr ""))
+  (lib (name "00-kiml-timer-rtc")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-timer-rtc.kicad_sym")(options "")(descr ""))
 )
