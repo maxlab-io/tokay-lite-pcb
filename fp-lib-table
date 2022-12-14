@@ -4,4 +4,6 @@
   (lib (name "00-kiml-connector-usb")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-connector-usb.pretty")(options "")(descr ""))
   (lib (name "00-kiml-button-switch-smd")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-button-switch-smd.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIML_ROOT}/footprints")(options "")(descr ""))
+  (lib (name "00-kiml-connector-fpc-ffc")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-connector-fpc-ffc.pretty")(options "")(descr ""))
+  (lib (name "00-kiml-button-switch-tht")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-button-switch-tht.pretty")(options "")(descr ""))
 )
