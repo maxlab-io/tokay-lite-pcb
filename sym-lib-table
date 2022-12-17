@@ -39,4 +39,6 @@
   (lib (name "00-kiml-optical")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-optical.kicad_sym")(options "")(descr ""))
   (lib (name "00-kiml-potentiometer-tht")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-potentiometer-tht.kicad_sym")(options "")(descr ""))
   (lib (name "00-kiml-connector-fpc-ffc")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-connector-fpc-ffc.kicad_sym")(options "")(descr ""))
+  (lib (name "00-kiml-button-switch-tht")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-button-switch-tht.kicad_sym")(options "")(descr ""))
+  (lib (name "00-kiml-driver-led")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-driver-led.kicad_sym")(options "")(descr ""))
 )
