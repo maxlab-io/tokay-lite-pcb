@@ -41,4 +41,6 @@
   (lib (name "00-kiml-connector-fpc-ffc")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-connector-fpc-ffc.kicad_sym")(options "")(descr ""))
   (lib (name "00-kiml-button-switch-tht")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-button-switch-tht.kicad_sym")(options "")(descr ""))
   (lib (name "00-kiml-driver-led")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-driver-led.kicad_sym")(options "")(descr ""))
+  (lib (name "00-kiml-connector-jst")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-connector-jst.kicad_sym")(options "")(descr ""))
+  (lib (name "00-kiml-battery-management")(type "KiCad")(uri "${KIML_ROOT}/symbols/00-kiml-battery-management.kicad_sym")(options "")(descr ""))
 )
