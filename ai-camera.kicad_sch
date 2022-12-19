@@ -7236,8 +7236,8 @@
     (uuid ff3b2d42-f443-4560-a2a1-385d420bd538)
   )
 
-  (text "Put the driver as close as possible to shorten paths\nfor noisy output on LED power line\n"
-    (at 311.15 224.79 0)
+  (text "Layout: \nPut the driver as close as possible to shorten paths\nfor noisy output on LED power line\n"
+    (at 311.15 234.95 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 073ff797-0e2d-4ed8-9f39-8ec290ebcd97)
   )
@@ -7266,12 +7266,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 24709979-5fe7-42fa-bf3d-f175718199e4)
   )
-  (text "Put IRCUT driver away from sensitive \ndigital or analog lines"
+  (text "Layout: \nPut IRCUT driver away from sensitive \ndigital or analog lines"
     (at 254 223.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 30ed914a-52c7-4ed7-a44f-0300e0a965d5)
   )
-  (text "Layout: form a loop of\nGNDPWR around the PCB" (at 40.64 255.27 0)
+  (text "Layout: form a loop of GNDPWR around the PCB\n\nDo a via stitching with a spacing <= 20mm \n(resonant freq of the via cell is ~15 GHz)"
+    (at 34.29 255.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3487ae92-d359-4e63-8583-f6e12418305d)
   )
@@ -7289,7 +7290,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9b12e5b3-215a-4873-b7bb-90b17c6b957f)
   )
-  (text "Every testpoint is paired with GND TP\nto reduce return current loop area"
+  (text "Layout: every testpoint is paired with GND TP\nto reduce return current loop area. Keep\neach GND TP close to signal TP"
     (at 167.64 233.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a37cb76b-1195-4a7e-862d-ddc709f233ae)
@@ -7299,8 +7300,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b1920c51-c175-40c4-8182-d399f2cf1160)
   )
-  (text "Put LDOs as close as possible to the\ncamera connector"
-    (at 274.32 176.53 0)
+  (text "Layout:\nPut LDOs as close as possible to the\ncamera connector"
+    (at 274.32 179.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c772b9e7-a81c-493d-a41d-ef033ac3680a)
   )
@@ -7314,7 +7315,7 @@
     (uuid c8ffd067-b65b-420a-ae1c-3392e21ff4e5)
   )
   (text "Given OV2640 sensitivity, an optimal LED should be\nC396643 @ LCSC (I_{max} ~40ma for T <= 60C,\nf_{peak} = 850nm, MPN: E6C0603IRAC1UDA)"
-    (at 311.15 232.41 0)
+    (at 311.15 227.33 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d6b629b4-ceb7-4fc0-a401-92596238e654)
   )
@@ -7328,7 +7329,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f0562a20-1e33-429e-aba8-6ca8836f8402)
   )
-  (text "Decoupling: keep \nas close to \nthe camera \nconnector \nas possible"
+  (text "Layout:\nDecoupling: keep \nas close to \nthe camera \nconnector \nas possible"
     (at 386.08 176.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f9c6289b-da67-4389-b149-15de35638709)
@@ -14632,7 +14633,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241611_Ckmtw-Shenzhen-Cankemeng-B-2100S20P-B110_C124359.pdf" (id 3) (at 167.64 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "EXT" (id 4) (at 170.18 44.45 0))
+    (property "UserValue" "USR_EXT" (id 4) (at 170.18 44.45 0))
     (property "MFR" "Ckmtw" (id 5) (at 170.18 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
