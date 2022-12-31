@@ -13483,7 +13483,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 104.14 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a327f44c-ab0f-4f1d-9f46-ffceb3a7c759)
-    (property "Reference" "C?" (id 0) (at 107.95 204.4699 0)
+    (property "Reference" "C7" (id 0) (at 107.95 204.4699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (id 1) (at 107.315 203.2 0)
@@ -17251,6 +17251,9 @@
     (path "/95216da2-f1f2-4a0a-aea6-b541fffee1c2"
       (reference "C6") (unit 1) (value "10u_0603_CL10A106KP8NNNC") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/a327f44c-ab0f-4f1d-9f46-ffceb3a7c759"
+      (reference "C7") (unit 1) (value "10u_0603_CL10A106KP8NNNC") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/fb8614db-be1c-46b0-888f-82a07f9cc0c4"
       (reference "C8") (unit 1) (value "100n_0402_CL05B104KB54PNC") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -17346,9 +17349,6 @@
     )
     (path "/9cd7f888-152e-484c-bc3d-a844f1344baa"
       (reference "C39") (unit 1) (value "100n_0402_CL05B104KB54PNC") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/a327f44c-ab0f-4f1d-9f46-ffceb3a7c759"
-      (reference "C?") (unit 1) (value "10u_0603_CL10A106KP8NNNC") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/ea5f5aba-2b59-49f8-923f-81ea285ad11b"
       (reference "D1") (unit 1) (value "B5819W-SL_SOD-123") (footprint "Diode_SMD:D_SOD-123")
