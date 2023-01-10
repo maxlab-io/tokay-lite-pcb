@@ -1,39 +1,39 @@
-Item,Qty,Comment,Designator,Footprint,JLCPCB Part #,SPL,LNK,MFR,MPN,SNB,LibPart,Pmax,Rating,TCR,Tolerance,Type,UserValue,ESR
-1,15,10u_0603_CL10A106MA8NRNC,"C1, C5, C6, C7, C15, C19, C20, C22, C23, C24, C27, C29, C34, C35, C38",Capacitor_SMD:C_0603_1608Metric,C96446,JLCPCB,https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446,Samsung,CL10A106MA8NRNC,Extended Part,00-kiml-capacitors-smd:10u_0603_CL10A106MA8NRNC,,25V,,20%,,10u,
-2,17,100n_0402_CL05B104KB54PNC,"C2, C3, C8, C10, C14, C16, C17, C18, C21, C30, C31, C32, C36, C37, C39, C40, C41",Capacitor_SMD:C_0402_1005Metric,C307331,JLCPCB,https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331,Samsung,CL05B104KB54PNC,Basic part,00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC,,50V,,10%,,100n,
-3,7,22u_0805_CL21A226MAQNNNE,"C4, C9, C12, C13, C25, C26, C28",Capacitor_SMD:C_0805_2012Metric,C45783,JLCPCB,https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783,Samsung,CL21A226MAQNNNE,Basic part,00-kiml-capacitors-smd:22u_0805_CL21A226MAQNNNE,,10V,,20%,,22u,
-4,2,22p_0402_0402CG220J500NT,"C11, C33",Capacitor_SMD:C_0402_1005Metric,C1555,JLCPCB,https://jlcpcb.com/partdetail/1907-0402CG220J500NT/C1555,FH,0402CG220J500NT,Basic part,00-kiml-capacitors-smd:22p_0402_0402CG220J500NT,,50V,,5%,C0G,22p,
-5,4,B5819W-SL_SOD-123,"D1, D2, D5, D7",Diode_SMD:D_SOD-123,C8598,JLCPCB,https://jlcpcb.com/partdetail/9093-B5819WSL/C8598,Jiangsu Changjing Electronics Technology,B5819W SL,Basic Part,00-kiml-diode:B5819W-SL_SOD-123,,,,,,D,
-6,2,0603_RED_KT-0603R,"D3, D6",LED_SMD:LED_0603_1608Metric,C2286,JLCPCB,https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286,Hubei KENTO,KT-0603R,Basic part,00-kiml-led-smd:0603_RED_KT-0603R,,,,,,~{CHRG},
-7,1,0603_GREEN_19-217/GHC-YR1S2/3T,D4,LED_SMD:LED_0603_1608Metric,C72043,JLCPCB,https://jlcpcb.com/partdetail/EverlightElec-19_217_GHC_YR1S23T/C72043,Everlight,19-217/GHC-YR1S2/3T,Basic part,00-kiml-led-smd:0603_GREEN_19-217{slash}GHC-YR1S2{slash}3T,,,,,,~{STDBY},
-8,8,0603_IR_850nm_E6C0603IRAC1UDA,"D8, D9, D10, D11, D12, D13, D14, D15",LED_SMD:LED_0603_1608Metric,C396643,JLCPCB,https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643,EKINGLUX,E6C0603IRAC1UDA,Extended Part,00-kiml-led-smd:0603_IR_850nm_E6C0603IRAC1UDA,,,,,,LED_IR,
-9,1,Conn-01x02_P2mm_S2B-PH-K-S_Horizontal,J1,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,C157932,JLCPCB,https://jlcpcb.com/partdetail/Jst_SalesAmerica-S2B_PH_K_SGW/C157932,JST,S2B-PH-K-S,Extended Part,00-kiml-connector-jst:Conn-01x02_P2mm_S2B-PH-K-S_Horizontal,,,,,,BATT,
-10,1,USB_B_Micro_10118194-0001LF,J2,00-kiml-connector-usb:USB_Micro-B_Amphenol_10118194_Horizontal,C132563,JLCPCB,https://jlcpcb.com/partdetail/AmphenolIcc-101181940001LF/C132563,Amphenol ICC,10118194-0001LF,Extended part,00-kiml-connector:USB_B_Micro_10118194-0001LF,,,,,,USB,
-11,1,Conn-02x10_P2.54mm_B-2100S20P-B110,J4,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,C124359,JLCPCB,https://jlcpcb.com/partdetail/125634-B_2100S20PB110/C124359,Ckmtw,B-2100S20P-B110,,00-kiml-connector:Conn-02x10_P2.54mm_B-2100S20P-B110,,,,,,USR_EXT,
-12,1,Conn-01x02_P1.25mm_10114829-10102LF,J5,00-kiml-connector-amphenol:10114829-10102LF,C239062,JLCPCB,https://jlcpcb.com/partdetail/AmphenolIcc-1011482910102LF/C239062,Amphenol ICC (FCI),10114829-10102LF,Extended Part,00-kiml-connector:Conn-01x02_P1.25mm_10114829-10102LF,,,,,,IRCUT,
-13,1,Conn_01x24_FFC_0.5mm_hirose_FH12-24S-0.5SH,J6,00-kiml-connector-fpc-ffc:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,C202112,JLCPCB,https://jlcpcb.com/partdetail/hrs_hirose-FH12_24S_0_5SH_55/C202112,Hirose,FH12-24S-0.5SH,Extended Part,00-kiml-connector-fpc-ffc:Conn_01x24_FFC_0.5mm_hirose_FH12-24S-0.5SH,,,,,,CAMERA,
-14,1,0805_FB_220R@100MHz_BLM21PG221SN1D,L1,Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C85840,JLCPCB,https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840,Murata Electronics,BLM21PG221SN1D,,00-kiml-inductors:0805_FB_220R@100MHz_BLM21PG221SN1D,,2A,,,,Bead,
-15,2,10u_SWPA4030S100MT,"L2, L3",00-kiml-inductor-smd:L_Sunlord_SWPA40xxS,C38117,JLCPCB,https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117,Sunlord,SWPA4030S100MT,,00-kiml-inductors:10u_SWPA4030S100MT,,1.5A,,,,10u,130m
-16,3,AO3401A,"Q1, Q4, Q6",Package_TO_SOT_SMD:SOT-23,C15127,JLCPCB,https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3401A/C15127,Alpha & Omega Semiconductor Inc.,AO3401A,Basic Part,00-kiml-transitor-fet:AO3401A,,,,,,AO3401A,
-17,5,AO3400A,"Q2, Q3, Q5, Q7, Q8",Package_TO_SOT_SMD:SOT-23,C20917,JLCPCB,https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3400A/C20917,Alpha & Omega Semicon,AO3400A,Basic Part,00-kiml-transitor-fet:AO3400A,,,,,,AO3400A,
-18,5,976k_0402_0402WGD9763TCE,"R1, R2, R14, R17, R19",Resistor_SMD:R_0402_1005Metric,C423262,JLCPCB,https://jlcpcb.com/partdetail/416212-0402WGD9763TCE/C423262,UNI-ROYAL,0402WGD9763TCE,Extended Part,00-kiml-resistors-smd:976k_0402_0402WGD9763TCE,,,,0.50%,,976k,
-19,3,1k_0402_0402WGF1001TCE,"R3, R4, R27",Resistor_SMD:R_0402_1005Metric,C11702,JLCPCB,https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702,UNI-ROYAL,0402WGF1001TCE,Basic part,00-kiml-resistors-smd:1k_0402_0402WGF1001TCE,62.5mW,,,1%,,1k,
-20,12,215k_0402_0402WGD2153TCE,"R5, R10, R12, R13, R15, R16, R18, R20, R21, R22, R28, R29",Resistor_SMD:R_0402_1005Metric,C423299,JLCPCB,https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299,UNI-ROYAL,0402WGD2153TCE,Extended Part,00-kiml-resistors-smd:215k_0402_0402WGD2153TCE,,,,0.50%,,215k,
-21,9,10k_0402_0402WGF1002TCE,"R6, R7, R8, R9, R11, R23, R24, R25, R26",Resistor_SMD:R_0402_1005Metric,C25744,JLCPCB,https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744,UNI-ROYAL,0402WGF1002TCE,Basic part,00-kiml-resistors-smd:10k_0402_0402WGF1002TCE,62.5mW,,100ppm,1%,,10k,
-22,1,2.5R_0805_AR05FTCW2R50,R30,Resistor_SMD:R_0805_2012Metric,C409739,JLCPCB,https://jlcpcb.com/partdetail/VikingTech-AR05FTCW2R50/C409739,Viking,AR05FTCW2R50,Extended Part,00-kiml-resistors-smd:2.5R_0805_AR05FTCW2R50,,,,1%,,2.5R,
-23,2,1M_3362P-1-105,"RV1, RV2",00-kiml-potentiometer-tht:Potentiometer_Vishay_T73YP_Vertical,C118945,JLCPCB,https://jlcpcb.com/partdetail/120214-3362P_1105/C118945,BOCHEN,3362P-1-105,Extended Part,00-kiml-potentiometer-tht:1M_3362P-1-105,,,,10%,,1M,
-24,2,SW_PB_90deg_K2-1102AQ-H4CW-01,"SW1, SW4",00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01,C961738,JLCPCB,https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738,Korean Hroparts,K2-1102AQ-H4CW-01,Extended Part,00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01,,,,,,PWRON,
-25,2,SW_PB_TS-1187A-B-A-B,"SW2, SW3",Button_Switch_SMD:SW_SPST_TL3342,C318884,JLCPCB,https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884,XKB Connectivity,TS-1187A-B-A-B,Basic Part,00-kiml-button-switch-smd:SW_PB_TS-1187A-B-A-B,,,,,,ESP_BOOT,
-26,1,SRV05-4,U1,Package_TO_SOT_SMD:SOT-23-6,C85364,JLCPCB,https://jlcpcb.com/partdetail/ProtekDevices-SRV05_4_PT7/C85364,ProTek Devices,SRV05-4,Basic part,00-kiml-power-protection:SRV05-4,,,,,,SRV05-4,
-27,1,TP4057-42-SOT26-R,U2,Package_TO_SOT_SMD:SOT-23-6,C12044,JLCPCB,https://jlcpcb.com/partdetail/12599-TP4057_42_SOT26R/C12044,TOPPOWER,TP4057-42-SOT26-R,Basic Part,00-kiml-battery-management:TP4057-42-SOT26-R,,,,,,TP4057,
-28,1,"PCF8563T/5,518",U3,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C7440,JLCPCB,https://jlcpcb.com/partdetail/NxpSemicon-PCF8563T_5518/C7440,NXP,"PCF8563T/5,518",Basic Part,"00-kiml-timer-rtc:PCF8563T{slash}5,518",,,,,,PCF8563T,
-29,2,XC6206-2.8V,"U4, U8",Package_TO_SOT_SMD:SOT-23,C2892669,JLCPCB,https://jlcpcb.com/partdetail/Yongyutai-XC6206_28V/C2892669,YONGYUTAI,XC6206-2.8V,Extended Part,00-kiml-regulator-linear:XC6206-2.8V,,,,,,XC6206-2.8V,
-30,1,PIR_BS612,U5,00-kiml-optical:BS612,C389589,JLCPCB,https://jlcpcb.com/partdetail/Senba_SensingTech-BS612/C389589,Senba Sensing,BS612,Extended Part,00-kiml-optical:PIR_BS612,,,,,,BS612,
-31,1,SY8089AAAC,U6,Package_TO_SOT_SMD:SOT-23-5,C78988,JLCPCB,https://jlcpcb.com/partdetail/SilergyCorp-SY8089AAAC/C78988,Silergy,SY8089AAAC,Extended Part,00-kiml-regulator-switching:SY8089AAAC,,,,,,SY8089AAAC,
-32,1,SOT-23-6_SN74LVC1G373DBVR_TI,U7,Package_TO_SOT_SMD:SOT-23-6,C128413,JLCPCB,https://jlcpcb.com/partdetail/TexasInstruments-SN74LVC1G373DBVR/C128413,Texas Instruments,SN74LVC1G373DBVR,Extended Part,00-kiml-74xGxx:SOT-23-6_SN74LVC1G373DBVR_TI,,,,,,D-LATCH,
-33,1,RT9166-12GVL,U9,Package_TO_SOT_SMD:SOT-23,C29175,JLCPCB,https://jlcpcb.com/partdetail/RichtekTech-RT916612GVL/C29175,Richtek Tech,RT9166-12GVL,Extended Part,00-kiml-regulator-linear:RT9166-12GVL,,,,,,RT9166-12GVL,
-34,1,AP1511B,U10,Package_TO_SOT_SMD:SOT-23-6,C347457,JLCPCB,https://jlcpcb.com/partdetail/324117-AP1511B/C347457,UMW,AP1511B,Extended Part,00-kiml-ircut-driver:AP1511B,,,,,,AP1511B,
-35,1,ESP32-S3-WROOM-1-N16R8,U11,00-kiml-rf-module:ESP32-S3-WROOM-1,C2913202,JLCPCB,https://jlcpcb.com/partdetail/3198300-ESP32_S3_WROOM_1N16R8/C2913202,Espressif,ESP32-S3-WROOM-1-N16R8,Extended part,00-kiml-rf-module:ESP32-S3-WROOM-1-N16R8,,,,,,ESP32-S3-WROOM-1,
-36,1,MT9284-28J,U12,Package_TO_SOT_SMD:SOT-23-6,C181780,JLCPCB,https://jlcpcb.com/partdetail/xi_an_AerosemiTech-MT928428J/C181780,AEROSEMI,MT9284-28J,Extended Part,00-kiml-driver-led:MT9284-28J,,,,,,MT9284-28J,
-37,1,APDS-9306-065,U13,00-kiml-optical:Broadcom_DFN-6_2x2mm_P0.65mm,C2649498,JLCPCB,https://jlcpcb.com/partdetail/avago_broadcom-APDS_9306065/C2649498,Broadcom,APDS-9306-065,Extended Part,00-kiml-optical:APDS-9306-065,,,,,,,
-38,1,32.768kHz_Q13FC1350000400,Y1,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346,JLCPCB,https://jlcpcb.com/partdetail/SeikoEpson-Q13FC1350000400/C32346,Seiko Epson,Q13FC1350000400,Basic Part,00-kiml-crystal:32.768kHz_Q13FC1350000400,,,,,,32.768kHz,
+"Comment","Designator","Footprint","LCSC Part #"
+"10u_0603_CL10A106MA8NRNC","C1,C5,C6,C7,C15,C19,C20,C22,C23,C24,C27,C29,C34,C35,C38","C_0603_1608Metric","C96446"
+"100n_0402_CL05B104KB54PNC","C2,C3,C8,C10,C14,C16,C17,C18,C21,C30,C31,C32,C36,C37,C39,C40,C41","C_0402_1005Metric","C307331"
+"22u_0805_CL21A226MAQNNNE","C4,C9,C12,C13,C25,C26,C28","C_0805_2012Metric","C45783"
+"22p_0402_0402CG220J500NT","C11,C33","C_0402_1005Metric","C1555"
+"B5819W-SL_SOD-123","D1,D2,D5,D7","D_SOD-123","C8598"
+"0603_RED_KT-0603R","D3,D6","LED_0603_1608Metric","C2286"
+"0603_GREEN_19-217/GHC-YR1S2/3T","D4","LED_0603_1608Metric","C72043"
+"0603_IR_850nm_E6C0603IRAC1UDA","D8,D9,D10,D11,D12,D13,D14,D15","LED_0603_1608Metric","C396643"
+"Conn-01x02_P2mm_NONAME_JST-PH_C47647","J1","JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal","C47647"
+"USB_B_Micro_10118194-0001LF","J2","USB_Micro-B_Amphenol_10118194_Horizontal","C132563"
+"Conn-02x10_P2.54mm_B-2100S20P-B110","J4","PinHeader_2x10_P2.54mm_Vertical","C124359"
+"Conn-01x02_P1.25mm_10114829-10102LF","J5","10114829-10102LF","C239062"
+"Conn_01x24_FFC_0.5mm_hirose_FH12-24S-0.5SH","J6","Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal","C202112"
+"0805_FB_220R@100MHz_BLM21PG221SN1D","L1","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder","C85840"
+"10u_SWPA4030S100MT","L2,L3","L_Sunlord_SWPA40xxS","C38117"
+"AO3401A","Q1,Q4,Q6","SOT-23","C15127"
+"AO3400A","Q2,Q3,Q5,Q7,Q8","SOT-23","C20917"
+"976k_0402_0402WGD9763TCE","R1,R2,R14,R17,R19","R_0402_1005Metric","C423262"
+"1k_0402_0402WGF1001TCE","R3,R4,R27","R_0402_1005Metric","C11702"
+"215k_0402_0402WGD2153TCE","R5,R10,R12,R13,R15,R16,R18,R20,R21,R22,R28,R29","R_0402_1005Metric","C423299"
+"10k_0402_0402WGF1002TCE","R6,R7,R8,R9,R11,R23,R24,R25,R26","R_0402_1005Metric","C25744"
+"2.5R_0805_AR05FTCW2R50","R30","R_0805_2012Metric","C409739"
+"1M_3362P-1-105","RV1,RV2","Potentiometer_Vishay_T73YP_Vertical","C118945"
+"SW_PB_90deg_K2-1102AQ-H4CW-01","SW1,SW4","SW_PB_90deg_K2-1102AQ-H4CW-01","C961738"
+"SW_PB_TS-1187A-B-A-B","SW2,SW3","SW_SPST_TL3342","C318884"
+"SRV05-4","U1","SOT-23-6","C85364"
+"TP4057-42-SOT26-R","U2","SOT-23-6","C12044"
+"PCF8563T/5,518","U3","SOIC-8_3.9x4.9mm_P1.27mm","C7440"
+"XC6206-2.8V","U4,U8","SOT-23","C2892669"
+"PIR_BS612","U5","BS612","C389589"
+"SY8089AAAC","U6","SOT-23-5","C78988"
+"SOT-23-6_SN74LVC1G373DBVR_TI","U7","SOT-23-6","C128413"
+"RT9166-12GVL","U9","SOT-23","C29175"
+"AP1511B","U10","SOT-23-6","C347457"
+"ESP32-S3-WROOM-1-N16R8","U11","ESP32-S3-WROOM-1","C2913202"
+"MT9284-28J","U12","SOT-23-6","C181780"
+"APDS-9306-065","U13","Broadcom_DFN-6_2x2mm_P0.65mm","C2649498"
+"32.768kHz_Q13FC1350000400","Y1","Crystal_SMD_3215-2Pin_3.2x1.5mm","C32346"
