@@ -114,7 +114,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.1016,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
@@ -126,7 +126,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1016,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
@@ -455,14 +455,14 @@
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2032,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "schematic_color": "rgb(85, 144, 255)",
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -473,9 +473,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+3.3VA": "PWR",
       "+3V3": "PWR",
-      "+5P": "PWR",
+      "+5V": "PWR",
       "+BATT": "PWR",
+      "/UD+": "USB",
+      "/UD-": "USB",
       "Net-(D10-A)": "PWR",
       "Net-(D10-K)": "PWR",
       "Net-(D11-A)": "PWR",
@@ -488,99 +491,13 @@
       "Net-(D6-K)": "PWR",
       "Net-(D7-A)": "PWR",
       "Net-(D7-K)": "PWR",
+      "Net-(J2-VBUS-PadA4)": "PWR",
       "Net-(Q1-S)": "PWR",
       "Net-(Q6-S)": "PWR",
       "Net-(U6-LX)": "PWR",
-      "Net-(U8-VI)": "PWR",
-      "Net-(U9-VI)": "PWR",
       "VBUS": "PWR"
     },
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "+1V2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+2V8"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+5F"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+5P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+BATT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C35-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D10-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D10-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D11-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D11-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D12-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D13-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D14-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D7-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D9-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J5-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "VBUS"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
