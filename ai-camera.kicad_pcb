@@ -12433,7 +12433,7 @@
   (gr_text "BOOT\n" (at 150.292 60.668) (layer "F.SilkS") (tstamp 91468d05-37a0-48ca-b816-582ee212e558)
     (effects (font (size 1 0.6) (thickness 0.15)) (justify right))
   )
-  (gr_text "Multi-Purpose Camera Devkit\nmaxlab.io\nhi@maxlab.io\nrev0-20230106" (at 141.35 101.49) (layer "F.SilkS") (tstamp 92918369-629b-452a-bc14-01c327193b99)
+  (gr_text "Multi-Purpose Camera Devkit\nmaxlab.io\nhi@maxlab.io\nrev1-20230216" (at 141.35 101.49) (layer "F.SilkS") (tstamp 92918369-629b-452a-bc14-01c327193b99)
     (effects (font (size 1 0.7) (thickness 0.15)) (justify left))
   )
   (gr_text "O1" (at 117.89 60.26) (layer "F.SilkS") (tstamp 946e9797-2f01-4f13-86de-be01bfadaef3)
