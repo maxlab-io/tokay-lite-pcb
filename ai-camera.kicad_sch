@@ -4953,6 +4953,7 @@
     )
   )
 
+
   (junction (at 130.81 204.47) (diameter 0) (color 0 0 0 0)
     (uuid 021cf1d8-d514-490f-8327-e58a35f8b42a)
   )
@@ -6292,10 +6293,6 @@
     (stroke (width 0) (type default))
     (uuid 74bb5373-44b5-413c-be60-0c6bd0d72ef8)
   )
-  (wire (pts (xy 224.79 254) (xy 237.49 254))
-    (stroke (width 0) (type default))
-    (uuid 7570f884-9b95-4370-8e7e-2b7b48e73daa)
-  )
   (wire (pts (xy 309.88 209.55) (xy 321.31 209.55))
     (stroke (width 0) (type default))
     (uuid 758da8da-7bf6-49d7-a101-c323533cd4a3)
@@ -6331,10 +6328,6 @@
   (wire (pts (xy 163.83 71.12) (xy 165.1 71.12))
     (stroke (width 0) (type default))
     (uuid 7a6967a8-fb8b-4296-85c3-f959046d0e1b)
-  )
-  (wire (pts (xy 224.79 261.62) (xy 237.49 261.62))
-    (stroke (width 0) (type default))
-    (uuid 7ae1fe7a-ee2a-489f-8940-eee3f28855fd)
   )
   (wire (pts (xy 179.07 63.5) (xy 179.07 66.04))
     (stroke (width 0) (type default))
@@ -6460,10 +6453,6 @@
   (wire (pts (xy 130.81 204.47) (xy 130.81 205.74))
     (stroke (width 0) (type default))
     (uuid 8c8c4282-f59f-4719-982d-3ad34b2ae2cc)
-  )
-  (wire (pts (xy 224.79 276.86) (xy 237.49 276.86))
-    (stroke (width 0) (type default))
-    (uuid 8dd36e06-14e6-4fe4-be51-2387c46a90fe)
   )
   (wire (pts (xy 179.07 50.8) (xy 179.07 53.34))
     (stroke (width 0) (type default))
@@ -6930,10 +6919,6 @@
   (wire (pts (xy 119.38 101.6) (xy 121.92 101.6))
     (stroke (width 0) (type default))
     (uuid cc0add93-1428-4e58-b6c3-11f59237eb2a)
-  )
-  (wire (pts (xy 224.79 274.32) (xy 237.49 274.32))
-    (stroke (width 0) (type default))
-    (uuid cd095eee-939e-4a13-be6c-9f32e797a9a4)
   )
   (wire (pts (xy 81.28 34.29) (xy 81.28 35.56))
     (stroke (width 0) (type default))
@@ -7489,18 +7474,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 522e5758-91ad-4990-8b5b-06739018c347)
   )
-  (label "USR_BTN" (at 224.79 276.86 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 524f8b66-ef45-4057-97ed-ac9a3d53c207)
-  )
-  (label "IO38" (at 224.79 254 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 52588a2c-7001-44cd-a020-307aed7f8f7a)
-  )
-  (label "USR_LED" (at 224.79 274.32 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5476c2c6-d9c1-4dfc-bbbb-0032e6a76fd9)
-  )
   (label "UD-" (at 74.93 55.88 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 557bfe79-f935-47f0-8c24-6be024e846c4)
@@ -7672,10 +7645,6 @@
   (label "IO38" (at 154.94 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cf0732c1-8a90-4e44-add3-f7a648e7fd41)
-  )
-  (label "IO39" (at 224.79 261.62 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d410e27b-9c3f-46d3-8842-5e89350f9810)
   )
   (label "USR_BTN" (at 396.24 96.52 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -8096,7 +8065,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 285.75 246.38 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0149920a-f3f4-4f43-a907-99ca204eb57e)
-    (property "Reference" "TP29" (at 290.83 246.3799 90)
+    (property "Reference" "TP24" (at 290.83 246.3799 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 290.83 247.6499 90)
@@ -8112,7 +8081,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP29") (unit 1)
+          (reference "TP24") (unit 1)
         )
       )
     )
@@ -8193,7 +8162,7 @@
   (symbol (lib_id "power:GND") (at 264.16 269.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 055399a0-10ed-492e-af70-743265174269)
-    (property "Reference" "#PWR080" (at 257.81 269.24 0)
+    (property "Reference" "#PWR081" (at 257.81 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 269.2399 90)
@@ -8209,7 +8178,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -8218,7 +8187,7 @@
   (symbol (lib_id "power:VBUS") (at 285.75 238.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05aa03bb-35c6-4934-a632-3b69d8a2df39)
-    (property "Reference" "#PWR087" (at 289.56 238.76 0)
+    (property "Reference" "#PWR088" (at 289.56 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 281.94 238.7599 90)
@@ -8234,7 +8203,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -8296,7 +8265,7 @@
   (symbol (lib_id "power:GND") (at 381 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 076848cd-69bc-4c84-97cb-c22f3a760dd0)
-    (property "Reference" "#PWR0105" (at 381 251.46 0)
+    (property "Reference" "#PWR0106" (at 381 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 381 248.92 0)
@@ -8312,7 +8281,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -8421,26 +8390,26 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 237.49 256.54 270) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 237.49 254 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08e21b56-e4af-4893-9a08-e6e7efde255b)
-    (property "Reference" "TP7" (at 242.57 256.5399 90)
+    (property "Reference" "TP6" (at 242.57 253.9999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TP" (at 242.57 257.8099 90)
+    (property "Value" "TP" (at 242.57 255.2699 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 237.49 261.62 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 237.49 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 237.49 261.62 0)
+    (property "Datasheet" "~" (at 237.49 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c2ed7973-5d81-426e-9ff9-cb88f27844e1))
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP7") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -8599,7 +8568,7 @@
   (symbol (lib_id "00-kiml-resistors-smd:10k_0402_0402WGF1002TCE") (at 236.22 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e3069ec-08b5-4a1d-bce8-928d88720f25)
-    (property "Reference" "R26" (at 236.22 92.71 90)
+    (property "Reference" "R29" (at 236.22 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k_0402_0402WGF1002TCE" (at 271.78 90.17 0)
@@ -8646,7 +8615,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "R26") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -8655,7 +8624,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 269.24 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e700089-f15a-41c9-95dc-f2505313e68b)
-    (property "Reference" "TP25" (at 269.24 269.2399 90)
+    (property "Reference" "TP20" (at 269.24 269.2399 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 270.5099 90)
@@ -8671,7 +8640,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP25") (unit 1)
+          (reference "TP20") (unit 1)
         )
       )
     )
@@ -8680,7 +8649,7 @@
   (symbol (lib_id "power:GND") (at 325.12 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ea302e3-76a0-4e96-b1f1-2a86e3fc491c)
-    (property "Reference" "#PWR094" (at 325.12 38.1 0)
+    (property "Reference" "#PWR095" (at 325.12 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 325.12 35.56 0)
@@ -8696,7 +8665,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -8787,7 +8756,7 @@
   (symbol (lib_id "power:GND") (at 374.65 177.8 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13afa367-ce85-4cd8-b11c-93cc7330120a)
-    (property "Reference" "#PWR0103" (at 368.3 177.8 0)
+    (property "Reference" "#PWR0104" (at 368.3 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 370.84 177.7999 90)
@@ -8803,7 +8772,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -8812,7 +8781,7 @@
   (symbol (lib_id "power:+5V") (at 285.75 243.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 146792cf-a0c7-4459-9fe0-bbdd196be5ac)
-    (property "Reference" "#PWR089" (at 289.56 243.84 0)
+    (property "Reference" "#PWR090" (at 289.56 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 281.94 244.475 90)
@@ -8828,7 +8797,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -8837,7 +8806,7 @@
   (symbol (lib_id "power:GND") (at 271.78 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14d0f737-5122-4c8b-8b91-d4a4712ee7f0)
-    (property "Reference" "#PWR085" (at 271.78 168.91 0)
+    (property "Reference" "#PWR086" (at 271.78 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 163.83 0)
@@ -8853,7 +8822,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -8990,7 +8959,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 237.49 266.7 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16bb1047-9506-4cc7-822a-bf3ec803a654)
-    (property "Reference" "TP10" (at 242.57 266.6999 90)
+    (property "Reference" "TP8" (at 242.57 266.6999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 242.57 267.9699 90)
@@ -9006,7 +8975,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP10") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -9040,7 +9009,7 @@
   (symbol (lib_id "power:GND") (at 304.8 201.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 176642a3-03ba-4615-bf24-73011a03104d)
-    (property "Reference" "#PWR091" (at 304.8 208.28 0)
+    (property "Reference" "#PWR092" (at 304.8 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 204.47 0)
@@ -9056,7 +9025,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -9065,7 +9034,7 @@
   (symbol (lib_id "power:+3V3") (at 237.49 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18c6f1bb-1b79-4203-8281-2eb7d656f28f)
-    (property "Reference" "#PWR068" (at 237.49 57.15 0)
+    (property "Reference" "#PWR064" (at 237.49 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 237.49 49.784 0)
@@ -9081,7 +9050,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -9090,7 +9059,7 @@
   (symbol (lib_id "power:+3.3VA") (at 236.22 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18f759ac-7288-483c-97ba-3626a4a0a86a)
-    (property "Reference" "#PWR0100" (at 236.22 139.7 0)
+    (property "Reference" "#PWR061" (at 236.22 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 236.22 132.08 0)
@@ -9106,7 +9075,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -9171,7 +9140,7 @@
   (symbol (lib_id "power:+3.3VA") (at 374.65 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b785a83-01d2-4dfa-a1d6-0058cf1fa911)
-    (property "Reference" "#PWR0115" (at 378.46 154.94 0)
+    (property "Reference" "#PWR0101" (at 378.46 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 370.84 154.94 90)
@@ -9187,7 +9156,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -9296,7 +9265,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 237.49 264.16 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 207c3883-6255-4606-827c-9f48d0322e6a)
-    (property "Reference" "TP9" (at 242.57 264.1599 90)
+    (property "Reference" "TP7" (at 242.57 264.1599 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 242.57 265.4299 90)
@@ -9312,7 +9281,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP9") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -9619,7 +9588,7 @@
   (symbol (lib_id "power:GND") (at 383.54 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 249ef53b-aabe-40b5-ab83-575cfdaee958)
-    (property "Reference" "#PWR0106" (at 383.54 114.3 0)
+    (property "Reference" "#PWR0107" (at 383.54 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 383.54 111.76 0)
@@ -9635,7 +9604,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -9644,7 +9613,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 220.98 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24d99b72-cec3-4137-8594-ac54a60f6d1a)
-    (property "Reference" "C21" (at 224.79 102.87 0)
+    (property "Reference" "C24" (at 224.79 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 217.805 107.95 0)
@@ -9688,7 +9657,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C21") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -9844,7 +9813,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 274.32 191.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2781d509-426a-4322-9dc9-f8c577d662ad)
-    (property "Reference" "C36" (at 278.13 189.23 0)
+    (property "Reference" "C37" (at 278.13 189.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 271.145 194.31 0)
@@ -9888,7 +9857,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C36") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -10050,7 +10019,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 384.81 229.87 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b552138-1a33-4e72-adfa-6791475ebd89)
-    (property "Reference" "C52" (at 387.35 223.52 90)
+    (property "Reference" "C53" (at 387.35 223.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 425.45 215.9 0)
@@ -10094,7 +10063,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C52") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -10103,7 +10072,7 @@
   (symbol (lib_id "power:GND") (at 285.75 246.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2badba0c-364e-4f7b-9f5b-b7d25b905b0d)
-    (property "Reference" "#PWR090" (at 279.4 246.38 0)
+    (property "Reference" "#PWR091" (at 279.4 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 279.4 246.38 90)
@@ -10119,7 +10088,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -10128,7 +10097,7 @@
   (symbol (lib_id "power:GND") (at 248.92 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c9643e1-9430-4146-bffd-6405f7ec7679)
-    (property "Reference" "#PWR070" (at 248.92 168.91 0)
+    (property "Reference" "#PWR071" (at 248.92 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 162.56 0)
@@ -10144,7 +10113,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -10178,7 +10147,7 @@
   (symbol (lib_id "power:VBUS") (at 321.31 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f1d8065-ec9a-4695-92e9-0d6b02c32fe7)
-    (property "Reference" "#PWR092" (at 321.31 198.12 0)
+    (property "Reference" "#PWR093" (at 321.31 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 321.31 189.23 0)
@@ -10194,7 +10163,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -10278,7 +10247,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 317.5 198.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34fdf3bb-13e2-469c-93ff-4b6b6ac3143a)
-    (property "Reference" "C44" (at 317.5 195.58 0)
+    (property "Reference" "C45" (at 317.5 195.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 303.53 157.48 0)
@@ -10322,7 +10291,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C44") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -10331,7 +10300,7 @@
   (symbol (lib_id "power:GND") (at 260.35 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 371cecf0-2feb-4457-b346-d333dba9eaf8)
-    (property "Reference" "#PWR074" (at 260.35 222.25 0)
+    (property "Reference" "#PWR075" (at 260.35 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 219.71 0)
@@ -10347,7 +10316,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -10428,31 +10397,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 237.49 279.4 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 39612f42-0853-4f03-8da4-dfd1f6a88da9)
-    (property "Reference" "#PWR065" (at 231.14 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 233.68 279.3999 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 237.49 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 237.49 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 87f8c185-28ba-494b-8d0f-d0b5b74e5786))
-    (instances
-      (project "ai-camera"
-        (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR065") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 171.45 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b14fc11-fdf8-4601-96c5-6b7f2872ab3b)
@@ -10506,7 +10450,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 220.98 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ccfdafe-06bd-42b2-b8b9-52bb9eb22571)
-    (property "Reference" "C24" (at 215.9 67.31 90)
+    (property "Reference" "C23" (at 215.9 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 261.62 82.55 0)
@@ -10550,7 +10494,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C24") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -10690,7 +10634,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 264.16 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 412561a0-b5ee-4cf4-9bb5-ec9bf43dfe71)
-    (property "Reference" "TP23" (at 269.24 264.1599 90)
+    (property "Reference" "TP18" (at 269.24 264.1599 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 265.4299 90)
@@ -10706,7 +10650,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP23") (unit 1)
+          (reference "TP18") (unit 1)
         )
       )
     )
@@ -10715,7 +10659,7 @@
   (symbol (lib_id "power:GND") (at 248.92 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43098ff3-6a50-4349-b959-930b822439cc)
-    (property "Reference" "#PWR069" (at 248.92 149.86 0)
+    (property "Reference" "#PWR070" (at 248.92 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 143.51 0)
@@ -10731,7 +10675,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -10793,7 +10737,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 238.76 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 43c97426-fcbe-4afe-abf1-64171ed2f751)
-    (property "Reference" "TP15" (at 269.24 238.7599 90)
+    (property "Reference" "TP10" (at 269.24 238.7599 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 240.0299 90)
@@ -10809,7 +10753,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP15") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -10818,7 +10762,7 @@
   (symbol (lib_id "power:+3V3") (at 237.49 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44bf20f5-f13b-44bf-bbd8-dd75641a7988)
-    (property "Reference" "#PWR067" (at 237.49 46.99 0)
+    (property "Reference" "#PWR063" (at 237.49 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 237.49 39.624 0)
@@ -10834,7 +10778,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -10890,7 +10834,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:1u_0603_CL10A105KB8NNNC") (at 359.41 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 471bdd22-8030-4a95-b1a4-e5c8385830d3)
-    (property "Reference" "C51" (at 359.41 186.69 0)
+    (property "Reference" "C52" (at 359.41 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u_0603_CL10A105KB8NNNC" (at 362.585 186.69 0)
@@ -10934,7 +10878,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C51") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -11018,7 +10962,7 @@
   (symbol (lib_id "power:GND") (at 397.51 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48e117bf-03f6-4430-bc47-f1aac2a1e4f0)
-    (property "Reference" "#PWR0114" (at 397.51 166.37 0)
+    (property "Reference" "#PWR0115" (at 397.51 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 397.51 163.83 0)
@@ -11034,7 +10978,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -11043,7 +10987,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 397.51 135.89 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 492bebc8-d1ea-4549-b705-7a5f32bb1b83)
-    (property "Reference" "C55" (at 401.32 134.6199 0)
+    (property "Reference" "C56" (at 401.32 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 411.48 95.25 0)
@@ -11087,7 +11031,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C55") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -11152,7 +11096,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 271.78 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a7109ba-d574-4057-b712-c606e5bf1225)
-    (property "Reference" "C35" (at 275.59 158.115 0)
+    (property "Reference" "C36" (at 275.59 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 274.955 156.21 0)
@@ -11196,7 +11140,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C35") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -11305,7 +11249,7 @@
   (symbol (lib_id "power:+1V2") (at 271.78 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dde9795-9c97-4408-b684-baddd718e125)
-    (property "Reference" "#PWR084" (at 271.78 158.75 0)
+    (property "Reference" "#PWR085" (at 271.78 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 271.78 151.384 0)
@@ -11321,7 +11265,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -11355,7 +11299,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 259.08 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fdaca00-2387-4d4a-bdea-e09b51a8b907)
-    (property "Reference" "TP22" (at 269.24 259.0799 90)
+    (property "Reference" "TP17" (at 269.24 259.0799 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 260.3499 90)
@@ -11371,7 +11315,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP22") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
     )
@@ -11428,7 +11372,7 @@
   (symbol (lib_id "power:+3V3") (at 325.12 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50dcec9e-0f10-43d7-a4c5-ae32bb171bc1)
-    (property "Reference" "#PWR093" (at 325.12 26.67 0)
+    (property "Reference" "#PWR094" (at 325.12 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 325.12 19.304 0)
@@ -11444,7 +11388,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -11453,7 +11397,7 @@
   (symbol (lib_id "power:+3V3") (at 381 229.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5217b0c2-81f1-4abc-a04e-efb8c3b44336)
-    (property "Reference" "#PWR0104" (at 381 233.68 0)
+    (property "Reference" "#PWR0105" (at 381 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 381 224.79 0)
@@ -11469,7 +11413,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -11531,7 +11475,7 @@
   (symbol (lib_id "power:GND") (at 332.74 139.7 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5544c209-d2a5-4e60-91b8-92ee65a8055d)
-    (property "Reference" "#PWR096" (at 326.39 139.7 0)
+    (property "Reference" "#PWR097" (at 326.39 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 328.93 139.7 0)
@@ -11547,7 +11491,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -11606,7 +11550,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:1u_0603_CL10A105KB8NNNC") (at 354.33 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 568344c4-639c-4d6c-ad97-6d3ebcd67e99)
-    (property "Reference" "C50" (at 354.33 186.69 0)
+    (property "Reference" "C51" (at 354.33 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u_0603_CL10A105KB8NNNC" (at 357.505 186.69 0)
@@ -11650,7 +11594,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C50") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -11710,7 +11654,7 @@
   (symbol (lib_id "power:GND") (at 388.62 229.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5832331b-14a7-4c83-a39a-5a7eef6b3196)
-    (property "Reference" "#PWR0107" (at 394.97 229.87 0)
+    (property "Reference" "#PWR0108" (at 394.97 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 392.43 229.8699 90)
@@ -11726,7 +11670,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -11886,7 +11830,7 @@
   (symbol (lib_id "power:GND") (at 247.65 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c5a06c5-5336-4d04-8490-0ffff967e2ee)
-    (property "Reference" "#PWR0116" (at 241.3 55.88 0)
+    (property "Reference" "#PWR069" (at 241.3 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 57.15 90)
@@ -11902,7 +11846,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -11964,7 +11908,7 @@
   (symbol (lib_id "power:GND") (at 374.65 144.78 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e4d6b5d-140c-4692-a609-b14ebdda612f)
-    (property "Reference" "#PWR099" (at 368.3 144.78 0)
+    (property "Reference" "#PWR0100" (at 368.3 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 370.84 144.78 0)
@@ -11980,7 +11924,32 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0100") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VBUS") (at 140.97 48.26 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5f3a0dde-4cab-46e4-8ea8-0050487cbbd9)
+    (property "Reference" "#PWR039" (at 137.16 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VBUS" (at 144.78 48.895 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 140.97 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 140.97 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 88da3286-3c00-4555-942e-932fecb9ffc4))
+    (instances
+      (project "ai-camera"
+        (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -12167,35 +12136,10 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 237.49 279.4 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6492ac22-5291-4263-9d8f-4aa26b2c0a39)
-    (property "Reference" "TP14" (at 242.57 279.3999 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TP" (at 242.57 280.6699 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 237.49 284.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 237.49 284.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 144e1ded-4a92-45ea-a895-8ce803473ee5))
-    (instances
-      (project "ai-camera"
-        (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP14") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 328.93 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 652105a8-3a8f-47f1-8ada-f274183e476e)
-    (property "Reference" "#PWR095" (at 328.93 223.52 0)
+    (property "Reference" "#PWR096" (at 328.93 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 328.93 222.25 0)
@@ -12211,7 +12155,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -12220,7 +12164,7 @@
   (symbol (lib_id "power:GND") (at 397.51 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65349947-c126-4bd9-b8a9-ed63757e8451)
-    (property "Reference" "#PWR0112" (at 397.51 146.05 0)
+    (property "Reference" "#PWR0113" (at 397.51 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 397.51 143.51 0)
@@ -12236,7 +12180,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -12365,7 +12309,7 @@
   (symbol (lib_id "power:+3V3") (at 260.35 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67df9145-e9f5-4b9b-a587-af88252bc70b)
-    (property "Reference" "#PWR073" (at 260.35 191.77 0)
+    (property "Reference" "#PWR074" (at 260.35 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 260.35 184.404 0)
@@ -12381,7 +12325,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -12621,7 +12565,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 285.75 238.76 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b61bc16-e627-4360-9e2e-909008842ab5)
-    (property "Reference" "TP26" (at 290.83 238.7599 90)
+    (property "Reference" "TP21" (at 290.83 238.7599 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 290.83 240.0299 90)
@@ -12637,7 +12581,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP26") (unit 1)
+          (reference "TP21") (unit 1)
         )
       )
     )
@@ -12646,7 +12590,7 @@
   (symbol (lib_id "power:+3V3") (at 285.75 241.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d7b285a-cb0a-4cd1-b36e-271fdc645c66)
-    (property "Reference" "#PWR088" (at 289.56 241.3 0)
+    (property "Reference" "#PWR089" (at 289.56 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 281.94 241.2999 90)
@@ -12662,7 +12606,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -12671,7 +12615,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100u_CASE-B-3528_TAJB107K006RNJ") (at 299.72 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e1c5bf6-8877-492a-964a-8ebf6a5d39db)
-    (property "Reference" "C39" (at 300.99 25.4 0)
+    (property "Reference" "C40" (at 300.99 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u_CASE-B-3528_TAJB107K006RNJ" (at 281.94 12.7 0)
@@ -12715,7 +12659,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C39") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -12724,7 +12668,7 @@
   (symbol (lib_id "power:GND") (at 237.49 243.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e3e8560-f7a8-40ad-8166-a0c32fc53b02)
-    (property "Reference" "#PWR062" (at 231.14 243.84 0)
+    (property "Reference" "#PWR065" (at 231.14 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 243.8399 90)
@@ -12740,7 +12684,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -12749,7 +12693,7 @@
   (symbol (lib_id "power:+1V2") (at 264.16 256.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fb697c6-4210-4df4-a727-5877a9333c22)
-    (property "Reference" "#PWR076" (at 267.97 256.54 0)
+    (property "Reference" "#PWR077" (at 267.97 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 257.81 256.54 90)
@@ -12765,7 +12709,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -12799,7 +12743,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:1u_0603_CL10A105KB8NNNC") (at 311.15 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71c42bb7-aecc-4bf3-94ea-61d449695c92)
-    (property "Reference" "C42" (at 307.34 195.58 0)
+    (property "Reference" "C43" (at 307.34 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u_0603_CL10A105KB8NNNC" (at 314.325 195.58 0)
@@ -12843,7 +12787,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C42") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -12927,7 +12871,7 @@
   (symbol (lib_id "power:GND") (at 264.16 251.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7494ba14-0afb-4b77-a1f3-27cd68e60a9a)
-    (property "Reference" "#PWR075" (at 257.81 251.46 0)
+    (property "Reference" "#PWR076" (at 257.81 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 251.4599 90)
@@ -12943,7 +12887,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -12952,7 +12896,7 @@
   (symbol (lib_id "power:GND") (at 274.32 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74edaffe-45cb-41d4-9871-cbce50849038)
-    (property "Reference" "#PWR086" (at 274.32 201.93 0)
+    (property "Reference" "#PWR087" (at 274.32 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 196.85 0)
@@ -12968,7 +12912,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -13224,7 +13168,7 @@
   (symbol (lib_id "power:GND") (at 260.35 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 799872ca-bf00-4571-83d0-d82bf4ab4d5f)
-    (property "Reference" "#PWR072" (at 260.35 168.91 0)
+    (property "Reference" "#PWR073" (at 260.35 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 163.83 0)
@@ -13240,7 +13184,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -13324,7 +13268,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100u_CASE-B-3528_TAJB107K006RNJ") (at 284.48 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b7c7ae4-488c-4e3d-a1a1-4a441c759bed)
-    (property "Reference" "C37" (at 285.75 25.4 0)
+    (property "Reference" "C38" (at 285.75 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u_CASE-B-3528_TAJB107K006RNJ" (at 266.7 12.7 0)
@@ -13368,7 +13312,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C37") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -13425,7 +13369,7 @@
   (symbol (lib_id "power:+3.3VA") (at 391.16 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ce23f6b-4e53-4588-a278-3bc42979705e)
-    (property "Reference" "#PWR0108" (at 391.16 135.89 0)
+    (property "Reference" "#PWR0109" (at 391.16 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 391.16 128.27 0)
@@ -13441,7 +13385,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -13620,7 +13564,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 248.92 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 8001baf7-4f70-4cd6-9b17-9081cb8cde2c)
-    (property "Reference" "TP19" (at 269.24 248.9199 90)
+    (property "Reference" "TP14" (at 269.24 248.9199 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 250.1899 90)
@@ -13636,7 +13580,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP19") (unit 1)
+          (reference "TP14") (unit 1)
         )
       )
     )
@@ -13717,7 +13661,7 @@
   (symbol (lib_id "power:+1V2") (at 391.16 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83246868-0ee2-4110-acb5-e1e1a642196b)
-    (property "Reference" "#PWR0110" (at 391.16 156.21 0)
+    (property "Reference" "#PWR0111" (at 391.16 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 391.16 147.32 0)
@@ -13733,32 +13677,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0110") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 237.49 276.86 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 833c6899-8239-47f3-b4b4-94aaaa9b6588)
-    (property "Reference" "TP13" (at 242.57 276.8599 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TP" (at 242.57 278.1299 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 237.49 281.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 237.49 281.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f8239b25-2c44-44be-8a48-6dc0f388d44c))
-    (instances
-      (project "ai-camera"
-        (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP13") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -13864,31 +13783,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 237.49 261.62 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 8792444a-f757-4c71-8c9b-45f5ab9a0a50)
-    (property "Reference" "TP8" (at 242.57 261.6199 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TP" (at 242.57 262.8899 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 237.49 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 237.49 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 65c0ae5c-4bfe-48c7-b495-53c95daeca02))
-    (instances
-      (project "ai-camera"
-        (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP8") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 101.6 139.7 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 888cb8de-114b-47bb-9250-20df803a6c9b)
@@ -13918,7 +13812,7 @@
   (symbol (lib_id "power:+2V8") (at 397.51 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89af7abc-62f6-4a07-8e39-c30f6a81bd7a)
-    (property "Reference" "#PWR0113" (at 397.51 156.21 0)
+    (property "Reference" "#PWR0114" (at 397.51 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 397.51 147.32 0)
@@ -13934,7 +13828,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -13943,7 +13837,7 @@
   (symbol (lib_id "power:+2V8") (at 271.78 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ab4ca1b-060a-4044-8e17-1bb101ac2897)
-    (property "Reference" "#PWR082" (at 271.78 139.7 0)
+    (property "Reference" "#PWR083" (at 271.78 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 271.78 132.334 0)
@@ -13959,7 +13853,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -13968,7 +13862,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 306.07 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b941534-ca1b-42cb-b421-9e38a73c481b)
-    (property "Reference" "C41" (at 306.705 25.4 0)
+    (property "Reference" "C42" (at 306.705 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 309.245 25.4 0)
@@ -14012,7 +13906,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C41") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -14046,7 +13940,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 304.8 198.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c72868c-da84-4338-af27-0763269e1c67)
-    (property "Reference" "C40" (at 300.99 195.58 0)
+    (property "Reference" "C41" (at 300.99 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 307.975 200.66 0)
@@ -14090,7 +13984,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C40") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -14149,7 +14043,7 @@
   (symbol (lib_id "00-kiml-resistors-smd:1k_0402_0402WGF1001TCE") (at 233.68 74.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d783d49-a3f8-49ac-a5a7-c6513b6b883f)
-    (property "Reference" "R29" (at 233.68 72.39 90)
+    (property "Reference" "R27" (at 233.68 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k_0402_0402WGF1001TCE" (at 198.12 74.93 0)
@@ -14193,7 +14087,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "R29") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -14274,7 +14168,7 @@
   (symbol (lib_id "power:GND") (at 354.33 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8eed07e4-5d99-4d33-aa69-359f42ca8a51)
-    (property "Reference" "#PWR097" (at 354.33 227.33 0)
+    (property "Reference" "#PWR098" (at 354.33 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 354.33 224.79 0)
@@ -14290,7 +14184,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -14299,7 +14193,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 220.98 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9132e0bd-c511-4465-b9ca-4b339160e95b)
-    (property "Reference" "C22" (at 215.9 46.99 90)
+    (property "Reference" "C21" (at 215.9 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 261.62 62.23 0)
@@ -14343,7 +14237,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C22") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -14731,7 +14625,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 318.77 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c666996-46cf-4192-a36b-efcad2b2ac21)
-    (property "Reference" "C45" (at 320.04 25.4 0)
+    (property "Reference" "C46" (at 320.04 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 304.8 68.58 0)
@@ -14775,7 +14669,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C45") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -14784,7 +14678,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 397.51 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9cd7f888-152e-484c-bc3d-a844f1344baa)
-    (property "Reference" "C56" (at 401.32 154.9399 0)
+    (property "Reference" "C57" (at 401.32 154.9399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 411.48 115.57 0)
@@ -14828,7 +14722,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C56") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -14915,7 +14809,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 237.49 269.24 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ed2808d-d756-442f-863f-eb63c70d3216)
-    (property "Reference" "TP11" (at 242.57 269.2399 90)
+    (property "Reference" "TP9" (at 242.57 269.2399 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 242.57 270.5099 90)
@@ -14931,7 +14825,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP11") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -15065,7 +14959,7 @@
   (symbol (lib_id "00-kiml-resistors-smd:10k_0402_0402WGF1002TCE") (at 233.68 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a09fea9f-0dda-4e62-bce6-ffee00d4adb6)
-    (property "Reference" "R27" (at 233.68 41.91 90)
+    (property "Reference" "R25" (at 233.68 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k_0402_0402WGF1002TCE" (at 269.24 44.45 0)
@@ -15112,7 +15006,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "R27") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -15323,7 +15217,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 256.54 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4808555-5430-4d75-bbd0-d76b12921754)
-    (property "Reference" "TP21" (at 269.24 256.5399 90)
+    (property "Reference" "TP16" (at 269.24 256.5399 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 257.8099 90)
@@ -15339,7 +15233,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP21") (unit 1)
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -15348,7 +15242,7 @@
   (symbol (lib_id "power:GND") (at 236.22 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4dc494b-111b-42af-bd79-56fb18ed95d2)
-    (property "Reference" "#PWR061" (at 236.22 149.86 0)
+    (property "Reference" "#PWR062" (at 236.22 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 144.78 0)
@@ -15364,7 +15258,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -15611,7 +15505,7 @@
   (symbol (lib_id "power:GND") (at 260.35 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9efc435-6693-4e57-8050-ddfb7d40ca0f)
-    (property "Reference" "#PWR071" (at 260.35 149.86 0)
+    (property "Reference" "#PWR072" (at 260.35 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 144.78 0)
@@ -15627,7 +15521,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -15661,7 +15555,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 266.7 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac5c0efe-d153-4056-9015-9b0b5aed72d6)
-    (property "Reference" "TP24" (at 269.24 266.6999 90)
+    (property "Reference" "TP19" (at 269.24 266.6999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 267.9699 90)
@@ -15677,7 +15571,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP24") (unit 1)
+          (reference "TP19") (unit 1)
         )
       )
     )
@@ -15686,7 +15580,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:1u_0603_CL10A105KB8NNNC") (at 312.42 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad836604-b32d-42b1-b051-8f4db12835c3)
-    (property "Reference" "C43" (at 313.69 25.4 0)
+    (property "Reference" "C44" (at 313.69 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u_0603_CL10A105KB8NNNC" (at 315.595 25.4 0)
@@ -15730,7 +15624,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C43") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -15801,7 +15695,7 @@
   (symbol (lib_id "power:GND") (at 391.16 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae3a852c-33ae-4e5a-93ab-52c40f9596fe)
-    (property "Reference" "#PWR0109" (at 391.16 146.05 0)
+    (property "Reference" "#PWR0110" (at 391.16 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 391.16 143.51 0)
@@ -15817,7 +15711,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -15932,7 +15826,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 220.98 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af450f65-251a-4521-84e7-3b0ed476c7ed)
-    (property "Reference" "C23" (at 218.44 57.15 90)
+    (property "Reference" "C22" (at 218.44 57.15 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 218.44 55.245 0)
@@ -15976,7 +15870,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C23") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -15985,7 +15879,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:1u_0603_CL10A105KB8NNNC") (at 349.25 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2fa2ee7-0282-4e7e-b49d-83ad71c8927e)
-    (property "Reference" "C49" (at 349.25 186.69 0)
+    (property "Reference" "C50" (at 349.25 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u_0603_CL10A105KB8NNNC" (at 352.425 186.69 0)
@@ -16029,7 +15923,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C49") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -16038,7 +15932,7 @@
   (symbol (lib_id "power:GND") (at 240.03 201.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b50951df-4c9d-4599-955c-f6acb1acda15)
-    (property "Reference" "#PWR066" (at 233.68 201.93 0)
+    (property "Reference" "#PWR068" (at 233.68 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 201.93 0)
@@ -16054,7 +15948,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -16063,7 +15957,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 285.75 243.84 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b54441dc-efe6-4dc1-9351-04277dcd063c)
-    (property "Reference" "TP28" (at 290.83 243.8399 90)
+    (property "Reference" "TP23" (at 290.83 243.8399 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 290.83 245.1099 90)
@@ -16079,7 +15973,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP28") (unit 1)
+          (reference "TP23") (unit 1)
         )
       )
     )
@@ -16275,7 +16169,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 391.16 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8327053-f612-4447-8f79-13876bf8fae5)
-    (property "Reference" "C54" (at 387.35 154.9399 0)
+    (property "Reference" "C55" (at 387.35 154.9399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 405.13 115.57 0)
@@ -16319,7 +16213,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C54") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -16537,7 +16431,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 241.3 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb3679a4-5482-4c12-9e8c-8a3c0d13c06a)
-    (property "Reference" "TP16" (at 269.24 241.2999 90)
+    (property "Reference" "TP11" (at 269.24 241.2999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 242.5699 90)
@@ -16553,7 +16447,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP16") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -16562,7 +16456,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 264.16 191.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb9a1bdb-fdba-405a-9606-c07ae6c14b67)
-    (property "Reference" "C32" (at 264.16 189.23 0)
+    (property "Reference" "C33" (at 264.16 189.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 278.13 151.13 0)
@@ -16606,7 +16500,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C32") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -16637,26 +16531,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 237.49 256.54 270) (unit 1)
+  (symbol (lib_id "power:GND") (at 237.49 254 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd93cce1-620b-4d87-8253-8d36b255d71f)
-    (property "Reference" "#PWR063" (at 231.14 256.54 0)
+    (property "Reference" "#PWR066" (at 231.14 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 233.68 256.5399 90)
+    (property "Value" "GND" (at 233.68 253.9999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 237.49 256.54 0)
+    (property "Footprint" "" (at 237.49 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 237.49 256.54 0)
+    (property "Datasheet" "" (at 237.49 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dc40425f-3c06-4cb7-bc54-5e842b661148))
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -16665,7 +16559,7 @@
   (symbol (lib_id "power:+2V8") (at 264.16 264.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bde80c7a-dae0-47ee-9183-5fab7684b1c4)
-    (property "Reference" "#PWR078" (at 267.97 264.16 0)
+    (property "Reference" "#PWR079" (at 267.97 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 260.35 264.1599 90)
@@ -16681,7 +16575,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -16690,7 +16584,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 391.16 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c12f313d-f19a-42f9-a5b2-cf527b5f2786)
-    (property "Reference" "C53" (at 387.35 135.255 0)
+    (property "Reference" "C54" (at 387.35 135.255 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 394.335 133.35 0)
@@ -16734,7 +16628,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C53") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -16743,7 +16637,7 @@
   (symbol (lib_id "power:+1V2") (at 374.65 157.48 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2e5af6d-ce6f-4dd6-98e7-114b6ad6345f)
-    (property "Reference" "#PWR0101" (at 378.46 157.48 0)
+    (property "Reference" "#PWR0102" (at 378.46 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 370.84 157.4799 90)
@@ -16759,7 +16653,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -16818,7 +16712,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 251.46 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3caf43d-a839-4868-ad21-14ca697c559f)
-    (property "Reference" "C57" (at 251.46 52.07 90)
+    (property "Reference" "C32" (at 251.46 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 210.82 41.91 0)
@@ -16862,7 +16756,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C57") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -16949,7 +16843,7 @@
   (symbol (lib_id "power:+3V3") (at 267.97 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7acc165-74eb-4025-9123-fbc7b89fba28)
-    (property "Reference" "#PWR081" (at 271.78 106.68 0)
+    (property "Reference" "#PWR082" (at 271.78 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 264.414 106.68 0)
@@ -16965,7 +16859,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -17027,7 +16921,7 @@
   (symbol (lib_id "power:GND") (at 264.16 259.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccdc8708-99bd-4163-beef-1dccdbd80835)
-    (property "Reference" "#PWR077" (at 257.81 259.08 0)
+    (property "Reference" "#PWR078" (at 257.81 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 259.0799 90)
@@ -17043,7 +16937,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -17103,7 +16997,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100u_CASE-B-3528_TAJB107K006RNJ") (at 292.1 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd483c11-6042-404b-886a-2d07805320b9)
-    (property "Reference" "C38" (at 293.37 25.4 0)
+    (property "Reference" "C39" (at 293.37 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u_CASE-B-3528_TAJB107K006RNJ" (at 274.32 12.7 0)
@@ -17147,7 +17041,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C38") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -17253,7 +17147,7 @@
   (symbol (lib_id "power:+BATT") (at 264.16 266.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0b55a46-3e04-4e53-9424-87ec8e02aa01)
-    (property "Reference" "#PWR079" (at 267.97 266.7 0)
+    (property "Reference" "#PWR080" (at 267.97 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 260.35 266.6999 90)
@@ -17269,7 +17163,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -17278,7 +17172,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 269.24 191.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d14128ae-1a42-4285-958c-60248e520f55)
-    (property "Reference" "C33" (at 273.05 189.23 0)
+    (property "Reference" "C34" (at 273.05 189.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 266.065 194.31 0)
@@ -17322,7 +17216,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C33") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -17331,7 +17225,7 @@
   (symbol (lib_id "power:GND") (at 237.49 269.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d269f4f7-7bee-4c0e-9287-c8fcab8cc624)
-    (property "Reference" "#PWR064" (at 231.14 269.24 0)
+    (property "Reference" "#PWR067" (at 231.14 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 269.2399 90)
@@ -17347,7 +17241,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -17425,7 +17319,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 251.46 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d487106f-dbda-47d6-9349-c7f8d0bdf260)
-    (property "Reference" "TP20" (at 269.24 251.4599 90)
+    (property "Reference" "TP15" (at 269.24 251.4599 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 252.7299 90)
@@ -17441,7 +17335,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP20") (unit 1)
+          (reference "TP15") (unit 1)
         )
       )
     )
@@ -17475,7 +17369,7 @@
   (symbol (lib_id "00-kiml-resistors-smd:10k_0402_0402WGF1002TCE") (at 233.68 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5677666-e84d-4e15-befe-f15867e6d52f)
-    (property "Reference" "R28" (at 233.68 52.07 90)
+    (property "Reference" "R26" (at 233.68 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k_0402_0402WGF1002TCE" (at 269.24 54.61 0)
@@ -17522,7 +17416,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "R28") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -17531,7 +17425,7 @@
   (symbol (lib_id "power:GND") (at 391.16 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d68aee3b-a3d3-426d-9e96-7ee0d3f2ccb0)
-    (property "Reference" "#PWR0111" (at 391.16 166.37 0)
+    (property "Reference" "#PWR0112" (at 391.16 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 391.16 163.83 0)
@@ -17547,7 +17441,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -17685,7 +17579,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:22p_0402_0402CG220J500NT") (at 336.55 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da4fb4c5-483a-48a5-8264-6dff6a03d08f)
-    (property "Reference" "C47" (at 336.55 132.08 90)
+    (property "Reference" "C48" (at 336.55 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22p_0402_0402CG220J500NT" (at 355.6 125.73 0)
@@ -17732,7 +17626,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C47") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
     )
@@ -17788,31 +17682,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 237.49 254 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid db62f550-14fd-4e17-a47b-f2fd1000a6f2)
-    (property "Reference" "TP6" (at 242.57 253.9999 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TP" (at 242.57 255.2699 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 237.49 259.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 237.49 259.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5dcf3ce0-e390-4f05-b062-0f8b2e14afa2))
-    (instances
-      (project "ai-camera"
-        (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP6") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 181.61 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc5c74fe-4b94-4723-af4a-c01b8d778e05)
@@ -17841,7 +17710,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 54.61 81.28 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ded4dff5-d103-4cad-9f81-61ff67c8b612)
-    (property "Reference" "#FLG09" (at 56.515 81.28 0)
+    (property "Reference" "#FLG02" (at 56.515 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 62.23 81.28 90)
@@ -17857,7 +17726,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#FLG09") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -18147,7 +18016,7 @@
   (symbol (lib_id "power:GND") (at 367.03 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7522007-e54b-449e-9090-5ef3b8029bd2)
-    (property "Reference" "#PWR098" (at 367.03 191.77 0)
+    (property "Reference" "#PWR099" (at 367.03 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 367.03 190.5 0)
@@ -18163,7 +18032,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -18172,7 +18041,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 344.17 189.23 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e90c02ae-67c4-4e03-91de-86c4b8dba201)
-    (property "Reference" "C48" (at 344.17 186.69 0)
+    (property "Reference" "C49" (at 344.17 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 330.2 148.59 0)
@@ -18216,7 +18085,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C48") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -18356,35 +18225,10 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 140.97 48.26 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ec357491-75d3-4bb7-bad0-f5a5a5c8f5fd)
-    (property "Reference" "#PWR039" (at 137.16 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 144.78 48.895 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 140.97 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 140.97 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 14d2501c-7db7-4d0b-b9aa-a7d0abac79c7))
-    (instances
-      (project "ai-camera"
-        (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR039") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:TestPoint") (at 264.16 246.38 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid ed24cb60-00cc-4524-b53c-5b53202458ed)
-    (property "Reference" "TP18" (at 269.24 246.3799 90)
+    (property "Reference" "TP13" (at 269.24 246.3799 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 247.6499 90)
@@ -18400,7 +18244,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP18") (unit 1)
+          (reference "TP13") (unit 1)
         )
       )
     )
@@ -18434,7 +18278,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 285.75 241.3 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0c1c68f-f53c-4015-8d77-4982da7ccd65)
-    (property "Reference" "TP27" (at 290.83 241.2999 90)
+    (property "Reference" "TP22" (at 290.83 241.2999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 290.83 242.5699 90)
@@ -18450,7 +18294,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP27") (unit 1)
+          (reference "TP22") (unit 1)
         )
       )
     )
@@ -18600,7 +18444,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:10u_0603_CL10A106KP8NNNC") (at 271.78 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2f40fff-d957-4aac-8d83-20715c81fd7e)
-    (property "Reference" "C34" (at 275.59 139.065 0)
+    (property "Reference" "C35" (at 275.59 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0603_CL10A106KP8NNNC" (at 274.955 137.16 0)
@@ -18644,7 +18488,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C34") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -18756,7 +18600,7 @@
   (symbol (lib_id "power:+2V8") (at 374.65 172.72 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f64b6b72-05fe-496c-a523-35b00c222b6e)
-    (property "Reference" "#PWR0102" (at 378.46 172.72 0)
+    (property "Reference" "#PWR0103" (at 378.46 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 370.84 172.7199 90)
@@ -18772,7 +18616,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -18781,7 +18625,7 @@
   (symbol (lib_id "power:GND") (at 271.78 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6b1cbb7-868b-41a5-aeeb-fbf2a068ea4a)
-    (property "Reference" "#PWR083" (at 271.78 149.86 0)
+    (property "Reference" "#PWR084" (at 271.78 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 144.78 0)
@@ -18797,7 +18641,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -18857,7 +18701,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 264.16 243.84 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f83256e0-fe6a-4073-a503-2ca1f9b85672)
-    (property "Reference" "TP17" (at 269.24 243.8399 90)
+    (property "Reference" "TP12" (at 269.24 243.8399 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TP" (at 269.24 245.1099 90)
@@ -18873,7 +18717,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP17") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -18927,31 +18771,6 @@
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 237.49 274.32 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid f9d5ceeb-4f5d-4fc5-bee1-2e49917288cb)
-    (property "Reference" "TP12" (at 242.57 274.3199 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TP" (at 242.57 275.5899 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 237.49 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 237.49 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 54f6988c-12c9-4cee-9398-4e225b3cfa65))
-    (instances
-      (project "ai-camera"
-        (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "TP12") (unit 1)
         )
       )
     )
@@ -19064,7 +18883,7 @@
   (symbol (lib_id "00-kiml-capacitors-smd:100n_0402_CL05B104KB54PNC") (at 325.12 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbdf279d-f4a9-4ec2-9243-7694e5e98733)
-    (property "Reference" "C46" (at 326.39 25.4 0)
+    (property "Reference" "C47" (at 326.39 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n_0402_CL05B104KB54PNC" (at 311.15 68.58 0)
@@ -19108,7 +18927,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "C46") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
     )
@@ -19167,7 +18986,7 @@
   (symbol (lib_id "00-kiml-resistors-smd:10k_0402_0402WGF1002TCE") (at 236.22 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdf1f2b7-7bc8-49b2-bc41-194e83f881b8)
-    (property "Reference" "R25" (at 236.22 82.55 90)
+    (property "Reference" "R28" (at 236.22 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k_0402_0402WGF1002TCE" (at 271.78 87.63 0)
@@ -19214,7 +19033,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "R25") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )

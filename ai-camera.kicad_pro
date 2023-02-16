@@ -496,7 +496,6 @@
       "+BATT": "PWR",
       "/UD+": "USB",
       "/UD-": "USB",
-      "Net-(#FLG06-pwr)": "PWR",
       "Net-(D10-A)": "IRLED",
       "Net-(D10-K)": "IRLED",
       "Net-(D11-A)": "IRLED",
@@ -512,6 +511,7 @@
       "Net-(D7-K)": "IRLED",
       "Net-(J2-VBUS-PadA4)": "PWR",
       "Net-(Q1-S)": "PWR",
+      "Net-(Q6-S)": "PWR",
       "Net-(U6-LX)": "PWR",
       "VBUS": "PWR"
     },
