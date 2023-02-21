@@ -14,4 +14,5 @@
   (lib (name "00-kiml-inductor-smd")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-inductor-smd.pretty")(options "")(descr ""))
   (lib (name "00-kiml-potentiometer-tht")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-potentiometer-tht.pretty")(options "")(descr ""))
   (lib (name "00-kiml-capacitor-tantalum")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-capacitor-tantalum.pretty")(options "")(descr ""))
+  (lib (name "00-kiml-crystal-smd")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-crystal-smd.pretty")(options "")(descr ""))
 )

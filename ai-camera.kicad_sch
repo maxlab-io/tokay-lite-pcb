@@ -1026,7 +1026,7 @@
       (property "Value" "TYPE-C-31-M-12" (at 8.89 33.02 0)
         (effects (font (size 1.27 1.27)) (justify right) hide)
       )
-      (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 0 36.83 0)
+      (property "Footprint" "00-kiml-connector-usb:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 0 36.83 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf" (at 0 25.4 0)
@@ -1562,7 +1562,7 @@
       (property "Value" "32.768kHz_Q13FC1350000400" (at 0 5.08 0)
         (effects (font (size 0 0)) hide)
       )
-      (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" (at 1.27 -20.32 0)
+      (property "Footprint" "00-kiml-crystal-smd:Crystal_SMD_3215-2Pin_3.2x1.5mm" (at 1.27 -20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810171817_Seiko-Epson-Q13FC1350000400_C32346.pdf" (at 0 16.51 0)
@@ -9140,7 +9140,7 @@
     (property "Value" "32.768kHz_Q13FC1350000400" (at 80.01 177.8 0)
       (effects (font (size 0 0)) hide)
     )
-    (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" (at 105.41 176.53 0)
+    (property "Footprint" "00-kiml-crystal-smd:Crystal_SMD_3215-2Pin_3.2x1.5mm" (at 105.41 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810171817_Seiko-Epson-Q13FC1350000400_C32346.pdf" (at 68.58 177.8 0)
@@ -12046,7 +12046,7 @@
   (symbol (lib_id "power:GND") (at 86.36 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6814b94b-5d9d-47cf-9667-58c431f5e390)
-    (property "Reference" "#PWR023" (at 86.36 209.55 0)
+    (property "Reference" "#PWR025" (at 86.36 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 207.01 0)
@@ -12062,7 +12062,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -12755,7 +12755,7 @@
   (symbol (lib_id "power:VBUS") (at 86.36 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76e6cb5e-380a-4fdf-a2db-877779ccdb4a)
-    (property "Reference" "#PWR022" (at 86.36 199.39 0)
+    (property "Reference" "#PWR024" (at 86.36 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 86.36 190.5 0)
@@ -12771,7 +12771,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -12930,7 +12930,7 @@
   (symbol (lib_id "power:GND") (at 88.9 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a7db9ab-8738-4a15-a549-36dbfa1bce7f)
-    (property "Reference" "#PWR024" (at 88.9 57.15 0)
+    (property "Reference" "#PWR026" (at 88.9 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 52.07 0)
@@ -12946,7 +12946,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -15279,7 +15279,7 @@
     (property "Value" "TYPE-C-31-M-12" (at 63.5 25.4 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 54.61 21.59 0)
+    (property "Footprint" "00-kiml-connector-usb:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 54.61 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf" (at 54.61 33.02 0)
@@ -17064,7 +17064,7 @@
   (symbol (lib_id "power:GND") (at 86.36 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d740e7d4-9980-456a-8752-4baf038d48a7)
-    (property "Reference" "#PWR021" (at 86.36 40.64 0)
+    (property "Reference" "#PWR023" (at 86.36 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 35.56 0)
@@ -17080,7 +17080,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -17324,7 +17324,7 @@
   (symbol (lib_id "power:GND") (at 85.09 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid deabd2a1-8aec-49c5-abee-e62596f9863a)
-    (property "Reference" "#PWR025" (at 91.44 58.42 0)
+    (property "Reference" "#PWR021" (at 91.44 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 58.42 90)
@@ -17340,7 +17340,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -17892,7 +17892,7 @@
   (symbol (lib_id "power:GND") (at 85.09 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid edefd058-5aee-4781-aaf5-51a7b92e6a52)
-    (property "Reference" "#PWR026" (at 91.44 66.04 0)
+    (property "Reference" "#PWR022" (at 91.44 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 66.04 90)
@@ -17908,7 +17908,7 @@
     (instances
       (project "ai-camera"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
