@@ -6,7 +6,8 @@
 
   (title_block
     (title "MaxLab AI Camera")
-    (rev "rev1")
+    (date "20230319")
+    (rev "rev2")
     (company "MAXLABIO INC.")
   )
 
@@ -7686,7 +7687,7 @@
   (symbol (lib_id "power:GND") (at 264.16 269.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 055399a0-10ed-492e-af70-743265174269)
-    (property "Reference" "#PWR082" (at 257.81 269.24 0)
+    (property "Reference" "#PWR081" (at 257.81 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 269.2399 90)
@@ -7702,7 +7703,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -7711,7 +7712,7 @@
   (symbol (lib_id "power:VBUS") (at 285.75 238.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05aa03bb-35c6-4934-a632-3b69d8a2df39)
-    (property "Reference" "#PWR089" (at 289.56 238.76 0)
+    (property "Reference" "#PWR088" (at 289.56 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 281.94 238.7599 90)
@@ -7727,7 +7728,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -7989,7 +7990,7 @@
   (symbol (lib_id "power:+3V3") (at 232.41 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09d0a1d3-abab-49b0-a5e8-3ea9af83fa4a)
-    (property "Reference" "#PWR061" (at 236.22 88.9 0)
+    (property "Reference" "#PWR060" (at 236.22 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 228.854 88.9 0)
@@ -8005,7 +8006,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -8067,7 +8068,7 @@
   (symbol (lib_id "power:GND") (at 396.24 226.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0bf3e6f0-9655-455d-823f-09c6176258ac)
-    (property "Reference" "#PWR0113" (at 402.59 226.06 0)
+    (property "Reference" "#PWR0112" (at 402.59 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 400.05 226.0599 90)
@@ -8083,7 +8084,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -8173,7 +8174,7 @@
   (symbol (lib_id "power:GND") (at 325.12 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ea302e3-76a0-4e96-b1f1-2a86e3fc491c)
-    (property "Reference" "#PWR096" (at 325.12 38.1 0)
+    (property "Reference" "#PWR095" (at 325.12 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 325.12 35.56 0)
@@ -8189,7 +8190,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -8330,7 +8331,7 @@
   (symbol (lib_id "power:GND") (at 374.65 177.8 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13afa367-ce85-4cd8-b11c-93cc7330120a)
-    (property "Reference" "#PWR0105" (at 368.3 177.8 0)
+    (property "Reference" "#PWR0104" (at 368.3 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 370.84 177.7999 90)
@@ -8346,7 +8347,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -8355,7 +8356,7 @@
   (symbol (lib_id "power:+5V") (at 285.75 243.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 146792cf-a0c7-4459-9fe0-bbdd196be5ac)
-    (property "Reference" "#PWR091" (at 289.56 243.84 0)
+    (property "Reference" "#PWR090" (at 289.56 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 281.94 244.475 90)
@@ -8371,7 +8372,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -8380,7 +8381,7 @@
   (symbol (lib_id "power:GND") (at 271.78 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14d0f737-5122-4c8b-8b91-d4a4712ee7f0)
-    (property "Reference" "#PWR087" (at 271.78 168.91 0)
+    (property "Reference" "#PWR086" (at 271.78 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 163.83 0)
@@ -8396,7 +8397,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -8583,7 +8584,7 @@
   (symbol (lib_id "power:GND") (at 304.8 201.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 176642a3-03ba-4615-bf24-73011a03104d)
-    (property "Reference" "#PWR093" (at 304.8 208.28 0)
+    (property "Reference" "#PWR092" (at 304.8 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 204.47 0)
@@ -8599,7 +8600,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -8608,7 +8609,7 @@
   (symbol (lib_id "power:+3V3") (at 237.49 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18c6f1bb-1b79-4203-8281-2eb7d656f28f)
-    (property "Reference" "#PWR065" (at 237.49 57.15 0)
+    (property "Reference" "#PWR064" (at 237.49 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 237.49 49.784 0)
@@ -8624,7 +8625,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -8633,7 +8634,7 @@
   (symbol (lib_id "power:+3.3VA") (at 236.22 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18f759ac-7288-483c-97ba-3626a4a0a86a)
-    (property "Reference" "#PWR062" (at 236.22 139.7 0)
+    (property "Reference" "#PWR061" (at 236.22 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 236.22 132.08 0)
@@ -8649,7 +8650,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -8714,7 +8715,7 @@
   (symbol (lib_id "power:+3.3VA") (at 374.65 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b785a83-01d2-4dfa-a1d6-0058cf1fa911)
-    (property "Reference" "#PWR0102" (at 378.46 154.94 0)
+    (property "Reference" "#PWR0101" (at 378.46 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 370.84 154.94 90)
@@ -8730,7 +8731,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -8739,7 +8740,7 @@
   (symbol (lib_id "power:GND") (at 179.07 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cef7a34-badb-4dcb-96c6-093241bbe11e)
-    (property "Reference" "#PWR054" (at 179.07 77.47 0)
+    (property "Reference" "#PWR053" (at 179.07 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 74.93 0)
@@ -8755,7 +8756,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -9162,7 +9163,7 @@
   (symbol (lib_id "power:GND") (at 383.54 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 249ef53b-aabe-40b5-ab83-575cfdaee958)
-    (property "Reference" "#PWR0106" (at 383.54 114.3 0)
+    (property "Reference" "#PWR0105" (at 383.54 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 383.54 111.76 0)
@@ -9178,7 +9179,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -9540,7 +9541,7 @@
   (symbol (lib_id "power:GND") (at 285.75 246.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2badba0c-364e-4f7b-9f5b-b7d25b905b0d)
-    (property "Reference" "#PWR092" (at 279.4 246.38 0)
+    (property "Reference" "#PWR091" (at 279.4 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 279.4 246.38 90)
@@ -9556,7 +9557,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -9612,7 +9613,7 @@
   (symbol (lib_id "power:GND") (at 248.92 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c9643e1-9430-4146-bffd-6405f7ec7679)
-    (property "Reference" "#PWR072" (at 248.92 168.91 0)
+    (property "Reference" "#PWR071" (at 248.92 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 162.56 0)
@@ -9628,7 +9629,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -9637,7 +9638,7 @@
   (symbol (lib_id "power:+3V3") (at 388.62 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cbf40c2-fb59-4d56-9831-b7ff9ec1178b)
-    (property "Reference" "#PWR0107" (at 388.62 229.87 0)
+    (property "Reference" "#PWR0106" (at 388.62 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 388.62 220.98 0)
@@ -9653,7 +9654,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -9740,7 +9741,7 @@
   (symbol (lib_id "power:VBUS") (at 321.31 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f1d8065-ec9a-4695-92e9-0d6b02c32fe7)
-    (property "Reference" "#PWR094" (at 321.31 198.12 0)
+    (property "Reference" "#PWR093" (at 321.31 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 321.31 189.23 0)
@@ -9756,7 +9757,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -9765,7 +9766,7 @@
   (symbol (lib_id "power:GND") (at 199.39 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f2271b0-a328-4cc2-afae-5794bd2ffebe)
-    (property "Reference" "#PWR057" (at 199.39 176.53 0)
+    (property "Reference" "#PWR056" (at 199.39 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 171.45 0)
@@ -9781,7 +9782,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -9893,7 +9894,7 @@
   (symbol (lib_id "power:GND") (at 260.35 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 371cecf0-2feb-4457-b346-d333dba9eaf8)
-    (property "Reference" "#PWR076" (at 260.35 222.25 0)
+    (property "Reference" "#PWR075" (at 260.35 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 219.71 0)
@@ -9909,7 +9910,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -10252,7 +10253,7 @@
   (symbol (lib_id "power:GND") (at 248.92 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43098ff3-6a50-4349-b959-930b822439cc)
-    (property "Reference" "#PWR071" (at 248.92 149.86 0)
+    (property "Reference" "#PWR070" (at 248.92 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 143.51 0)
@@ -10268,7 +10269,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -10355,7 +10356,7 @@
   (symbol (lib_id "power:+3V3") (at 237.49 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44bf20f5-f13b-44bf-bbd8-dd75641a7988)
-    (property "Reference" "#PWR064" (at 237.49 46.99 0)
+    (property "Reference" "#PWR063" (at 237.49 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 237.49 39.624 0)
@@ -10371,7 +10372,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -10530,7 +10531,7 @@
   (symbol (lib_id "power:GND") (at 213.36 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4878f950-8da2-46d3-ab69-5603baf44e53)
-    (property "Reference" "#PWR058" (at 213.36 82.55 0)
+    (property "Reference" "#PWR057" (at 213.36 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 80.01 0)
@@ -10546,7 +10547,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -10555,7 +10556,7 @@
   (symbol (lib_id "power:GND") (at 397.51 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48e117bf-03f6-4430-bc47-f1aac2a1e4f0)
-    (property "Reference" "#PWR0116" (at 397.51 166.37 0)
+    (property "Reference" "#PWR0115" (at 397.51 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 397.51 163.83 0)
@@ -10571,7 +10572,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -10842,7 +10843,7 @@
   (symbol (lib_id "power:+1V2") (at 271.78 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dde9795-9c97-4408-b684-baddd718e125)
-    (property "Reference" "#PWR086" (at 271.78 158.75 0)
+    (property "Reference" "#PWR085" (at 271.78 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 271.78 151.384 0)
@@ -10858,7 +10859,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -10965,7 +10966,7 @@
   (symbol (lib_id "power:+3V3") (at 325.12 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50dcec9e-0f10-43d7-a4c5-ae32bb171bc1)
-    (property "Reference" "#PWR095" (at 325.12 26.67 0)
+    (property "Reference" "#PWR094" (at 325.12 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 325.12 19.304 0)
@@ -10981,7 +10982,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -11090,7 +11091,7 @@
   (symbol (lib_id "power:GND") (at 332.74 139.7 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5544c209-d2a5-4e60-91b8-92ee65a8055d)
-    (property "Reference" "#PWR098" (at 326.39 139.7 0)
+    (property "Reference" "#PWR097" (at 326.39 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 328.93 139.7 0)
@@ -11106,7 +11107,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -11473,7 +11474,7 @@
   (symbol (lib_id "power:GND") (at 247.65 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c5a06c5-5336-4d04-8490-0ffff967e2ee)
-    (property "Reference" "#PWR070" (at 241.3 55.88 0)
+    (property "Reference" "#PWR069" (at 241.3 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 57.15 90)
@@ -11489,7 +11490,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -11551,7 +11552,7 @@
   (symbol (lib_id "power:GND") (at 374.65 144.78 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e4d6b5d-140c-4692-a609-b14ebdda612f)
-    (property "Reference" "#PWR0101" (at 368.3 144.78 0)
+    (property "Reference" "#PWR0100" (at 368.3 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 370.84 144.78 0)
@@ -11567,7 +11568,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -11782,7 +11783,7 @@
   (symbol (lib_id "power:GND") (at 328.93 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 652105a8-3a8f-47f1-8ada-f274183e476e)
-    (property "Reference" "#PWR097" (at 328.93 223.52 0)
+    (property "Reference" "#PWR096" (at 328.93 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 328.93 222.25 0)
@@ -11798,7 +11799,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -11807,7 +11808,7 @@
   (symbol (lib_id "power:GND") (at 397.51 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65349947-c126-4bd9-b8a9-ed63757e8451)
-    (property "Reference" "#PWR0114" (at 397.51 146.05 0)
+    (property "Reference" "#PWR0113" (at 397.51 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 397.51 143.51 0)
@@ -11823,7 +11824,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -11880,7 +11881,7 @@
   (symbol (lib_id "power:GND") (at 226.06 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 677df1f4-94d6-47a7-811b-5a61beb6d8c4)
-    (property "Reference" "#PWR059" (at 226.06 115.57 0)
+    (property "Reference" "#PWR058" (at 226.06 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 113.03 0)
@@ -11896,7 +11897,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -11999,7 +12000,7 @@
   (symbol (lib_id "power:+3V3") (at 260.35 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67df9145-e9f5-4b9b-a587-af88252bc70b)
-    (property "Reference" "#PWR075" (at 260.35 191.77 0)
+    (property "Reference" "#PWR074" (at 260.35 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 260.35 184.404 0)
@@ -12015,7 +12016,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -12280,7 +12281,7 @@
   (symbol (lib_id "power:+3V3") (at 285.75 241.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d7b285a-cb0a-4cd1-b36e-271fdc645c66)
-    (property "Reference" "#PWR090" (at 289.56 241.3 0)
+    (property "Reference" "#PWR089" (at 289.56 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 281.94 241.2999 90)
@@ -12296,7 +12297,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -12358,7 +12359,7 @@
   (symbol (lib_id "power:GND") (at 237.49 243.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e3e8560-f7a8-40ad-8166-a0c32fc53b02)
-    (property "Reference" "#PWR066" (at 231.14 243.84 0)
+    (property "Reference" "#PWR065" (at 231.14 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 243.8399 90)
@@ -12374,7 +12375,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -12383,7 +12384,7 @@
   (symbol (lib_id "power:+1V2") (at 264.16 256.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fb697c6-4210-4df4-a727-5877a9333c22)
-    (property "Reference" "#PWR078" (at 267.97 256.54 0)
+    (property "Reference" "#PWR077" (at 267.97 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 257.81 256.54 90)
@@ -12399,7 +12400,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -12561,7 +12562,7 @@
   (symbol (lib_id "power:GND") (at 264.16 251.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7494ba14-0afb-4b77-a1f3-27cd68e60a9a)
-    (property "Reference" "#PWR077" (at 257.81 251.46 0)
+    (property "Reference" "#PWR076" (at 257.81 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 251.4599 90)
@@ -12577,7 +12578,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -12586,7 +12587,7 @@
   (symbol (lib_id "power:GND") (at 274.32 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74edaffe-45cb-41d4-9871-cbce50849038)
-    (property "Reference" "#PWR088" (at 274.32 201.93 0)
+    (property "Reference" "#PWR087" (at 274.32 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 196.85 0)
@@ -12602,7 +12603,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -12858,7 +12859,7 @@
   (symbol (lib_id "power:GND") (at 260.35 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 799872ca-bf00-4571-83d0-d82bf4ab4d5f)
-    (property "Reference" "#PWR074" (at 260.35 168.91 0)
+    (property "Reference" "#PWR073" (at 260.35 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 163.83 0)
@@ -12874,7 +12875,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -13059,7 +13060,7 @@
   (symbol (lib_id "power:+3.3VA") (at 391.16 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ce23f6b-4e53-4588-a278-3bc42979705e)
-    (property "Reference" "#PWR0109" (at 391.16 135.89 0)
+    (property "Reference" "#PWR0108" (at 391.16 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 391.16 128.27 0)
@@ -13075,7 +13076,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -13326,7 +13327,7 @@
   (symbol (lib_id "power:+1V2") (at 391.16 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83246868-0ee2-4110-acb5-e1e1a642196b)
-    (property "Reference" "#PWR0111" (at 391.16 156.21 0)
+    (property "Reference" "#PWR0110" (at 391.16 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 391.16 147.32 0)
@@ -13342,7 +13343,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -13477,7 +13478,7 @@
   (symbol (lib_id "power:+2V8") (at 397.51 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89af7abc-62f6-4a07-8e39-c30f6a81bd7a)
-    (property "Reference" "#PWR0115" (at 397.51 156.21 0)
+    (property "Reference" "#PWR0114" (at 397.51 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 397.51 147.32 0)
@@ -13493,7 +13494,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -13502,7 +13503,7 @@
   (symbol (lib_id "power:+2V8") (at 271.78 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ab4ca1b-060a-4044-8e17-1bb101ac2897)
-    (property "Reference" "#PWR084" (at 271.78 139.7 0)
+    (property "Reference" "#PWR083" (at 271.78 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 271.78 132.334 0)
@@ -13518,7 +13519,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -13761,7 +13762,7 @@
   (symbol (lib_id "power:VBUS") (at 179.07 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8dd35a5f-daba-442a-ab69-16ff3f4266f0)
-    (property "Reference" "#PWR053" (at 179.07 52.07 0)
+    (property "Reference" "#PWR052" (at 179.07 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 179.07 44.45 0)
@@ -13777,7 +13778,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -13833,7 +13834,7 @@
   (symbol (lib_id "power:GND") (at 354.33 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8eed07e4-5d99-4d33-aa69-359f42ca8a51)
-    (property "Reference" "#PWR099" (at 354.33 227.33 0)
+    (property "Reference" "#PWR098" (at 354.33 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 354.33 224.79 0)
@@ -13849,7 +13850,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -14112,7 +14113,7 @@
   (symbol (lib_id "power:GND") (at 190.5 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 973dff6e-aa7b-48fe-af45-bd6ca2835105)
-    (property "Reference" "#PWR056" (at 190.5 123.19 0)
+    (property "Reference" "#PWR055" (at 190.5 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 120.65 0)
@@ -14128,7 +14129,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -14137,7 +14138,7 @@
   (symbol (lib_id "power:+3V3") (at 226.06 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98fdbebd-204a-4853-960f-f715c8ff6c59)
-    (property "Reference" "#PWR060" (at 226.06 139.7 0)
+    (property "Reference" "#PWR059" (at 226.06 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 226.06 132.08 0)
@@ -14153,7 +14154,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -14885,7 +14886,7 @@
   (symbol (lib_id "power:GND") (at 236.22 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4dc494b-111b-42af-bd79-56fb18ed95d2)
-    (property "Reference" "#PWR063" (at 236.22 149.86 0)
+    (property "Reference" "#PWR062" (at 236.22 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 144.78 0)
@@ -14901,7 +14902,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -15070,7 +15071,7 @@
   (symbol (lib_id "power:GND") (at 260.35 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9efc435-6693-4e57-8050-ddfb7d40ca0f)
-    (property "Reference" "#PWR073" (at 260.35 149.86 0)
+    (property "Reference" "#PWR072" (at 260.35 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 144.78 0)
@@ -15086,7 +15087,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -15260,7 +15261,7 @@
   (symbol (lib_id "power:GND") (at 391.16 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae3a852c-33ae-4e5a-93ab-52c40f9596fe)
-    (property "Reference" "#PWR0110" (at 391.16 146.05 0)
+    (property "Reference" "#PWR0109" (at 391.16 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 391.16 143.51 0)
@@ -15276,7 +15277,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -15444,7 +15445,7 @@
   (symbol (lib_id "power:GND") (at 388.62 246.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b01d7c43-7f3d-4f9e-9cd6-9a542d8ccb5f)
-    (property "Reference" "#PWR0108" (at 388.62 252.73 0)
+    (property "Reference" "#PWR0107" (at 388.62 252.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 388.62 250.19 0)
@@ -15460,7 +15461,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -15522,7 +15523,7 @@
   (symbol (lib_id "power:GND") (at 240.03 201.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b50951df-4c9d-4599-955c-f6acb1acda15)
-    (property "Reference" "#PWR069" (at 233.68 201.93 0)
+    (property "Reference" "#PWR068" (at 233.68 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 201.93 0)
@@ -15538,7 +15539,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -16124,7 +16125,7 @@
   (symbol (lib_id "power:GND") (at 237.49 254 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd93cce1-620b-4d87-8253-8d36b255d71f)
-    (property "Reference" "#PWR067" (at 231.14 254 0)
+    (property "Reference" "#PWR066" (at 231.14 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 253.9999 90)
@@ -16140,7 +16141,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -16149,7 +16150,7 @@
   (symbol (lib_id "power:+2V8") (at 264.16 264.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bde80c7a-dae0-47ee-9183-5fab7684b1c4)
-    (property "Reference" "#PWR080" (at 267.97 264.16 0)
+    (property "Reference" "#PWR079" (at 267.97 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 260.35 264.1599 90)
@@ -16165,7 +16166,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -16227,7 +16228,7 @@
   (symbol (lib_id "power:+1V2") (at 374.65 157.48 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2e5af6d-ce6f-4dd6-98e7-114b6ad6345f)
-    (property "Reference" "#PWR0103" (at 378.46 157.48 0)
+    (property "Reference" "#PWR0102" (at 378.46 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 370.84 157.4799 90)
@@ -16243,7 +16244,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -16433,7 +16434,7 @@
   (symbol (lib_id "power:+3V3") (at 267.97 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7acc165-74eb-4025-9123-fbc7b89fba28)
-    (property "Reference" "#PWR083" (at 271.78 106.68 0)
+    (property "Reference" "#PWR082" (at 271.78 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 264.414 106.68 0)
@@ -16449,7 +16450,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -16511,7 +16512,7 @@
   (symbol (lib_id "power:GND") (at 264.16 259.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccdc8708-99bd-4163-beef-1dccdbd80835)
-    (property "Reference" "#PWR079" (at 257.81 259.08 0)
+    (property "Reference" "#PWR078" (at 257.81 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 259.0799 90)
@@ -16527,7 +16528,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -16686,7 +16687,7 @@
   (symbol (lib_id "power:+BATT") (at 264.16 266.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0b55a46-3e04-4e53-9424-87ec8e02aa01)
-    (property "Reference" "#PWR081" (at 267.97 266.7 0)
+    (property "Reference" "#PWR080" (at 267.97 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 260.35 266.6999 90)
@@ -16702,7 +16703,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -16764,7 +16765,7 @@
   (symbol (lib_id "power:GND") (at 237.49 269.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d269f4f7-7bee-4c0e-9287-c8fcab8cc624)
-    (property "Reference" "#PWR068" (at 231.14 269.24 0)
+    (property "Reference" "#PWR067" (at 231.14 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 269.2399 90)
@@ -16780,7 +16781,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -16964,7 +16965,7 @@
   (symbol (lib_id "power:GND") (at 391.16 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d68aee3b-a3d3-426d-9e96-7ee0d3f2ccb0)
-    (property "Reference" "#PWR0112" (at 391.16 166.37 0)
+    (property "Reference" "#PWR0111" (at 391.16 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 391.16 163.83 0)
@@ -16980,7 +16981,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -17349,7 +17350,7 @@
   (symbol (lib_id "power:+3V3") (at 190.5 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2f2a70a-ed55-4c34-8f1a-a1dca73c31c0)
-    (property "Reference" "#PWR055" (at 190.5 105.41 0)
+    (property "Reference" "#PWR054" (at 190.5 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 190.5 98.044 0)
@@ -17365,7 +17366,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -17580,7 +17581,7 @@
   (symbol (lib_id "power:GND") (at 367.03 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7522007-e54b-449e-9090-5ef3b8029bd2)
-    (property "Reference" "#PWR0100" (at 367.03 191.77 0)
+    (property "Reference" "#PWR099" (at 367.03 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 367.03 190.5 0)
@@ -17596,7 +17597,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -18237,7 +18238,7 @@
   (symbol (lib_id "power:+2V8") (at 374.65 172.72 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f64b6b72-05fe-496c-a523-35b00c222b6e)
-    (property "Reference" "#PWR0104" (at 378.46 172.72 0)
+    (property "Reference" "#PWR0103" (at 378.46 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 370.84 172.7199 90)
@@ -18253,7 +18254,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -18262,7 +18263,7 @@
   (symbol (lib_id "power:GND") (at 271.78 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6b1cbb7-868b-41a5-aeeb-fbf2a068ea4a)
-    (property "Reference" "#PWR085" (at 271.78 149.86 0)
+    (property "Reference" "#PWR084" (at 271.78 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 144.78 0)
@@ -18278,7 +18279,7 @@
     (instances
       (project "ai-camera-rev2"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
