@@ -399,7 +399,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -411,7 +411,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ai-camera-rev2.kicad_pro",
+    "filename": "ai-camera-rev3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -443,7 +443,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "IRLED",
-        "pcb_color": "rgb(0, 255, 4)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 219)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -460,7 +460,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
-        "pcb_color": "rgb(0, 255, 61)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 32)",
         "track_width": 0.2032,
         "via_diameter": 0.6,

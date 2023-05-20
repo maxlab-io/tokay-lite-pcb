@@ -12,11 +12,11 @@
   )
 
   (lib_symbols
-    (symbol "00-kiml-74xGxx:SOT-23-6_SN74LVC1G373DBVR_TI" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "00-kiml-74xGxx:TI_SN74LVC1G373DBVR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -5.08 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SOT-23-6_SN74LVC1G373DBVR_TI" (at 0 16.51 0)
+      (property "Value" "TI_SN74LVC1G373DBVR" (at 0 16.51 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 0 10.16 0)
@@ -55,13 +55,13 @@
       (property "ki_fp_filters" "SOT* SC*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "SOT-23-6_SN74LVC1G373DBVR_TI_0_1"
+      (symbol "TI_SN74LVC1G373DBVR_0_1"
         (rectangle (start -3.81 3.81) (end 3.81 -3.81)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
       )
-      (symbol "SOT-23-6_SN74LVC1G373DBVR_TI_1_1"
+      (symbol "TI_SN74LVC1G373DBVR_1_1"
         (pin input line (at -6.35 -2.54 0) (length 2.54)
           (name "LE" (effects (font (size 1.016 1.016))))
           (number "1" (effects (font (size 1.016 1.016))))
@@ -158,156 +158,6 @@
         (pin passive line (at 10.16 -5.08 180) (length 2.54)
           (name "PROG" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "00-kiml-button-switch-smd:SW_PB_TS-1187A-B-A-B" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 2.54 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "SW_PB_TS-1187A-B-A-B" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "UserValue" "PB" (at -3.81 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "MFR" "XKB Connectivity" (at 0 -13.97 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "TS-1187A-B-A-B" (at 0 -11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SPL1" "JLCPCB" (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SPN1" "C318884" (at 0 -16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SNB1" "Basic Part" (at 0 -19.05 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "switch normally-open pushbutton push-button Tactile Switches" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Push button switch, normally open SPST SMD" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_PB_TS-1187A-B-A-B_0_1"
-        (circle (center -2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 1.27)
-            (xy -2.54 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 2.54 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "SW_PB_90deg_K2-1102AQ-H4CW-01" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "UserValue" "PB" (at -3.81 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "MFR" "Korean Hroparts" (at 0 -13.97 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "K2-1102AQ-H4CW-01" (at 0 -11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SPL1" "JLCPCB" (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SPN1" "C961738" (at 0 -16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LNK1" "https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SNB1" "Extended Part" (at 0 -19.05 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "switch normally-open pushbutton push-button Tactile Switches 90 degrees" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "-25℃~+85℃ 6mm 7.5mm 50mA Lying 6mm 100MΩ 100000 250gf@±30gf 12V Plugin Tactile Switches ROHS" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_PB_90deg_K2-1102AQ-H4CW-01_0_1"
-        (circle (center -2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 1.27)
-            (xy -2.54 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1496,14 +1346,17 @@
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "B5819W-SL_SOD-123" (at 0 -2.54 0)
+      (property "Value" "B5819W-SL_SOD-123" (at 0 26.035 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "Diode_SMD:D_SOD-123" (at 0 -4.445 0)
+      (property "Footprint" "Diode_SMD:D_SOD-123" (at 0 24.13 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809140216_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf" (at -5.08 8.89 0)
         (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "UserValue" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
       )
       (property "MFR" "Jiangsu Changjing Electronics Technology" (at 0 13.97 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1511,25 +1364,25 @@
       (property "MPN" "B5819W SL" (at 0 11.43 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "SPL1" "JLCPCB" (at 0 19.05 0)
+      (property "SPL1" "JLCPCB" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "SPN1" "C8598" (at 0 16.51 0)
+      (property "SPN1" "C8598" (at 0 -8.89 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "LNK1" "https://jlcpcb.com/partdetail/9093-B5819WSL/C8598" (at 1.27 6.35 0)
+      (property "LNK1" "https://jlcpcb.com/partdetail/9093-B5819WSL/C8598" (at 1.27 -11.43 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "UserValue" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
+      (property "SNB1" "Basic Part" (at -1.27 16.51 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
-      (property "SNB1" "Basic Part" (at 0 -6.35 0)
+      (property "Rating" "1A" (at 0 19.05 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "diode Schottky" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS\n" (at 0 0 0)
+      (property "ki_description" "40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "D*DO?35*" (at 0 0 0)
@@ -1651,83 +1504,11 @@
         )
       )
     )
-    (symbol "00-kiml-inductors:0805_FB_220R@100MHz_BLM21PG221SN1D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "00-kiml-inductors:10u_1.5A_4x4mm_SWPA4030S100MT" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "0805_FB_220R@100MHz_BLM21PG221SN1D" (at 0 13.97 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 1.27 -26.67 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "UserValue" "220R@100 MHz" (at 3.81 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "MFR" "Murata Electronics" (at 0 -19.05 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "BLM21PG221SN1D" (at 0 -29.21 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SPL1" "JLCPCB" (at 0 -24.13 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SPN1" "C85840" (at 0 -21.59 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LNK1" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840" (at 1.27 -31.75 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Rating" "2A" (at 0 -34.29 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "0805_FB_220R@100MHz_BLM21PG221SN1D_0_1"
-        (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "0805_FB_220R@100MHz_BLM21PG221SN1D_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "00-kiml-inductors:10u_SWPA4030S100MT" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at -1.27 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "10u_SWPA4030S100MT" (at 0 13.97 0)
+      (property "Value" "10u_1.5A_4x4mm_SWPA4030S100MT" (at 0 13.97 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Footprint" "00-kiml-inductor-smd:L_Sunlord_SWPA40xxS" (at 1.27 -26.67 0)
@@ -1738,6 +1519,12 @@
       )
       (property "UserValue" "10u" (at 2.54 0 90)
         (effects (font (size 1.27 1.27)))
+      )
+      (property "Rating" "1.5A" (at 0 19.05 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "DCR" "130m" (at 0 16.51 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (property "MFR" "Sunlord" (at 0 21.59 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1754,12 +1541,6 @@
       (property "LNK1" "https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117" (at 2.54 -24.13 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Rating" "1.5A" (at 0 19.05 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ESR" "130m" (at 0 16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
       (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1769,7 +1550,7 @@
       (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "10u_SWPA4030S100MT_0_1"
+      (symbol "10u_1.5A_4x4mm_SWPA4030S100MT_0_1"
         (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -1787,7 +1568,79 @@
           (fill (type none))
         )
       )
-      (symbol "10u_SWPA4030S100MT_1_1"
+      (symbol "10u_1.5A_4x4mm_SWPA4030S100MT_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "00-kiml-inductors:FB_2A_0805_220R@100MHz_BLM21PG221SN1D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "L" (at -1.27 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "FB_2A_0805_220R@100MHz_BLM21PG221SN1D" (at 0 15.24 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 0 17.78 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "UserValue" "220R@100 MHz" (at 3.81 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Rating" "2A" (at 6.35 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "MFR" "Murata Electronics" (at 0 20.32 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "MPN" "BLM21PG221SN1D" (at 0 -29.21 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "SPL1" "JLCPCB" (at 0 -24.13 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "SPN1" "C85840" (at 0 -21.59 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LNK1" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840" (at 1.27 -31.75 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FB_2A_0805_220R@100MHz_BLM21PG221SN1D_0_1"
+        (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "FB_2A_0805_220R@100MHz_BLM21PG221SN1D_1_1"
         (pin passive line (at 0 3.81 270) (length 1.27)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -2223,7 +2076,7 @@
       (property "SPN1" "C364577" (at 0 -22.86 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "LNK1" "https://lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-308ALS-01_C492382.html" (at -3.81 -25.4 0)
+      (property "LNK1" "https://www.lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-303ALS-01_C364577.html" (at -3.81 -25.4 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "SNB1" "Extended Part" (at 0 -27.94 0)
@@ -3228,11 +3081,161 @@
         )
       )
     )
-    (symbol "00-kiml-timer-rtc:PCF85063AT_SO8" (in_bom yes) (on_board yes)
+    (symbol "00-kiml-switch-button-smd:SW_PB_TS-1187A-B-A-B" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 2.54 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SW_PB_TS-1187A-B-A-B" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "UserValue" "PB" (at -3.81 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "MFR" "XKB Connectivity" (at 0 -13.97 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "MPN" "TS-1187A-B-A-B" (at 0 -11.43 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "SPL1" "JLCPCB" (at 0 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "SPN1" "C318884" (at 0 -16.51 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "SNB1" "Basic Part" (at 0 -19.05 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "switch normally-open pushbutton push-button Tactile Switches" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Push button switch, normally open SPST SMD" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SW_PB_TS-1187A-B-A-B_0_1"
+        (circle (center -2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 2.54 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SW_PB_90deg_K2-1102AQ-H4CW-01" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "UserValue" "PB" (at -3.81 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "MFR" "Korean Hroparts" (at 0 -13.97 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "MPN" "K2-1102AQ-H4CW-01" (at 0 -11.43 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "SPL1" "JLCPCB" (at 0 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "SPN1" "C961738" (at 0 -16.51 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LNK1" "https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "SNB1" "Extended Part" (at 0 -19.05 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "switch normally-open pushbutton push-button Tactile Switches 90 degrees" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "-25℃~+85℃ 6mm 7.5mm 50mA Lying 6mm 100MΩ 100000 250gf@±30gf 12V Plugin Tactile Switches ROHS" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SW_PB_90deg_K2-1102AQ-H4CW-01_0_1"
+        (circle (center -2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "00-kiml-timer-rtc:PCF85063AT/AAZ" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -8.89 12.7 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "PCF85063AT_SO8" (at 0 30.48 0)
+      (property "Value" "PCF85063AT" (at 0 30.48 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 2.54 22.86 0)
@@ -3247,7 +3250,7 @@
       (property "MFR" "NXP Semiconductors" (at 0 25.4 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "PCF85063ATL/1,118" (at 0 27.94 0)
+      (property "MPN" "PCF85063AT/AAZ" (at 0 27.94 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "SPL1" "JLCPCB" (at 0 -22.86 0)
@@ -3271,13 +3274,13 @@
       (property "ki_fp_filters" "DFN*2.6x2.6mm*P0.5mm*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "PCF85063AT_SO8_0_1"
+      (symbol "PCF85063AT/AAZ_0_1"
         (rectangle (start -10.16 7.62) (end 10.16 -7.62)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
       )
-      (symbol "PCF85063AT_SO8_1_1"
+      (symbol "PCF85063AT/AAZ_1_1"
         (pin input line (at -12.7 -2.54 0) (length 2.54)
           (name "OSCI" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -3328,7 +3331,7 @@
       (property "UserValue" "2N7002" (at 3.81 0 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "MFR" "Jiangsu" (at 0 22.86 0)
+      (property "MFR" "JCET" (at 0 22.86 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "MPN" "2N7002" (at -3.81 17.78 0)
@@ -4442,7 +4445,6 @@
       )
     )
   )
-
 
   (junction (at 130.81 204.47) (diameter 0) (color 0 0 0 0)
     (uuid 021cf1d8-d514-490f-8327-e58a35f8b42a)
@@ -7441,7 +7443,7 @@
     (pin "2" (uuid 87cfb951-03da-4983-87bd-19178eb6d5dc))
     (pin "3" (uuid dcd3a1ec-08e6-498c-8612-1eb59160dacc))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U8") (unit 1)
         )
@@ -7466,7 +7468,7 @@
     )
     (pin "1" (uuid adb1a291-a280-40ed-ad31-116638174197))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR010") (unit 1)
         )
@@ -7522,7 +7524,7 @@
     (pin "1" (uuid 9ed8e4a5-94b1-4aaf-ac37-f1c6272b9ff2))
     (pin "2" (uuid 0642ac3d-4bcd-4b78-9b08-fd956d621616))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "J5") (unit 1)
         )
@@ -7579,7 +7581,7 @@
     (pin "2" (uuid 711c2363-e04b-44ed-833e-25be3604f7f0))
     (pin "3" (uuid e03df820-f1b2-4cb6-8ff9-b4fcfcac310d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q8") (unit 1)
         )
@@ -7604,7 +7606,7 @@
     )
     (pin "1" (uuid 15e24ce7-233e-4047-a4a1-d25dbb2c0b0a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP24") (unit 1)
         )
@@ -7612,11 +7614,11 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-button-switch-smd:SW_PB_TS-1187A-B-A-B") (at 220.98 44.45 0) (unit 1)
+  (symbol (lib_id "00-kiml-switch-button-smd:SW_PB_TS-1187A-B-A-B") (at 220.98 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 036969ec-52d9-4ac9-a7be-f0e2a150fe8f)
-    (property "Reference" "SW2" (at 215.9 43.18 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "SW2" (at 223.52 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_PB_TS-1187A-B-A-B" (at 220.98 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7627,7 +7629,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf" (at 220.98 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "ESP_BOOT" (at 227.33 43.18 0)
+    (property "UserValue" "PB" (at 217.17 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "MFR" "XKB Connectivity" (at 220.98 58.42 0)
@@ -7651,7 +7653,7 @@
     (pin "1" (uuid bcda5872-d896-4c6a-8a79-565cb60b45d6))
     (pin "2" (uuid 1647806a-ad17-45f2-a3c3-2f45f58176a9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "SW2") (unit 1)
         )
@@ -7676,7 +7678,7 @@
     )
     (pin "1" (uuid f48689dc-63a1-439f-b241-1f12ad0e8754))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR047") (unit 1)
         )
@@ -7701,7 +7703,7 @@
     )
     (pin "1" (uuid d6264422-361b-4470-9baf-5abc346e265e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR081") (unit 1)
         )
@@ -7726,7 +7728,7 @@
     )
     (pin "1" (uuid 61ed15ec-5e6f-40ec-bf5d-e63bd439c97c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR088") (unit 1)
         )
@@ -7779,7 +7781,7 @@
     (pin "1" (uuid 5575bbae-a10b-4df5-b9da-8c18a1962127))
     (pin "2" (uuid 0bc6f351-f630-47c1-9745-7398a343dd8c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C20") (unit 1)
         )
@@ -7829,7 +7831,7 @@
     (pin "1" (uuid 3176ab2c-c5dc-443c-97a9-8db431980061))
     (pin "2" (uuid e61c16cc-f4f9-4ecc-9743-c5fb92f6c8ba))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R32") (unit 1)
         )
@@ -7882,7 +7884,7 @@
     (pin "1" (uuid 681d7c86-4f45-46c1-85c9-bcad1ca101de))
     (pin "2" (uuid ea7f1356-2fa0-4978-ae68-5904576bf08c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C18") (unit 1)
         )
@@ -7907,7 +7909,7 @@
     )
     (pin "1" (uuid c2ed7973-5d81-426e-9ff9-cb88f27844e1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP6") (unit 1)
         )
@@ -7954,7 +7956,7 @@
     (pin "1" (uuid 1c5fff30-6b30-405c-8255-d2205c120aeb))
     (pin "2" (uuid f51cf9fc-00df-4425-b90e-50bd12b5138c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D15") (unit 1)
         )
@@ -7979,7 +7981,7 @@
     )
     (pin "1" (uuid b405e385-8a00-4fc4-abae-e464a19a9c8a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP2") (unit 1)
         )
@@ -8004,7 +8006,7 @@
     )
     (pin "1" (uuid 613ca21d-7ca1-42a7-b462-a4ca9270e3b8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR060") (unit 1)
         )
@@ -8057,7 +8059,7 @@
     (pin "1" (uuid ad5d9f6b-1c16-43be-9e0d-a63d77982bac))
     (pin "2" (uuid 84e736fb-d0b2-426e-99c2-690075a83e84))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C12") (unit 1)
         )
@@ -8082,7 +8084,7 @@
     )
     (pin "1" (uuid 95434b40-b6db-4d3d-b946-60b256edd3b2))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0112") (unit 1)
         )
@@ -8138,7 +8140,7 @@
     (pin "1" (uuid c85a5df2-0af5-4d0b-99db-537de4bcd864))
     (pin "2" (uuid 0c10b942-db9b-4884-8247-db45f052ecf4))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R30") (unit 1)
         )
@@ -8163,7 +8165,7 @@
     )
     (pin "1" (uuid 6843c787-2771-4955-9a1e-353bd9cc7335))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP20") (unit 1)
         )
@@ -8188,7 +8190,7 @@
     )
     (pin "1" (uuid 115b4765-dab9-4e4b-8ca4-b3fc789996ae))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR095") (unit 1)
         )
@@ -8245,7 +8247,7 @@
     (pin "2" (uuid c9570aba-c919-42cd-afd6-c5b7fd76e56f))
     (pin "3" (uuid 912afd44-a095-4b92-a492-08c2b64d45a2))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q6") (unit 1)
         )
@@ -8270,7 +8272,7 @@
     )
     (pin "1" (uuid b100a454-13a8-4463-874f-18e3eb671278))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP4") (unit 1)
         )
@@ -8320,7 +8322,7 @@
     (pin "1" (uuid 6214a80e-cb86-490e-b316-06ac4a46e77d))
     (pin "2" (uuid 950c157c-03d2-4f94-b0d1-6aeaa9d7927e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R22") (unit 1)
         )
@@ -8345,7 +8347,7 @@
     )
     (pin "1" (uuid c21d4561-17fb-4018-b113-71298b2af91b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0104") (unit 1)
         )
@@ -8370,7 +8372,7 @@
     )
     (pin "1" (uuid bc2af3c1-760f-46cb-ba0c-629dc1fa3b4f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR090") (unit 1)
         )
@@ -8395,7 +8397,7 @@
     )
     (pin "1" (uuid 767a9569-9dea-4d10-a331-8de0b6ba93fc))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR086") (unit 1)
         )
@@ -8448,7 +8450,7 @@
     (pin "1" (uuid 33ce15d3-aeb5-4d91-b170-a3c73fe2d09a))
     (pin "2" (uuid 82073891-dc51-4853-aee2-e0e5bdde767b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C10") (unit 1)
         )
@@ -8473,7 +8475,7 @@
     )
     (pin "1" (uuid 3b186c17-55ff-4955-9459-cd50885e802c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP1") (unit 1)
         )
@@ -8523,7 +8525,7 @@
     (pin "1" (uuid a8389c30-5f26-4e46-b3df-c358aae50685))
     (pin "2" (uuid f2c327aa-1002-4a10-b931-56397edb4fca))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R15") (unit 1)
         )
@@ -8548,7 +8550,7 @@
     )
     (pin "1" (uuid 6756bb5a-35c6-4b4c-b5e9-6f3f8f4545a1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP8") (unit 1)
         )
@@ -8573,7 +8575,7 @@
     )
     (pin "1" (uuid b2e392fa-ea33-4180-b5de-a8cc5c8edacd))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR08") (unit 1)
         )
@@ -8598,7 +8600,7 @@
     )
     (pin "1" (uuid 1f069ac7-c8a7-42a3-bdd7-6bd85618d134))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR092") (unit 1)
         )
@@ -8623,7 +8625,7 @@
     )
     (pin "1" (uuid 9b6746e3-4ccf-43a1-ae53-fd1be9b72ea8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR064") (unit 1)
         )
@@ -8648,7 +8650,7 @@
     )
     (pin "1" (uuid 6ba9cb92-54ca-47a5-8971-989de3ccbd6a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR061") (unit 1)
         )
@@ -8704,7 +8706,7 @@
     (pin "1" (uuid 2b87afc1-bde0-4105-a867-cfa32672c3c7))
     (pin "2" (uuid 3641a93b-e873-4511-9c19-90178f988fe1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R11") (unit 1)
         )
@@ -8729,7 +8731,7 @@
     )
     (pin "1" (uuid eb2a0faa-a46d-4b1d-81d6-1034f1f1abd8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0101") (unit 1)
         )
@@ -8754,7 +8756,7 @@
     )
     (pin "1" (uuid a80d37cd-8dcc-47ee-aa9f-2d3faee31fcb))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR053") (unit 1)
         )
@@ -8779,7 +8781,7 @@
     )
     (pin "1" (uuid 21938ac0-da74-4947-8886-15c514e536fb))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR033") (unit 1)
         )
@@ -8829,7 +8831,7 @@
     (pin "1" (uuid 6a0bb238-2703-40a9-86b7-84b9f48345c3))
     (pin "2" (uuid e5523eb3-517f-4794-83b0-8fe42a05cc68))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R19") (unit 1)
         )
@@ -8854,7 +8856,7 @@
     )
     (pin "1" (uuid a25a3972-482f-46e5-90a2-b6b446efeba3))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP7") (unit 1)
         )
@@ -8879,7 +8881,7 @@
     )
     (pin "1" (uuid a65109b2-6f37-4789-8c97-2b6b9b260b59))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR046") (unit 1)
         )
@@ -8974,7 +8976,7 @@
     (pin "8" (uuid c43fcea5-9bf4-4301-91db-ce3b8842f4b8))
     (pin "9" (uuid 6b31aaee-f5e2-4801-8504-eac65cf44891))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U10") (unit 1)
         )
@@ -8999,7 +9001,7 @@
     )
     (pin "1" (uuid 2ebd7600-866c-4eed-a7a9-41721a2c326a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#FLG01") (unit 1)
         )
@@ -9024,7 +9026,7 @@
     )
     (pin "1" (uuid 86e1ce23-0a08-4648-9b15-341e5d02b36a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR013") (unit 1)
         )
@@ -9049,7 +9051,7 @@
     )
     (pin "1" (uuid c0adb403-cc27-4c87-8c68-1d88051ba895))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR05") (unit 1)
         )
@@ -9096,7 +9098,7 @@
     (pin "1" (uuid dbd6503f-42c7-4666-b0e0-756efe8b96f9))
     (pin "2" (uuid 26215d3a-fb61-47d2-8ef2-897159d866a3))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Y1") (unit 1)
         )
@@ -9152,7 +9154,7 @@
     (pin "1" (uuid 7462f768-59c5-4b06-82b8-6b7e83be53b4))
     (pin "2" (uuid 0b45ad36-abee-4bde-9b39-1445bbbb771f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R12") (unit 1)
         )
@@ -9177,7 +9179,7 @@
     )
     (pin "1" (uuid 2a2f9814-5ea2-490e-9383-5cacb9c63278))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0105") (unit 1)
         )
@@ -9230,7 +9232,7 @@
     (pin "1" (uuid be2f991c-b5b0-445a-9838-89d52ea6341f))
     (pin "2" (uuid 5b3f1252-0d19-47e2-a713-0a999869f605))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C24") (unit 1)
         )
@@ -9238,25 +9240,25 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-inductors:0805_FB_220R@100MHz_BLM21PG221SN1D") (at 135.89 101.6 90) (unit 1)
+  (symbol (lib_id "00-kiml-inductors:FB_2A_0805_220R@100MHz_BLM21PG221SN1D") (at 135.89 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24eafb2e-ed84-4b9b-afb9-121181bb43c6)
     (property "Reference" "L2" (at 135.89 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0805_FB_220R@100MHz_BLM21PG221SN1D" (at 121.92 101.6 0)
+    (property "Value" "FB_2A_0805_220R@100MHz_BLM21PG221SN1D" (at 120.65 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 162.56 100.33 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 118.11 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "Bead" (at 135.89 105.41 90)
+    (property "UserValue" "220R@100 MHz" (at 135.89 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "MFR" "Murata Electronics" (at 154.94 101.6 0)
+    (property "MFR" "Murata Electronics" (at 115.57 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "BLM21PG221SN1D" (at 165.1 101.6 0)
@@ -9271,13 +9273,13 @@
     (property "LNK1" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840" (at 167.64 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Rating" "2A" (at 170.18 101.6 0)
+    (property "Rating" "2A" (at 135.89 95.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid decc82f2-f442-41c3-86b9-92cbd2ce33d1))
     (pin "2" (uuid 795ef806-7737-4525-b655-1b76e91f7709))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "L2") (unit 1)
         )
@@ -9285,22 +9287,22 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01") (at 220.98 64.77 0) (unit 1)
+  (symbol (lib_id "00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01") (at 220.98 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25208463-9ed3-4182-ba82-c157c0cb5aef)
-    (property "Reference" "SW4" (at 215.9 63.5 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "SW4" (at 223.52 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_PB_90deg_K2-1102AQ-H4CW-01" (at 220.98 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01" (at 220.98 57.15 0)
+    (property "Footprint" "00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01" (at 220.98 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf" (at 220.98 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "USR_BTN" (at 227.33 63.5 0)
+    (property "UserValue" "PB" (at 217.17 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "MFR" "Korean Hroparts" (at 220.98 78.74 0)
@@ -9324,7 +9326,7 @@
     (pin "1" (uuid ba1d3d62-0748-4417-b9e7-1a332fdc9b59))
     (pin "2" (uuid 60ccbd33-6f19-4990-ad1a-da4aa14364ff))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "SW4") (unit 1)
         )
@@ -9377,7 +9379,7 @@
     (pin "1" (uuid 0787c532-cbff-4aa2-bf42-a8d4aa5ac35e))
     (pin "2" (uuid 956a82e5-3194-4627-9423-5554ac4ca21e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C37") (unit 1)
         )
@@ -9430,7 +9432,7 @@
     (pin "1" (uuid 7dfbce6b-134a-4cfe-9ea6-178c86c7376c))
     (pin "2" (uuid 395fca8c-c1a8-4024-99cf-271bc52838f7))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R4") (unit 1)
         )
@@ -9455,7 +9457,7 @@
     )
     (pin "1" (uuid 07a181c2-9ac3-42b8-b990-bfb1c8ca04b4))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#FLG08") (unit 1)
         )
@@ -9505,7 +9507,7 @@
     (pin "1" (uuid d64df850-76ff-4c32-9e86-e7987794b794))
     (pin "2" (uuid f6e32798-9c2a-4671-83af-c3270962cd5b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R31") (unit 1)
         )
@@ -9530,7 +9532,7 @@
     )
     (pin "1" (uuid 0893e918-b196-4be2-a1ce-d837722b30c1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "H1") (unit 1)
         )
@@ -9555,7 +9557,7 @@
     )
     (pin "1" (uuid 2a9fc30d-04f1-4bf9-841d-e07146749061))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR091") (unit 1)
         )
@@ -9602,7 +9604,7 @@
     (pin "1" (uuid a8f39d13-71dd-455d-9e2a-c28ca25cdc6f))
     (pin "2" (uuid a7a7be57-60c0-4dbd-8a15-e76b8b82194f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D3") (unit 1)
         )
@@ -9627,7 +9629,7 @@
     )
     (pin "1" (uuid 38f9c8ee-6813-48b0-b60f-f861f902a6e9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR071") (unit 1)
         )
@@ -9652,7 +9654,7 @@
     )
     (pin "1" (uuid 90649c79-6b07-41d0-82af-9a77fff35c23))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0106") (unit 1)
         )
@@ -9677,7 +9679,7 @@
     )
     (pin "1" (uuid f50385b0-dac9-4303-aeb8-36a506a266f6))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR027") (unit 1)
         )
@@ -9685,13 +9687,13 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-timer-rtc:PCF85063AT_SO8") (at 104.14 173.99 0) (unit 1)
+  (symbol (lib_id "00-kiml-timer-rtc:PCF85063AT/AAZ") (at 104.14 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e437560-e8f0-4687-9e75-a5c0058481e4)
-    (property "Reference" "U3" (at 106.0959 162.56 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "U3" (at 115.57 161.29 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PCF85063AT_SO8" (at 104.14 143.51 0)
+    (property "Value" "PCF85063AT" (at 104.14 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 106.68 151.13 0)
@@ -9700,13 +9702,13 @@
     (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf" (at 104.14 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "PCF85063A" (at 106.0959 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "UserValue" "PCF85063A" (at 111.76 163.83 0)
+      (effects (font (size 1.27 1.27)))
     )
     (property "MFR" "NXP Semiconductors" (at 104.14 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "PCF85063ATL/1,118" (at 104.14 146.05 0)
+    (property "MPN" "PCF85063AT/AAZ" (at 104.14 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SPL1" "JLCPCB" (at 104.14 196.85 0)
@@ -9730,7 +9732,7 @@
     (pin "7" (uuid 8d0ad89d-5b28-4ba6-ab7c-0109769a2e59))
     (pin "8" (uuid 4141ffee-ce50-4c78-b10f-e92815f2f9a1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U3") (unit 1)
         )
@@ -9755,7 +9757,7 @@
     )
     (pin "1" (uuid 1917c7aa-a62a-4145-b398-15141181e3a9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR093") (unit 1)
         )
@@ -9780,7 +9782,7 @@
     )
     (pin "1" (uuid 2b12130b-a753-4f0f-824c-71aab43c649c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR056") (unit 1)
         )
@@ -9830,7 +9832,7 @@
     (pin "1" (uuid 625fba66-23e7-496b-ae7a-72efb47a391e))
     (pin "2" (uuid 48214ed2-1ae2-4447-9501-607c4972390f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R25") (unit 1)
         )
@@ -9883,7 +9885,7 @@
     (pin "1" (uuid 3c923115-4510-4ed1-994d-fa7c6b79a1ad))
     (pin "2" (uuid d6be14a7-9e4c-46a0-b27e-5a0b63ca7027))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C45") (unit 1)
         )
@@ -9908,7 +9910,7 @@
     )
     (pin "1" (uuid d57da485-9dbf-4a11-8902-ef5519744925))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR075") (unit 1)
         )
@@ -9933,7 +9935,7 @@
     )
     (pin "1" (uuid a7268e67-6863-4ea6-b0fb-db3cee1ae341))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR034") (unit 1)
         )
@@ -9983,7 +9985,7 @@
     (pin "1" (uuid c4094ea8-9ccd-47db-b2c7-8e3d063a8331))
     (pin "2" (uuid 45f248c4-8106-4cd3-bbd8-e7e8586233bf))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R13") (unit 1)
         )
@@ -10008,7 +10010,7 @@
     )
     (pin "1" (uuid c663e6ed-0d68-4c6f-8685-0385f1919aff))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR051") (unit 1)
         )
@@ -10033,7 +10035,7 @@
     )
     (pin "1" (uuid a2edbebb-6525-48c1-9126-4c75f9db9e8c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#FLG04") (unit 1)
         )
@@ -10086,7 +10088,7 @@
     (pin "1" (uuid 5c87daf2-250f-482d-af02-35cbb61c5fed))
     (pin "2" (uuid 630ea6a9-13bf-4c64-8e98-58ac6a2d01aa))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C23") (unit 1)
         )
@@ -10136,7 +10138,7 @@
     (pin "1" (uuid a118e286-d90c-47e4-af2f-ecbd2196e2db))
     (pin "2" (uuid 7540ba1a-0514-489e-8897-af7d21cd2c17))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R16") (unit 1)
         )
@@ -10161,7 +10163,7 @@
     )
     (pin "1" (uuid dc9c4126-5303-4313-9766-5518bcf4aa2e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP3") (unit 1)
         )
@@ -10217,7 +10219,7 @@
     (pin "1" (uuid bc22d74e-185a-4065-b346-78da79161e2e))
     (pin "2" (uuid 44707078-92fe-4ff8-9baa-3a94976d8f4b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R6") (unit 1)
         )
@@ -10242,7 +10244,7 @@
     )
     (pin "1" (uuid 4d19e398-d51a-481f-b18c-e82b40773eaf))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP18") (unit 1)
         )
@@ -10267,7 +10269,7 @@
     )
     (pin "1" (uuid 04e1a8aa-13de-4e9e-b392-43aa12e00f14))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR070") (unit 1)
         )
@@ -10320,7 +10322,7 @@
     (pin "1" (uuid 568de7fa-19bf-4a9c-b47a-8d08982a003e))
     (pin "2" (uuid e022fe70-5871-4c65-81b9-52f211025ba7))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C31") (unit 1)
         )
@@ -10345,7 +10347,7 @@
     )
     (pin "1" (uuid 30ed3386-5088-4d95-a90c-5f76ba5c8b6c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP10") (unit 1)
         )
@@ -10370,7 +10372,7 @@
     )
     (pin "1" (uuid 063168ac-86cb-4059-8b27-b61ff4ce02e2))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR063") (unit 1)
         )
@@ -10417,7 +10419,7 @@
     (pin "1" (uuid 193592a3-f2ef-4238-84ff-9a7703b9adca))
     (pin "2" (uuid ec72c0d5-36f6-4637-b808-5677ab344bdd))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D17") (unit 1)
         )
@@ -10470,7 +10472,7 @@
     (pin "1" (uuid b3b14037-c172-40f8-a888-49896f3d1562))
     (pin "2" (uuid 7756abd0-0333-40ec-b266-182cbda096bd))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C52") (unit 1)
         )
@@ -10495,7 +10497,7 @@
     )
     (pin "1" (uuid dbd13985-7150-4409-bc3e-4546e236c0ce))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR03") (unit 1)
         )
@@ -10520,7 +10522,7 @@
     )
     (pin "1" (uuid 34fe3541-3802-4b6b-9860-4ce87aa9eee0))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR037") (unit 1)
         )
@@ -10545,7 +10547,7 @@
     )
     (pin "1" (uuid 554ddaeb-e7dc-4908-a2e3-4e41ce0c9fe8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR057") (unit 1)
         )
@@ -10570,7 +10572,7 @@
     )
     (pin "1" (uuid 149d0c97-6ac7-4a4e-9db2-0063b7410d44))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0115") (unit 1)
         )
@@ -10623,7 +10625,7 @@
     (pin "1" (uuid 18548bd1-f819-4b0e-933b-ae6f2aba618a))
     (pin "2" (uuid bb1f77dc-0bfd-488c-ba0f-ab6e0b915c5d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C56") (unit 1)
         )
@@ -10679,7 +10681,7 @@
     (pin "1" (uuid 9303c071-9e8f-42ac-bc1d-1265e46a7091))
     (pin "2" (uuid 3d17a7c8-0c88-4898-9c2e-385db7fc8293))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C17") (unit 1)
         )
@@ -10732,7 +10734,7 @@
     (pin "1" (uuid 3266c936-1bf5-4165-9484-0a044afac73f))
     (pin "2" (uuid 94695550-8384-4077-8ba0-31749c0f43a0))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C36") (unit 1)
         )
@@ -10757,7 +10759,7 @@
     )
     (pin "1" (uuid 54d9e368-693b-4b95-bcba-afc69d64d1fa))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR019") (unit 1)
         )
@@ -10765,13 +10767,13 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-inductors:10u_SWPA4030S100MT") (at 185.42 101.6 90) (unit 1)
+  (symbol (lib_id "00-kiml-inductors:10u_1.5A_4x4mm_SWPA4030S100MT") (at 185.42 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bc0788c-1afc-4c95-9ba9-0f06aa06619b)
-    (property "Reference" "L3" (at 185.42 95.25 90)
+    (property "Reference" "L3" (at 185.42 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10u_SWPA4030S100MT" (at 171.45 101.6 0)
+    (property "Value" "10u_1.5A_4x4mm_SWPA4030S100MT" (at 171.45 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "00-kiml-inductor-smd:L_Sunlord_SWPA40xxS" (at 212.09 100.33 0)
@@ -10780,7 +10782,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S100MT_C38117.pdf" (at 156.21 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "10u" (at 185.42 97.79 90)
+    (property "UserValue" "10u" (at 185.42 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "MFR" "Sunlord" (at 163.83 101.6 0)
@@ -10801,13 +10803,13 @@
     (property "Rating" "1.5A" (at 166.37 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ESR" "130m" (at 168.91 101.6 0)
+    (property "DCR" "130m" (at 168.91 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c4667323-4cd9-4f67-9d11-1b3fa685fb6f))
     (pin "2" (uuid b9396548-3bb5-4601-a298-1b5956d00923))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "L3") (unit 1)
         )
@@ -10832,7 +10834,7 @@
     )
     (pin "1" (uuid 8f5b8473-20b9-43b2-9bfa-5ec23b399af7))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR048") (unit 1)
         )
@@ -10857,7 +10859,7 @@
     )
     (pin "1" (uuid 52f5135a-24f0-4005-aa31-34f2e22376d8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR085") (unit 1)
         )
@@ -10882,7 +10884,7 @@
     )
     (pin "1" (uuid f2bd8335-778e-4d79-91ca-a030d2613062))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR06") (unit 1)
         )
@@ -10907,7 +10909,7 @@
     )
     (pin "1" (uuid e5cc3048-7c35-4911-a63d-9dd7de9c3968))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP17") (unit 1)
         )
@@ -10955,7 +10957,7 @@
     (pin "2" (uuid 8cfa46ae-3e0b-4223-ad0f-d9baf558c543))
     (pin "3" (uuid 3661a9f0-65e2-4136-8407-fa52c0b1a7ac))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U6") (unit 1)
         )
@@ -10980,7 +10982,7 @@
     )
     (pin "1" (uuid 6b2b03a8-0e53-4833-818b-6ab70e7c515f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR094") (unit 1)
         )
@@ -11033,7 +11035,7 @@
     (pin "1" (uuid a7a7f24f-0223-46d6-821d-5f9461aaa7c7))
     (pin "2" (uuid 1f2f9939-0eaa-492c-a4d0-1d95346df343))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C4") (unit 1)
         )
@@ -11080,7 +11082,7 @@
     (pin "1" (uuid b203797f-0269-4795-8707-44e848a9878e))
     (pin "2" (uuid dea1008c-ac2b-4e66-8e2f-8f2287a48d96))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D4") (unit 1)
         )
@@ -11105,7 +11107,7 @@
     )
     (pin "1" (uuid cf9c0f1d-f5a0-4477-9f19-3997e0684b2a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR097") (unit 1)
         )
@@ -11158,7 +11160,7 @@
     (pin "1" (uuid 44cc6ebb-eac9-438f-9e62-d83ae8699240))
     (pin "2" (uuid 965aef7c-3513-4f83-b025-faf4502ce542))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C25") (unit 1)
         )
@@ -11208,7 +11210,7 @@
     (pin "1" (uuid c69bf5c1-f62a-4645-b086-f6a89b23f53e))
     (pin "2" (uuid 07d7da31-a828-4164-9461-35d6eec8152b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R1") (unit 1)
         )
@@ -11261,7 +11263,7 @@
     (pin "1" (uuid 0b99d534-3868-475f-96e8-26acb5e6fe69))
     (pin "2" (uuid f51b5af6-b55b-427e-912d-5cdc9fcca18f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C51") (unit 1)
         )
@@ -11269,13 +11271,13 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-74xGxx:SOT-23-6_SN74LVC1G373DBVR_TI") (at 139.7 201.93 0) (unit 1)
+  (symbol (lib_id "00-kiml-74xGxx:TI_SN74LVC1G373DBVR") (at 139.7 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 578a44dd-d116-4b3a-974b-c55c7e21f5e8)
-    (property "Reference" "U4" (at 144.78 191.77 0)
+    (property "Reference" "U4" (at 134.62 196.85 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SOT-23-6_SN74LVC1G373DBVR_TI" (at 139.7 185.42 0)
+    (property "Value" "TI_SN74LVC1G373DBVR" (at 139.7 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 139.7 191.77 0)
@@ -11284,7 +11286,7 @@
     (property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/sn74lvc1g373.pdf" (at 139.7 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "D-LATCH" (at 144.78 194.31 0)
+    (property "UserValue" "D-LATCH" (at 144.78 196.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "MFR" "Texas Instruments" (at 139.7 182.88 0)
@@ -11312,7 +11314,7 @@
     (pin "5" (uuid 91a4cfd6-ffb1-4f68-b504-14dd778fc34c))
     (pin "6" (uuid 01bb0c04-c966-40b3-9aa1-a41787b7d30e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U4") (unit 1)
         )
@@ -11365,7 +11367,7 @@
     (pin "1" (uuid 5efb2014-727d-460d-970e-a5f51d3b2145))
     (pin "2" (uuid 4d140d75-e7a4-49af-b96b-a7fbe991807a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C26") (unit 1)
         )
@@ -11415,7 +11417,7 @@
     (pin "1" (uuid b6ef6a14-1634-4ce1-a5fa-da6e728a41d6))
     (pin "2" (uuid e7178c3a-a834-430b-845c-f981277a834f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R21") (unit 1)
         )
@@ -11463,7 +11465,7 @@
     (pin "2" (uuid 95e9599f-02d5-4f57-b58c-6289f9d6bca3))
     (pin "3" (uuid 2c27bc1a-d80b-42cc-8327-dab62e4c11b1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U2") (unit 1)
         )
@@ -11488,7 +11490,7 @@
     )
     (pin "1" (uuid d574eeaf-9403-40ad-9980-10d225dbc977))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR069") (unit 1)
         )
@@ -11541,7 +11543,7 @@
     (pin "1" (uuid 16aa5eb1-f4db-43f6-a3b2-88a43060167a))
     (pin "2" (uuid ce87fa43-4f94-4533-aa63-10b3933b0d3c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C5") (unit 1)
         )
@@ -11566,7 +11568,7 @@
     )
     (pin "1" (uuid e0c446e4-6eb3-4369-a53d-96a68f9b25d2))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0100") (unit 1)
         )
@@ -11591,7 +11593,7 @@
     )
     (pin "1" (uuid 88da3286-3c00-4555-942e-932fecb9ffc4))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR039") (unit 1)
         )
@@ -11616,7 +11618,7 @@
     )
     (pin "1" (uuid 8815fb8d-f859-48c8-bd8c-d18efa073755))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR012") (unit 1)
         )
@@ -11641,7 +11643,7 @@
     )
     (pin "1" (uuid adc0d6d6-fa7a-404c-a8ad-663d01d47fca))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR029") (unit 1)
         )
@@ -11697,7 +11699,7 @@
     (pin "1" (uuid dbb00376-049f-4e46-9d3b-a5f2f0e12c46))
     (pin "2" (uuid 0c9a3130-c400-4e93-a048-c425bf1aca1e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R14") (unit 1)
         )
@@ -11747,7 +11749,7 @@
     (pin "1" (uuid 3c01385a-0c06-4b45-8b72-213791f99f2d))
     (pin "2" (uuid 293d6424-3987-47da-b26b-8be887759083))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R2") (unit 1)
         )
@@ -11772,7 +11774,7 @@
     )
     (pin "1" (uuid 29479963-e472-421a-b3ce-ce0f22f42953))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR042") (unit 1)
         )
@@ -11797,7 +11799,7 @@
     )
     (pin "1" (uuid dcab4e7b-d6b1-420e-b530-3167afca88b6))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR096") (unit 1)
         )
@@ -11822,7 +11824,7 @@
     )
     (pin "1" (uuid c0c57808-98da-440b-83ad-caaaaf0e4215))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0113") (unit 1)
         )
@@ -11848,7 +11850,7 @@
     (property "UserValue" "2N7002" (at 138.43 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "MFR" "Jiangsu" (at 127 142.24 0)
+    (property "MFR" "JCET" (at 127 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "2N7002" (at 133.35 147.32 0)
@@ -11870,7 +11872,7 @@
     (pin "2" (uuid ed6fc2fa-81b9-4a96-90c4-20679983a6d6))
     (pin "3" (uuid 292aa5fb-5614-4d7b-864c-a386661f6b2f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q5") (unit 1)
         )
@@ -11895,7 +11897,7 @@
     )
     (pin "1" (uuid 2a4f09a4-f15a-4c4e-9b91-97caa12a9681))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR058") (unit 1)
         )
@@ -11942,7 +11944,7 @@
     (pin "1" (uuid 47fb1a90-4ed9-4906-838c-9263cc1d6032))
     (pin "2" (uuid 2858f715-68c9-4202-99d4-2896d1ea779b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D16") (unit 1)
         )
@@ -11989,7 +11991,7 @@
     (pin "1" (uuid ba388044-72c8-4fca-907d-a73f34737dfc))
     (pin "2" (uuid decff685-1f36-48f6-be9f-0796cf6754dc))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D5") (unit 1)
         )
@@ -12014,7 +12016,7 @@
     )
     (pin "1" (uuid f56843eb-853d-43b9-ada5-0d22e0203291))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR074") (unit 1)
         )
@@ -12039,7 +12041,7 @@
     )
     (pin "1" (uuid 56e6187a-586d-4b49-9a74-0072454be944))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR025") (unit 1)
         )
@@ -12092,7 +12094,7 @@
     (pin "1" (uuid b5f5abf8-d727-4f1a-9f24-5b1d29f57f17))
     (pin "2" (uuid 55882ab7-2dfe-4a0b-9c76-d01523e612f1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C11") (unit 1)
         )
@@ -12145,7 +12147,7 @@
     (pin "1" (uuid 5b15d384-ef14-40ea-9a73-19149600cb25))
     (pin "2" (uuid ba448608-954b-4f6e-be74-9b2e1a7a950b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C27") (unit 1)
         )
@@ -12192,7 +12194,7 @@
     (pin "1" (uuid 8a5ce8b4-6029-4d74-a532-e4fea2f2fc18))
     (pin "2" (uuid 80299779-c356-4a1b-a3e5-9cb799d32168))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D7") (unit 1)
         )
@@ -12245,7 +12247,7 @@
     (pin "1" (uuid 853f7a0e-c8b4-464e-bc91-74e147f0a12e))
     (pin "2" (uuid 8ef552a6-1ae5-4afc-baba-dc372dde644d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C14") (unit 1)
         )
@@ -12270,7 +12272,7 @@
     )
     (pin "1" (uuid 1917788c-e4a7-40a4-a22e-6fd81fc7dd50))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP21") (unit 1)
         )
@@ -12295,7 +12297,7 @@
     )
     (pin "1" (uuid 433b73ee-e2ee-45eb-99fd-d72326ef176a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR089") (unit 1)
         )
@@ -12348,7 +12350,7 @@
     (pin "1" (uuid 0e7dae77-c1d7-4d14-95d8-f791811cd9fa))
     (pin "2" (uuid f120f66d-0b34-4bea-b714-9056e983d8b9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C40") (unit 1)
         )
@@ -12373,7 +12375,7 @@
     )
     (pin "1" (uuid e152a259-56a9-4908-a538-b1f1dd16b162))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR065") (unit 1)
         )
@@ -12398,7 +12400,7 @@
     )
     (pin "1" (uuid a099653c-bf78-4dc5-949d-31e996342d70))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR077") (unit 1)
         )
@@ -12423,7 +12425,7 @@
     )
     (pin "1" (uuid 08e24051-b014-4f29-bb84-a677487c7e4d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "H3") (unit 1)
         )
@@ -12476,7 +12478,7 @@
     (pin "1" (uuid e509e305-e0da-42de-ae02-dd6280f1e250))
     (pin "2" (uuid f27846df-4428-4f69-926f-adc786aefc94))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C43") (unit 1)
         )
@@ -12501,7 +12503,7 @@
     )
     (pin "1" (uuid 341e1820-f03b-4d1e-8dad-e2345831c467))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR02") (unit 1)
         )
@@ -12551,7 +12553,7 @@
     (pin "1" (uuid d7b243c9-6b4d-4a40-9b3f-2bb8bd3f1d63))
     (pin "2" (uuid 71734a46-2db8-4aa7-8245-694e396e4ead))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R9") (unit 1)
         )
@@ -12576,7 +12578,7 @@
     )
     (pin "1" (uuid 22b96f8f-114c-4fa6-a195-48ae2a63ced4))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR076") (unit 1)
         )
@@ -12601,7 +12603,7 @@
     )
     (pin "1" (uuid 45e3b0bd-d158-4855-97b7-8bfd4d5bb671))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR087") (unit 1)
         )
@@ -12609,11 +12611,11 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-button-switch-smd:SW_PB_TS-1187A-B-A-B") (at 220.98 54.61 0) (unit 1)
+  (symbol (lib_id "00-kiml-switch-button-smd:SW_PB_TS-1187A-B-A-B") (at 220.98 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 758743c8-5fe1-4dd3-8004-40df948d3cdb)
-    (property "Reference" "SW3" (at 215.9 53.34 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "SW3" (at 223.52 52.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_PB_TS-1187A-B-A-B" (at 220.98 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -12624,7 +12626,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf" (at 220.98 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "ESP_EN" (at 227.33 53.34 0)
+    (property "UserValue" "PB" (at 217.17 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "MFR" "XKB Connectivity" (at 220.98 68.58 0)
@@ -12648,7 +12650,7 @@
     (pin "1" (uuid ff850e54-4045-41d0-b3ca-635c3c06ed9a))
     (pin "2" (uuid 1cc4989e-77a0-4f50-b51f-f9d37409ee90))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "SW3") (unit 1)
         )
@@ -12698,7 +12700,7 @@
     (pin "1" (uuid 888c58d9-9c4b-4ae7-9b0f-20a0e8169601))
     (pin "2" (uuid 44bcb144-34a6-4250-924c-29f5b4c9d3b3))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R33") (unit 1)
         )
@@ -12723,7 +12725,7 @@
     )
     (pin "1" (uuid 8a3edb8f-57e9-47a5-a321-778a855e797e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR030") (unit 1)
         )
@@ -12748,7 +12750,7 @@
     )
     (pin "1" (uuid e0b7a88c-1851-4851-b660-ac32c960db15))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR024") (unit 1)
         )
@@ -12773,7 +12775,7 @@
     )
     (pin "1" (uuid df23d1f0-7c37-4a9d-a10e-863d269b71a9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR07") (unit 1)
         )
@@ -12823,7 +12825,7 @@
     (pin "1" (uuid 90085dee-58ee-43e6-bc66-df1de7628c16))
     (pin "2" (uuid d05fcd29-438c-415d-a7d9-16b8bf0f2726))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R3") (unit 1)
         )
@@ -12848,7 +12850,7 @@
     )
     (pin "1" (uuid 64c29380-a37d-4d80-8662-a23847e38a33))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR01") (unit 1)
         )
@@ -12873,7 +12875,7 @@
     )
     (pin "1" (uuid a7ace80c-551d-4843-ba17-c8f6f6c568c1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR073") (unit 1)
         )
@@ -12898,7 +12900,7 @@
     )
     (pin "1" (uuid ab881c45-79ff-4c85-8b41-e7863782b982))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR043") (unit 1)
         )
@@ -12923,7 +12925,7 @@
     )
     (pin "1" (uuid 6d362266-fcd9-4110-80b8-4aa6cd50a663))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR026") (unit 1)
         )
@@ -12948,7 +12950,7 @@
     )
     (pin "1" (uuid c0ee8422-2d5f-467e-9abd-8a29c9a9c6b9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR035") (unit 1)
         )
@@ -13001,7 +13003,7 @@
     (pin "1" (uuid b94e9f3f-6bf3-43fa-9882-9ae1ff4b167a))
     (pin "2" (uuid 60d8d12f-6ca9-4fc8-b667-ab8f2aa1327d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C38") (unit 1)
         )
@@ -13027,7 +13029,7 @@
     (property "UserValue" "2N7002" (at 189.23 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "MFR" "Jiangsu" (at 200.66 142.24 0)
+    (property "MFR" "JCET" (at 200.66 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "2N7002" (at 194.31 147.32 0)
@@ -13049,7 +13051,7 @@
     (pin "2" (uuid dce2bd6a-f69d-4666-8261-54af95123fdf))
     (pin "3" (uuid 8124d072-bf55-42f0-9ae8-0fadb420a3fb))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q10") (unit 1)
         )
@@ -13074,7 +13076,7 @@
     )
     (pin "1" (uuid db0ccbd0-6997-4e95-aa3a-652e3b531795))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0108") (unit 1)
         )
@@ -13099,7 +13101,7 @@
     )
     (pin "1" (uuid 0b9a8fd8-e102-4cce-a171-d97f3a339c47))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR016") (unit 1)
         )
@@ -13124,7 +13126,7 @@
     )
     (pin "1" (uuid cad94609-4a05-4000-a55a-7ea9cd438e85))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#FLG05") (unit 1)
         )
@@ -13150,7 +13152,7 @@
     (property "UserValue" "2N7002" (at 154.94 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "MFR" "Jiangsu" (at 144.78 142.24 0)
+    (property "MFR" "JCET" (at 144.78 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "2N7002" (at 151.13 147.32 0)
@@ -13172,7 +13174,7 @@
     (pin "2" (uuid 4c02aad4-59bf-4756-b0e7-46a8948156f4))
     (pin "3" (uuid fd5a56ce-c680-4fdf-90ce-13d4d7d630ed))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q7") (unit 1)
         )
@@ -13219,7 +13221,7 @@
     (pin "1" (uuid a1352608-47d6-4b15-a86c-5c4b4bd0d9cd))
     (pin "2" (uuid fec6a7a3-5892-46a8-b4f6-d270aa418f72))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D12") (unit 1)
         )
@@ -13244,7 +13246,7 @@
     )
     (pin "1" (uuid 8159a0b3-eaf7-445a-868b-ac8d41508032))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP14") (unit 1)
         )
@@ -13269,7 +13271,7 @@
     )
     (pin "1" (uuid 86af7025-522e-4ca1-9142-9676031e21a4))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR044") (unit 1)
         )
@@ -13316,7 +13318,7 @@
     (pin "1" (uuid b2646b15-9662-456b-ab11-09c64134134a))
     (pin "2" (uuid 26851d4e-b983-4662-bcb2-3893f9ed9fdf))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D14") (unit 1)
         )
@@ -13341,7 +13343,7 @@
     )
     (pin "1" (uuid 4a97c38a-e6a7-4968-b8a5-89c3661c74d8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0110") (unit 1)
         )
@@ -13388,7 +13390,7 @@
     (pin "1" (uuid 6989c75a-bae7-44e8-837f-d76a2f724d53))
     (pin "2" (uuid 1beb7dfd-bcd4-4df7-89ed-56c97cdee6d0))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D13") (unit 1)
         )
@@ -13441,7 +13443,7 @@
     (pin "1" (uuid 1728bf98-e54f-4e69-a071-2b202b91bc50))
     (pin "2" (uuid ef334e4e-6e4c-4d93-b838-73d746b96e17))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C28") (unit 1)
         )
@@ -13467,7 +13469,7 @@
     (pin "1" (uuid 26849a19-903d-442f-a207-99348e277aa4))
     (pin "2" (uuid 762b352d-30b4-42fa-a2b7-51d68812501c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "JP1") (unit 1)
         )
@@ -13492,7 +13494,7 @@
     )
     (pin "1" (uuid c671080f-78a5-44b9-a426-d9e4c0b90e09))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0114") (unit 1)
         )
@@ -13517,7 +13519,7 @@
     )
     (pin "1" (uuid 7a1a2c0f-5e5c-42d6-829f-264fa41f61ec))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR083") (unit 1)
         )
@@ -13570,7 +13572,7 @@
     (pin "1" (uuid b9d38b92-0fee-48f4-b65c-6d1073dd8ba2))
     (pin "2" (uuid 8669e0d1-d01c-46bc-9b45-f67c734592eb))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C42") (unit 1)
         )
@@ -13595,7 +13597,7 @@
     )
     (pin "1" (uuid 57c101b5-cdca-4fb8-987c-31a1cead91a3))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR040") (unit 1)
         )
@@ -13648,7 +13650,7 @@
     (pin "1" (uuid f1fd2e86-aab3-4339-ac99-ad819c3e5abd))
     (pin "2" (uuid bcd73c9f-98d7-4608-a774-718703b1eb3c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C41") (unit 1)
         )
@@ -13698,7 +13700,7 @@
     (pin "4" (uuid 5f99623d-a4b3-4bf0-81e5-82a8bf770899))
     (pin "5" (uuid 2abe4526-ca7e-422f-867b-c31588eaab10))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U5") (unit 1)
         )
@@ -13751,7 +13753,7 @@
     (pin "1" (uuid 4459d04b-56b7-4042-bda8-ac7a4bfdacf2))
     (pin "2" (uuid f8eaf453-1b05-4ca0-9442-195dce77078e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R28") (unit 1)
         )
@@ -13776,7 +13778,7 @@
     )
     (pin "1" (uuid e48f1b49-a4f6-4029-b488-06558d599094))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR052") (unit 1)
         )
@@ -13823,7 +13825,7 @@
     (pin "1" (uuid 29f71e79-94b8-4aa2-8a0f-7e595f19584a))
     (pin "2" (uuid ce7b00a8-9745-4219-8de0-a425f6cc3faa))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D2") (unit 1)
         )
@@ -13848,7 +13850,7 @@
     )
     (pin "1" (uuid 3e9ab9c2-fddb-41ea-bda0-b7678152d2e1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR098") (unit 1)
         )
@@ -13901,7 +13903,7 @@
     (pin "1" (uuid 9cdf7d94-811b-47ae-83da-ca2ff2710e65))
     (pin "2" (uuid 7fbce770-3333-46fd-ac82-3364709bd904))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C21") (unit 1)
         )
@@ -13948,7 +13950,7 @@
     (pin "1" (uuid b573afea-747c-4a28-ac9b-f5c509c15ea0))
     (pin "2" (uuid c131e97c-3962-4b23-99ef-fcd86102230d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D1") (unit 1)
         )
@@ -14001,7 +14003,7 @@
     (pin "1" (uuid 82ecf7ad-3f89-4e72-ab16-4596b4d2ebbb))
     (pin "2" (uuid d2a5d43d-79f2-4e51-88a4-fd400b5a117c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C13") (unit 1)
         )
@@ -14054,7 +14056,7 @@
     (pin "1" (uuid 44d902ca-9562-4da4-8036-b62008dee6f2))
     (pin "2" (uuid 8a742a61-1a6a-436e-927a-07a6ac6539ea))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C8") (unit 1)
         )
@@ -14080,7 +14082,7 @@
     (property "UserValue" "2N7002" (at 54.61 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "MFR" "Jiangsu" (at 87.63 165.1 0)
+    (property "MFR" "JCET" (at 87.63 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "2N7002" (at 82.55 158.75 0)
@@ -14102,7 +14104,7 @@
     (pin "2" (uuid 2f874ac0-f75f-4ab4-9166-f7418c5f4f75))
     (pin "3" (uuid fa304753-9ab4-42db-aa26-10bf8fa98057))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q1") (unit 1)
         )
@@ -14127,7 +14129,7 @@
     )
     (pin "1" (uuid e06768f7-ecf1-4f2a-9a92-1afeedf08ac9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR055") (unit 1)
         )
@@ -14152,7 +14154,7 @@
     )
     (pin "1" (uuid 6244c98d-f3d1-4294-840d-3f2e7c82ed5a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR059") (unit 1)
         )
@@ -14196,10 +14198,13 @@
     (property "SNB1" "Basic Part" (at 340.36 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Rating" "1A" (at 340.36 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0d9af642-fe3d-4d77-8137-248d3b63e973))
     (pin "2" (uuid 1ffaa2f9-90f4-41ff-a387-3496d5a39318))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D8") (unit 1)
         )
@@ -14237,7 +14242,7 @@
     (property "SPN1" "C364577" (at 388.62 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LNK1" "https://lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-308ALS-01_C492382.html" (at 384.81 261.62 0)
+    (property "LNK1" "https://www.lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-303ALS-01_C364577.html" (at 384.81 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SNB1" "Extended Part" (at 388.62 264.16 0)
@@ -14250,7 +14255,7 @@
     (pin "5" (uuid 7ae6f996-efea-469e-ac78-39d1254cc6ed))
     (pin "6" (uuid 5ebc5635-8496-4c2d-be38-8a493e51471b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U12") (unit 1)
         )
@@ -14306,7 +14311,7 @@
     (pin "1" (uuid 695b11d4-e9c6-4829-9c66-df75bba0eb83))
     (pin "2" (uuid 6a5fd29b-c85c-4694-b57e-2cc321251791))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R7") (unit 1)
         )
@@ -14359,7 +14364,7 @@
     (pin "1" (uuid 8c885b3a-00bd-497a-8c87-fc0c3d3d0c1f))
     (pin "2" (uuid 2eb09d57-693b-41a3-b4bb-5a19e96225f4))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C46") (unit 1)
         )
@@ -14412,7 +14417,7 @@
     (pin "1" (uuid 30af7f10-b5db-457e-b46a-bceb3b2c4345))
     (pin "2" (uuid be64f34d-6aa0-4158-b0f4-c6cca73c72f6))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C57") (unit 1)
         )
@@ -14465,7 +14470,7 @@
     (pin "1" (uuid 8d0a5c13-b0f9-4372-9334-938d6dc280ea))
     (pin "2" (uuid c41ecdd0-d094-4307-985c-db04149c6d53))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C9") (unit 1)
         )
@@ -14490,7 +14495,7 @@
     )
     (pin "1" (uuid a36ed237-de51-4b46-8169-0d4ce49974ed))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR031") (unit 1)
         )
@@ -14515,7 +14520,7 @@
     )
     (pin "1" (uuid f77bc994-a269-4477-ab59-c21df9946b6a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP9") (unit 1)
         )
@@ -14540,7 +14545,7 @@
     )
     (pin "1" (uuid 984bee82-b678-48a4-ae08-81e710958a66))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR050") (unit 1)
         )
@@ -14590,7 +14595,7 @@
     (pin "1" (uuid 85f3a39e-2523-47a0-ba40-ccae0dbe36d7))
     (pin "2" (uuid 03929114-8ce9-4e18-952d-3a453bea7cda))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R24") (unit 1)
         )
@@ -14640,7 +14645,7 @@
     (pin "1" (uuid 5b002230-6e1f-4bd5-b757-facf62e52b46))
     (pin "2" (uuid 1a0cbfc6-3bf8-4bb7-bc74-b07383184fc3))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R8") (unit 1)
         )
@@ -14696,7 +14701,7 @@
     (pin "1" (uuid d2a46422-c898-49cd-994f-0b7ceaabb5d3))
     (pin "2" (uuid 6f8129de-d124-4f09-a312-45f6e1955763))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R26") (unit 1)
         )
@@ -14749,7 +14754,7 @@
     (pin "1" (uuid 67d9a058-f069-40a1-9e3a-8dba9b109335))
     (pin "2" (uuid 02c05dd1-9a6e-489b-b0d2-3b39f0a37e5c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C3") (unit 1)
         )
@@ -14802,7 +14807,7 @@
     (pin "1" (uuid 9ca8b8a2-cd24-4820-88dc-975a0f19c0a1))
     (pin "2" (uuid 78ba8845-8230-4fa1-b574-26db9e3b0be7))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C7") (unit 1)
         )
@@ -14850,7 +14855,7 @@
     (pin "2" (uuid 82baafe4-6dc1-478f-9e17-52e94684c8ae))
     (pin "3" (uuid b272b9b2-30c2-4b38-98b9-c4b61b07e5df))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U7") (unit 1)
         )
@@ -14875,7 +14880,7 @@
     )
     (pin "1" (uuid a6e6ccf1-7087-440d-b7a9-ec2f530a574d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP16") (unit 1)
         )
@@ -14900,7 +14905,7 @@
     )
     (pin "1" (uuid b1f61f8a-b3a5-4af8-9151-eb462e6e506e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR062") (unit 1)
         )
@@ -14908,13 +14913,13 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-inductors:10u_SWPA4030S100MT") (at 328.93 194.31 90) (unit 1)
+  (symbol (lib_id "00-kiml-inductors:10u_1.5A_4x4mm_SWPA4030S100MT") (at 328.93 194.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a54c5c45-d85e-49b0-8515-7699fb2a58be)
-    (property "Reference" "L5" (at 328.93 187.96 90)
+    (property "Reference" "L5" (at 328.93 189.23 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10u_SWPA4030S100MT" (at 314.96 194.31 0)
+    (property "Value" "10u_1.5A_4x4mm_SWPA4030S100MT" (at 314.96 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "00-kiml-inductor-smd:L_Sunlord_SWPA40xxS" (at 355.6 193.04 0)
@@ -14923,7 +14928,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S100MT_C38117.pdf" (at 299.72 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "10u" (at 328.93 190.5 90)
+    (property "UserValue" "10u" (at 328.93 191.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "MFR" "Sunlord" (at 307.34 194.31 0)
@@ -14944,13 +14949,13 @@
     (property "Rating" "1.5A" (at 309.88 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ESR" "130m" (at 312.42 194.31 0)
+    (property "DCR" "130m" (at 312.42 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a7c84e6d-e7bc-4425-a7a5-0780b5cea0e4))
     (pin "2" (uuid 09d070a6-073c-4cf3-8a9c-8c22e39b18ba))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "L5") (unit 1)
         )
@@ -14975,7 +14980,7 @@
     )
     (pin "1" (uuid 8fb3ea42-d2ea-4dcd-90a4-0ec48849a238))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#FLG07") (unit 1)
         )
@@ -15035,7 +15040,7 @@
     (pin "5" (uuid ad7ed12e-9df2-4fd8-8538-f445c57a9258))
     (pin "6" (uuid 7f2b4034-3306-4608-8312-32841972b18b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U9") (unit 1)
         )
@@ -15060,7 +15065,7 @@
     )
     (pin "1" (uuid 276b78c6-f9bd-48a9-8b5b-8a4b42e4ccd5))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#FLG03") (unit 1)
         )
@@ -15085,7 +15090,7 @@
     )
     (pin "1" (uuid 9fb86630-fd15-497b-9b0d-935845669f2b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR072") (unit 1)
         )
@@ -15110,7 +15115,7 @@
     )
     (pin "1" (uuid 8f1099d8-e245-4d47-8a54-1a3bcf889571))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR014") (unit 1)
         )
@@ -15135,7 +15140,7 @@
     )
     (pin "1" (uuid 8c106534-87a7-4c56-9d31-7dd7c0052453))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP19") (unit 1)
         )
@@ -15188,7 +15193,7 @@
     (pin "1" (uuid bda965f5-2e90-4546-b0bb-baced868d897))
     (pin "2" (uuid 847b292b-3f12-4b87-a8ee-0a470aed3ce6))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C44") (unit 1)
         )
@@ -15250,7 +15255,7 @@
     (pin "B9" (uuid 6174d2c8-2061-45e4-8e07-aff255a3ae0d))
     (pin "S1" (uuid b949a951-109d-4064-a9fc-bf054c3e4f04))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "J2") (unit 1)
         )
@@ -15275,7 +15280,7 @@
     )
     (pin "1" (uuid d3d645a1-7304-46c4-bf6f-fde3866e863e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0109") (unit 1)
         )
@@ -15300,7 +15305,7 @@
     )
     (pin "1" (uuid a95034a8-4758-49b4-99ed-77076abbb843))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR028") (unit 1)
         )
@@ -15325,7 +15330,7 @@
     )
     (pin "1" (uuid bcf6b743-b6e4-4534-8abe-1212e8c8b291))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR036") (unit 1)
         )
@@ -15381,7 +15386,7 @@
     (pin "1" (uuid 0e1e5286-55c8-476a-ba6b-232a63e1ac18))
     (pin "2" (uuid 01cced41-b0b0-492f-b710-96bcb8a2eb55))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R10") (unit 1)
         )
@@ -15434,7 +15439,7 @@
     (pin "1" (uuid 25356734-4b4e-444a-abf3-e6e1a4dd69a8))
     (pin "2" (uuid 85a4ea11-c47a-4d07-9b7c-d486b14cdd4a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C22") (unit 1)
         )
@@ -15459,7 +15464,7 @@
     )
     (pin "1" (uuid 36b5f6aa-79d4-41d0-be53-08b7593f6412))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0107") (unit 1)
         )
@@ -15512,7 +15517,7 @@
     (pin "1" (uuid 613867b8-910c-4621-b043-2081aec05518))
     (pin "2" (uuid f1b58c42-b64f-4fe8-93b0-7f7efe5fc0f0))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C50") (unit 1)
         )
@@ -15537,7 +15542,7 @@
     )
     (pin "1" (uuid 59bf0267-858a-42bc-8955-56f0c6da950e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR068") (unit 1)
         )
@@ -15562,7 +15567,7 @@
     )
     (pin "1" (uuid 9e5cbaac-d2dc-4892-a6b2-85880b2ddf32))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP23") (unit 1)
         )
@@ -15615,7 +15620,7 @@
     (pin "1" (uuid fb9d942e-538c-426f-a049-c5d162a15485))
     (pin "2" (uuid 30f57030-7afd-42a5-8e0d-7430e34ae115))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C19") (unit 1)
         )
@@ -15649,7 +15654,7 @@
     (pin "8" (uuid a84af959-89d3-4df3-afb6-1b06354c4f00))
     (pin "9" (uuid c5e4a2e6-a19e-4a79-b094-d493c2ab665b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "J3") (unit 1)
         )
@@ -15702,7 +15707,7 @@
     (pin "1" (uuid 0e61cb6a-463f-42f4-8473-c71aaa8e21f7))
     (pin "2" (uuid 1ffc5024-4b8e-4c90-854d-f95bea7b0309))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C1") (unit 1)
         )
@@ -15749,7 +15754,7 @@
     (pin "1" (uuid c7675f0b-5005-4c64-ab1f-8224ae13e805))
     (pin "2" (uuid 0ecd653f-86ad-4c0a-8e40-5210222ec6d8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D10") (unit 1)
         )
@@ -15802,7 +15807,7 @@
     (pin "1" (uuid eed10828-8c67-4bc0-96f7-59118499623e))
     (pin "2" (uuid 74267921-5246-47b4-82ed-974dfa06919c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C54") (unit 1)
         )
@@ -15849,7 +15854,7 @@
     (pin "1" (uuid 0d198e12-330c-41ab-83ca-0ac4880e7a8c))
     (pin "2" (uuid dcb1cc47-f5ac-48ff-bb06-0af8260eb9bd))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D9") (unit 1)
         )
@@ -15902,7 +15907,7 @@
     (pin "1" (uuid b59cfbd9-642d-4ffa-8202-c8a1e1622079))
     (pin "2" (uuid bafa845c-5e4c-4a72-b375-65ddfc2e20b6))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C15") (unit 1)
         )
@@ -15949,7 +15954,7 @@
     (pin "1" (uuid edd7f67b-d3ba-4e43-a3d3-80113e6ac977))
     (pin "2" (uuid d4d07ad5-f991-4cbc-8551-1e7fb7163f71))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "J1") (unit 1)
         )
@@ -16011,7 +16016,7 @@
     (pin "8" (uuid 314ecb5c-ee84-447a-940a-3abcb8f560f5))
     (pin "9" (uuid f6a863ca-32ae-4f7b-a494-9b4fc6f9ff37))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "J4") (unit 1)
         )
@@ -16036,7 +16041,7 @@
     )
     (pin "1" (uuid b227b215-7976-4efd-ab8a-68eb33106a6e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP11") (unit 1)
         )
@@ -16089,7 +16094,7 @@
     (pin "1" (uuid 06e6e7d2-a86f-4ed7-ae72-940fd57ddb06))
     (pin "2" (uuid 3dc75b6d-1cde-4d26-a321-39cdefc6edea))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C33") (unit 1)
         )
@@ -16114,7 +16119,7 @@
     )
     (pin "1" (uuid 3b3d9ee0-d650-4b62-85e1-7559bc175c21))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR015") (unit 1)
         )
@@ -16139,7 +16144,7 @@
     )
     (pin "1" (uuid dc40425f-3c06-4cb7-bc54-5e842b661148))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR066") (unit 1)
         )
@@ -16164,7 +16169,7 @@
     )
     (pin "1" (uuid ff719656-3236-4c69-bf02-990dfc62cbb8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR079") (unit 1)
         )
@@ -16217,7 +16222,7 @@
     (pin "1" (uuid 701eb1a3-510b-4eb8-a2da-d8626051bec8))
     (pin "2" (uuid 420c627a-80f9-4e6c-bc8f-d5085290c00e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C53") (unit 1)
         )
@@ -16242,7 +16247,7 @@
     )
     (pin "1" (uuid 3f6aae88-13d6-416c-97b1-5669e6f3c892))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0102") (unit 1)
         )
@@ -16267,7 +16272,7 @@
     )
     (pin "1" (uuid 2aad45ce-fe2f-4c29-bfdf-ee9187527acb))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#FLG06") (unit 1)
         )
@@ -16292,7 +16297,7 @@
     )
     (pin "1" (uuid b88293cc-e84d-4e2c-8f00-6815028c0a7d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR020") (unit 1)
         )
@@ -16345,7 +16350,7 @@
     (pin "1" (uuid 28611143-6090-40a5-85c5-62dd297175ce))
     (pin "2" (uuid e4c8faeb-ccf3-4edf-bd25-76896787091a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C32") (unit 1)
         )
@@ -16370,7 +16375,7 @@
     )
     (pin "1" (uuid bc5960e6-cfdf-450b-b485-6d9be6165aea))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR041") (unit 1)
         )
@@ -16423,7 +16428,7 @@
     (pin "1" (uuid 9a17f877-74e3-46f4-bccf-38986bbe2571))
     (pin "2" (uuid 5de9b9f7-d561-4515-bc80-eb5d8f1bfa8e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C29") (unit 1)
         )
@@ -16448,7 +16453,7 @@
     )
     (pin "1" (uuid 07ca7fda-d1ba-4ae7-a5e7-dd167272aa1d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR082") (unit 1)
         )
@@ -16501,7 +16506,7 @@
     (pin "1" (uuid 095b884c-d38f-4732-9f99-24432f977e60))
     (pin "2" (uuid d9a613ff-4a5d-47ca-a9be-7feabbeaf212))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C2") (unit 1)
         )
@@ -16526,7 +16531,7 @@
     )
     (pin "1" (uuid 81da0149-cd99-496f-9382-934c8f14f7bc))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR078") (unit 1)
         )
@@ -16579,7 +16584,7 @@
     (pin "1" (uuid 546fcd48-fe27-4c2c-8449-5d7fa94a21ee))
     (pin "2" (uuid 959e7b97-869a-46d9-9288-f2df57944c23))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C39") (unit 1)
         )
@@ -16587,25 +16592,25 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-inductors:0805_FB_220R@100MHz_BLM21PG221SN1D") (at 73.66 43.18 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "00-kiml-inductors:FB_2A_0805_220R@100MHz_BLM21PG221SN1D") (at 73.66 43.18 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce882202-f146-45d5-94a5-3ac1355b8ba0)
-    (property "Reference" "L1" (at 73.66 40.64 90)
+    (property "Reference" "L1" (at 73.66 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0805_FB_220R@100MHz_BLM21PG221SN1D" (at 59.69 43.18 0)
+    (property "Value" "FB_2A_0805_220R@100MHz_BLM21PG221SN1D" (at 58.42 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 100.33 41.91 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 55.88 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 73.66 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "Bead" (at 73.66 44.45 90)
+    (property "UserValue" "FB" (at 73.66 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "MFR" "Murata Electronics" (at 92.71 43.18 0)
+    (property "MFR" "Murata Electronics" (at 53.34 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "BLM21PG221SN1D" (at 102.87 43.18 0)
@@ -16620,13 +16625,13 @@
     (property "LNK1" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840" (at 105.41 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Rating" "2A" (at 107.95 43.18 0)
+    (property "Rating" "2A" (at 73.66 36.83 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3711552a-d879-4104-b1a0-f58a4cfe6c42))
     (pin "2" (uuid 693f805c-cc9a-45c6-b176-6f0843c02f2d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "L1") (unit 1)
         )
@@ -16651,7 +16656,7 @@
     )
     (pin "1" (uuid ed79fe01-3a9f-4682-97b3-fce000eafc88))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR011") (unit 1)
         )
@@ -16676,7 +16681,7 @@
     )
     (pin "1" (uuid 844dcbb6-e5a7-4420-b626-1f3d7c3b8d76))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR045") (unit 1)
         )
@@ -16701,7 +16706,7 @@
     )
     (pin "1" (uuid 4efce961-d676-4cb5-91b2-48f6dc349446))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR080") (unit 1)
         )
@@ -16754,7 +16759,7 @@
     (pin "1" (uuid 78cacfb7-f4ba-43e1-a6a9-72162057c65b))
     (pin "2" (uuid ccb29c76-c1e0-4ec6-a687-f1dc8880e8ad))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C34") (unit 1)
         )
@@ -16779,7 +16784,7 @@
     )
     (pin "1" (uuid 17a2fd40-96c2-4739-9eef-371bd22c9cc8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR067") (unit 1)
         )
@@ -16848,7 +16853,7 @@
     (pin "8" (uuid 7421c5c1-2469-408b-bdf6-271167882865))
     (pin "9" (uuid ac990067-d88c-4a66-9261-1a7d61126867))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "J6") (unit 1)
         )
@@ -16873,7 +16878,7 @@
     )
     (pin "1" (uuid aaaa5312-c981-4ec5-905a-7281b49e4c87))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP15") (unit 1)
         )
@@ -16898,7 +16903,7 @@
     )
     (pin "1" (uuid 253f347d-6416-4627-9e8c-480b0927eff6))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP5") (unit 1)
         )
@@ -16954,7 +16959,7 @@
     (pin "1" (uuid d02244ec-1418-4700-a941-567685efc848))
     (pin "2" (uuid 3c7d2779-bff8-430c-8dcc-f59fb1e09372))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R27") (unit 1)
         )
@@ -16979,7 +16984,7 @@
     )
     (pin "1" (uuid 9e879c28-56ec-4533-9d2b-6214a996e42c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0111") (unit 1)
         )
@@ -17004,7 +17009,7 @@
     )
     (pin "1" (uuid 042e2742-3d5b-47f2-8066-5ec39dbd1040))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR023") (unit 1)
         )
@@ -17061,7 +17066,7 @@
     (pin "2" (uuid 735a7bf2-adce-4cd6-8db8-04c0402855bc))
     (pin "3" (uuid 211cdae7-61fb-4cd6-a70b-cb8e29595f20))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q4") (unit 1)
         )
@@ -17069,22 +17074,22 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01") (at 176.53 160.02 270) (unit 1)
+  (symbol (lib_id "00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01") (at 176.53 160.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da03128e-5bbd-4499-a632-18e9f377ba50)
-    (property "Reference" "SW1" (at 180.34 159.385 90)
+    (property "Reference" "SW1" (at 180.34 158.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_PB_90deg_K2-1102AQ-H4CW-01" (at 172.72 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01" (at 184.15 160.02 0)
+    (property "Footprint" "00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01" (at 184.15 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf" (at 181.61 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "PWRON" (at 180.34 161.925 90)
+    (property "UserValue" "PB" (at 180.34 161.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "MFR" "Korean Hroparts" (at 162.56 160.02 0)
@@ -17108,7 +17113,7 @@
     (pin "1" (uuid dccc5e63-76f7-4901-b05b-670508e048db))
     (pin "2" (uuid f4c3b108-c433-4849-a617-40db1be21ee3))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "SW1") (unit 1)
         )
@@ -17164,7 +17169,7 @@
     (pin "1" (uuid b698f459-a74f-4b63-8136-35532c8c1887))
     (pin "2" (uuid 01ab1f81-66ee-442e-88c4-ed4c45b26a0c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C48") (unit 1)
         )
@@ -17189,7 +17194,7 @@
     )
     (pin "1" (uuid 284db5b4-079a-4f2b-9ab5-a3e2397231d7))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR049") (unit 1)
         )
@@ -17239,7 +17244,7 @@
     (pin "1" (uuid d51d0e1d-94cf-46b3-bc59-d418bf47c66c))
     (pin "2" (uuid 027355ea-5712-42d1-ab71-4f3ed624b823))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R18") (unit 1)
         )
@@ -17264,7 +17269,7 @@
     )
     (pin "1" (uuid 26122dad-f9ed-48ac-b7b6-e3d2a81e8278))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR021") (unit 1)
         )
@@ -17289,7 +17294,7 @@
     )
     (pin "1" (uuid a331b5e9-e9ee-4bf7-bdbb-1c218060e8ec))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#FLG02") (unit 1)
         )
@@ -17339,7 +17344,7 @@
     (pin "1" (uuid 8b2d137d-3610-40a6-8c24-5424c919e539))
     (pin "2" (uuid e2366756-2376-4272-b95d-84dc3f137735))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R17") (unit 1)
         )
@@ -17364,7 +17369,7 @@
     )
     (pin "1" (uuid 092bf03e-2fe0-4a96-b033-25406265a49a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR054") (unit 1)
         )
@@ -17421,7 +17426,7 @@
     (pin "2" (uuid c5f311f6-5dbe-41f7-917c-60381220e5c3))
     (pin "3" (uuid 40151007-6dbe-450d-a4f7-944a72432ec7))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q3") (unit 1)
         )
@@ -17447,7 +17452,7 @@
     (property "UserValue" "2N7002" (at 54.61 171.45 90)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "MFR" "Jiangsu" (at 87.63 179.07 0)
+    (property "MFR" "JCET" (at 87.63 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "2N7002" (at 82.55 172.72 0)
@@ -17469,7 +17474,7 @@
     (pin "2" (uuid 6205b77e-9caf-43c7-8767-106126a9c9ce))
     (pin "3" (uuid 5ab6c117-21c5-4845-b295-287a7f5ce706))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q2") (unit 1)
         )
@@ -17519,7 +17524,7 @@
     (pin "1" (uuid 10fc035d-227a-4b17-a3e3-c1b4e870696a))
     (pin "2" (uuid 7685bae3-4957-4790-9159-fcd879bce801))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R23") (unit 1)
         )
@@ -17570,7 +17575,7 @@
     (pin "5" (uuid d55e0465-4b97-4424-a09c-c9fd6d4bcf79))
     (pin "6" (uuid 192c9240-936c-4391-8f66-374f764f6178))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U1") (unit 1)
         )
@@ -17595,7 +17600,7 @@
     )
     (pin "1" (uuid 216af251-d900-4abc-afba-3ac59e3c7a21))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR099") (unit 1)
         )
@@ -17648,7 +17653,7 @@
     (pin "1" (uuid 70d8af58-c8e6-4e28-96c3-e84109e9589b))
     (pin "2" (uuid 8317f297-dca3-4f97-93ba-d07efdd2e88a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C49") (unit 1)
         )
@@ -17701,7 +17706,7 @@
     (pin "1" (uuid d324b868-189d-4171-87a5-c99524259418))
     (pin "2" (uuid 6ce81ce0-1435-485a-a055-8676339650fb))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R5") (unit 1)
         )
@@ -17757,7 +17762,7 @@
     (pin "1" (uuid 11d22114-f0a3-4662-afa1-a91c87436577))
     (pin "2" (uuid 45f78065-8a12-4e16-9908-dd7cb8590ba9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R20") (unit 1)
         )
@@ -17782,7 +17787,7 @@
     )
     (pin "1" (uuid 80e9430f-2397-4aa5-a6e6-4c7b5ad0f627))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR038") (unit 1)
         )
@@ -17807,7 +17812,7 @@
     )
     (pin "1" (uuid 97c243bb-6c43-4454-a049-71c68ea3366d))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP13") (unit 1)
         )
@@ -17832,7 +17837,7 @@
     )
     (pin "1" (uuid 387f28ed-37f9-419c-998b-ebf4faedc49c))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR022") (unit 1)
         )
@@ -17857,7 +17862,7 @@
     )
     (pin "1" (uuid 05ea3433-b9ec-402e-95ab-381d70d6af1a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR09") (unit 1)
         )
@@ -17882,7 +17887,7 @@
     )
     (pin "1" (uuid 9a15fb51-91fc-40d3-8794-8f4a64b56a95))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP22") (unit 1)
         )
@@ -17890,25 +17895,25 @@
     )
   )
 
-  (symbol (lib_id "00-kiml-inductors:0805_FB_220R@100MHz_BLM21PG221SN1D") (at 231.14 135.89 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "00-kiml-inductors:FB_2A_0805_220R@100MHz_BLM21PG221SN1D") (at 231.14 135.89 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0f916f5-ea48-4df5-b653-b3b2d736753e)
-    (property "Reference" "L4" (at 231.14 130.81 90)
+    (property "Reference" "L4" (at 231.14 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0805_FB_220R@100MHz_BLM21PG221SN1D" (at 217.17 135.89 0)
+    (property "Value" "FB_2A_0805_220R@100MHz_BLM21PG221SN1D" (at 215.9 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 257.81 134.62 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 213.36 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.14 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "Bead" (at 231.14 133.35 90)
+    (property "UserValue" "FB" (at 231.14 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "MFR" "Murata Electronics" (at 250.19 135.89 0)
+    (property "MFR" "Murata Electronics" (at 210.82 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "BLM21PG221SN1D" (at 260.35 135.89 0)
@@ -17923,13 +17928,13 @@
     (property "LNK1" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840" (at 262.89 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Rating" "2A" (at 265.43 135.89 0)
+    (property "Rating" "2A" (at 231.14 129.54 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 48c2cc00-1541-40f2-ae8b-d4166f19fb5b))
     (pin "2" (uuid d7613ec0-9d89-4933-99de-0303ff7bec0f))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "L4") (unit 1)
         )
@@ -17976,7 +17981,7 @@
     (pin "1" (uuid 43118a68-f955-45ad-82c2-c85db344a749))
     (pin "2" (uuid 19792569-c0cc-4d64-b47a-b75bf9fd2755))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D11") (unit 1)
         )
@@ -18020,10 +18025,13 @@
     (property "SNB1" "Basic Part" (at 120.65 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Rating" "1A" (at 120.65 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid eca84497-36d2-4ea6-93ad-6d0e5053cc0a))
     (pin "2" (uuid a970dbfb-1f03-4065-af7c-5202f68f5fb1))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D6") (unit 1)
         )
@@ -18076,7 +18084,7 @@
     (pin "1" (uuid d7d98fc3-ed44-4192-a8a1-2d628bf6b7df))
     (pin "2" (uuid 550bd22a-51a3-4cda-a36b-334361ec5132))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C35") (unit 1)
         )
@@ -18101,7 +18109,7 @@
     )
     (pin "1" (uuid 682e6f04-e377-4d29-9efa-7a9893b436d9))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR018") (unit 1)
         )
@@ -18126,7 +18134,7 @@
     )
     (pin "1" (uuid 73150991-d248-4154-91f1-9626f50656fb))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "H2") (unit 1)
         )
@@ -18152,7 +18160,7 @@
     (property "UserValue" "2N7002" (at 175.26 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "MFR" "Jiangsu" (at 165.1 142.24 0)
+    (property "MFR" "JCET" (at 165.1 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "2N7002" (at 171.45 147.32 0)
@@ -18174,7 +18182,7 @@
     (pin "2" (uuid fcbce441-976f-4e5f-8ce2-b5e0b9bd06a0))
     (pin "3" (uuid f7666c36-a043-48c9-a4c1-9b267229aeef))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "Q9") (unit 1)
         )
@@ -18227,7 +18235,7 @@
     (pin "1" (uuid 9bac44ea-6a5e-42ec-810e-a5caca29bcf8))
     (pin "2" (uuid 7fd7337b-4d42-4724-b8fd-f227ed21d3b4))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C30") (unit 1)
         )
@@ -18252,7 +18260,7 @@
     )
     (pin "1" (uuid fd3b56e5-a5e0-4aae-a15f-865496596587))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR0103") (unit 1)
         )
@@ -18277,7 +18285,7 @@
     )
     (pin "1" (uuid 0b07bb0f-be1e-4e78-819e-2648d734f960))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR084") (unit 1)
         )
@@ -18303,7 +18311,7 @@
     (pin "1" (uuid a8eb9336-1483-4763-b5f8-a6a118ff3c30))
     (pin "2" (uuid bdc9b5d7-ad49-4eea-babb-f5f4b87684be))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "JP2") (unit 1)
         )
@@ -18328,7 +18336,7 @@
     )
     (pin "1" (uuid 3a16f8af-6d53-4dc7-a260-4b9c2767dc5a))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR04") (unit 1)
         )
@@ -18353,7 +18361,7 @@
     )
     (pin "1" (uuid 7b0afbd1-fdf6-4b4e-af90-befb10c41ec7))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "TP12") (unit 1)
         )
@@ -18406,7 +18414,7 @@
     (pin "1" (uuid 2f2495bb-2dd8-483f-8470-4695abbb7f31))
     (pin "2" (uuid c511be18-050f-43dd-a81e-4ff2770937e8))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C6") (unit 1)
         )
@@ -18431,7 +18439,7 @@
     )
     (pin "1" (uuid 39192295-82a0-4cb0-b58c-30a97fef5875))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR032") (unit 1)
         )
@@ -18482,7 +18490,7 @@
     (pin "5" (uuid 27d66788-d633-4ac7-b73e-d842fb1dad79))
     (pin "6" (uuid 4d25fe3d-d096-4562-99d0-b1e6cfb9be8e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "U11") (unit 1)
         )
@@ -18535,7 +18543,7 @@
     (pin "1" (uuid 71d777b3-8365-4d07-98a3-e7be6f88f11f))
     (pin "2" (uuid 0bb6d4aa-9bf9-4d7b-907b-6183a5326150))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C16") (unit 1)
         )
@@ -18588,7 +18596,7 @@
     (pin "1" (uuid cb84fd85-5823-4322-b1ff-e119d920a3db))
     (pin "2" (uuid 8cdec35e-6444-4f5c-b961-131f6eefd649))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C55") (unit 1)
         )
@@ -18641,7 +18649,7 @@
     (pin "1" (uuid 270baede-901d-47d0-9c35-3b8d12ce2cf6))
     (pin "2" (uuid dc824560-dca6-4295-a317-9142226c684e))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "C47") (unit 1)
         )
@@ -18666,7 +18674,7 @@
     )
     (pin "1" (uuid 8b7eb5e5-77bb-4238-aa4a-e3e9e1925a3b))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "H4") (unit 1)
         )
@@ -18691,7 +18699,7 @@
     )
     (pin "1" (uuid d9b6e728-73c8-4506-a093-6445d7b603ac))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "#PWR017") (unit 1)
         )
@@ -18747,7 +18755,7 @@
     (pin "1" (uuid 09d1641b-7e3d-41b9-ae75-7cd5ccdb9bba))
     (pin "2" (uuid a4731907-d06f-445d-9b01-1af4a19abdff))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "R29") (unit 1)
         )
@@ -18794,7 +18802,7 @@
     (pin "1" (uuid d2a6672f-4eab-478f-a95b-2b6efccde3c2))
     (pin "2" (uuid ddd29a63-31a9-43d2-9080-f8f3fd796edb))
     (instances
-      (project "ai-camera-rev2"
+      (project "ai-camera-rev3"
         (path "/9e3de00a-ea10-4aff-9cb7-2823d660607b"
           (reference "D18") (unit 1)
         )
