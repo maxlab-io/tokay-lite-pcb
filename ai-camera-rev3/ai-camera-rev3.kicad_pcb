@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "MaxLab AI Camera PCB")
-    (date "20230319")
-    (rev "rev2")
+    (date "20230520")
+    (rev "rev3")
   )
 
   (layers

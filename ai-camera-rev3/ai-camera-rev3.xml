@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/maxpayne/projects/maxlab/internal/ai-camera/ai-camera-pcb/ai-camera-rev2/ai-camera-rev2.kicad_sch</source>
-    <date>Sun 19 Mar 2023 03:47:37 PM PDT</date>
-    <tool>Eeschema (7.0.0)</tool>
+    <source>/home/maxpayne/projects/maxlab/internal/ai-camera/ai-camera-pcb/ai-camera-rev3/ai-camera-rev3.kicad_sch</source>
+    <date>Sat 20 May 2023 10:39:44 PM PDT</date>
+    <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MaxLab AI Camera</title>
         <company>MAXLABIO INC.</company>
         <rev>rev2</rev>
         <date>20230319</date>
-        <source>ai-camera-rev2.kicad_sch</source>
+        <source>ai-camera-rev3.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -50,7 +50,7 @@
       <property name="Rating" value="6.3V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100uF 6.3V -55℃~+125℃ 1.7Ω@100kHz ±10% CASE-B_3528 Tantalum Capacitors"/>
       <property name="ki_keywords" value="tantalum cap c"/>
       <sheetpath names="/" tstamps="/"/>
@@ -82,7 +82,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -114,7 +114,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -146,7 +146,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -178,7 +178,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -210,7 +210,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -242,7 +242,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -274,7 +274,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -306,7 +306,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -338,7 +338,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -370,7 +370,7 @@
       <property name="Rating" value="6.3V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100uF 6.3V -55℃~+125℃ 1.7Ω@100kHz ±10% CASE-B_3528 Tantalum Capacitors"/>
       <property name="ki_keywords" value="tantalum cap c"/>
       <sheetpath names="/" tstamps="/"/>
@@ -402,7 +402,7 @@
       <property name="Rating" value="6.3V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100uF 6.3V -55℃~+125℃ 1.7Ω@100kHz ±10% CASE-B_3528 Tantalum Capacitors"/>
       <property name="ki_keywords" value="tantalum cap c"/>
       <sheetpath names="/" tstamps="/"/>
@@ -434,7 +434,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -466,7 +466,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -498,7 +498,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -530,7 +530,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -564,7 +564,7 @@
       <property name="Tolerance" value="5%"/>
       <property name="Type" value="C0G"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="50V 22pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 22p 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -596,7 +596,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -628,7 +628,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -660,7 +660,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -692,7 +692,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -724,7 +724,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -756,7 +756,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -788,7 +788,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -820,7 +820,7 @@
       <property name="Rating" value="6.3V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100uF 6.3V -55℃~+125℃ 1.7Ω@100kHz ±10% CASE-B_3528 Tantalum Capacitors"/>
       <property name="ki_keywords" value="tantalum cap c"/>
       <sheetpath names="/" tstamps="/"/>
@@ -852,7 +852,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -884,7 +884,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -916,7 +916,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -948,7 +948,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -980,7 +980,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1012,7 +1012,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1044,7 +1044,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1076,7 +1076,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1108,7 +1108,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1140,7 +1140,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1172,7 +1172,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1204,7 +1204,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1236,7 +1236,7 @@
       <property name="Rating" value="6.3V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100uF 6.3V -55℃~+125℃ 1.7Ω@100kHz ±10% CASE-B_3528 Tantalum Capacitors"/>
       <property name="ki_keywords" value="tantalum cap c"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1268,7 +1268,7 @@
       <property name="Rating" value="6.3V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100uF 6.3V -55℃~+125℃ 1.7Ω@100kHz ±10% CASE-B_3528 Tantalum Capacitors"/>
       <property name="ki_keywords" value="tantalum cap c"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1300,7 +1300,7 @@
       <property name="Rating" value="6.3V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100uF 6.3V -55℃~+125℃ 1.7Ω@100kHz ±10% CASE-B_3528 Tantalum Capacitors"/>
       <property name="ki_keywords" value="tantalum cap c"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1332,7 +1332,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1364,7 +1364,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1396,7 +1396,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1428,7 +1428,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1460,7 +1460,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1492,7 +1492,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1524,7 +1524,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1558,7 +1558,7 @@
       <property name="Tolerance" value="5%"/>
       <property name="Type" value="C0G"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="50V 22pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 22p 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1590,7 +1590,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1622,7 +1622,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1654,7 +1654,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1686,7 +1686,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1718,7 +1718,7 @@
       <property name="Rating" value="25V"/>
       <property name="Tolerance" value="10%"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1750,7 +1750,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1782,7 +1782,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1814,7 +1814,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1846,7 +1846,7 @@
       <property name="Tolerance" value="10%"/>
       <property name="Rating" value="25V"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC"/>
       <property name="ki_keywords" value="cap capacitor 25V 10% 0402"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1874,7 +1874,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode Red 615~630nm 1.9~2.2V 0603"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1901,7 +1901,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/EverlightElec-19_217_GHC_YR1S23T/C72043"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="20mA 518nm Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603 Light Emitting Diodes (LED) ROHS"/>
       <property name="ki_keywords" value="LED diode Green 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1929,7 +1929,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Born-BSD5C051L/C151983"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="3A@8/20us 13V 6V 5V Bi-Directional SOD-523 TVS"/>
       <property name="ki_keywords" value="diode TVS thyrector "/>
       <sheetpath names="/" tstamps="/"/>
@@ -1957,7 +1957,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Born-BSD5C051L/C151983"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="3A@8/20us 13V 6V 5V Bi-Directional SOD-523 TVS"/>
       <property name="ki_keywords" value="diode TVS thyrector "/>
       <sheetpath names="/" tstamps="/"/>
@@ -1985,7 +1985,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Born-BSD5C051L/C151983"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="3A@8/20us 13V 6V 5V Bi-Directional SOD-523 TVS"/>
       <property name="ki_keywords" value="diode TVS thyrector "/>
       <sheetpath names="/" tstamps="/"/>
@@ -1999,12 +1999,13 @@
         <field name="LNK1">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
         <field name="MFR">Jiangsu Changjing Electronics Technology</field>
         <field name="MPN">B5819W SL</field>
+        <field name="Rating">1A</field>
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C8598</field>
         <field name="UserValue">D</field>
       </fields>
-      <libsource lib="00-kiml-diode" part="B5819W-SL_SOD-123" description="40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS&#xA;"/>
+      <libsource lib="00-kiml-diode" part="B5819W-SL_SOD-123" description="40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS"/>
       <property name="MFR" value="Jiangsu Changjing Electronics Technology"/>
       <property name="MPN" value="B5819W SL"/>
       <property name="SPL1" value="JLCPCB"/>
@@ -2012,9 +2013,10 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/9093-B5819WSL/C8598"/>
       <property name="UserValue" value="D"/>
       <property name="SNB1" value="Basic Part"/>
+      <property name="Rating" value="1A"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
-      <property name="ki_description" value="40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS&#xA;"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
+      <property name="ki_description" value="40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f1e71e48-8ecb-4101-9453-6cd61a71fe56</tstamps>
@@ -2041,7 +2043,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode Red 615~630nm 1.9~2.2V 0603"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2055,12 +2057,13 @@
         <field name="LNK1">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
         <field name="MFR">Jiangsu Changjing Electronics Technology</field>
         <field name="MPN">B5819W SL</field>
+        <field name="Rating">1A</field>
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C8598</field>
         <field name="UserValue">D</field>
       </fields>
-      <libsource lib="00-kiml-diode" part="B5819W-SL_SOD-123" description="40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS&#xA;"/>
+      <libsource lib="00-kiml-diode" part="B5819W-SL_SOD-123" description="40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS"/>
       <property name="MFR" value="Jiangsu Changjing Electronics Technology"/>
       <property name="MPN" value="B5819W SL"/>
       <property name="SPL1" value="JLCPCB"/>
@@ -2068,9 +2071,10 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/9093-B5819WSL/C8598"/>
       <property name="UserValue" value="D"/>
       <property name="SNB1" value="Basic Part"/>
+      <property name="Rating" value="1A"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
-      <property name="ki_description" value="40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS&#xA;"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
+      <property name="ki_description" value="40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9923839d-4a00-4fd9-b693-74a74204db03</tstamps>
@@ -2097,7 +2101,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2125,7 +2129,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2153,7 +2157,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2181,7 +2185,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2209,7 +2213,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2237,7 +2241,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2265,7 +2269,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2293,7 +2297,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2321,7 +2325,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2349,7 +2353,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Ekinglux-E6C0603IRAC1UDA_850nm/C396643"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="8mW/sr@20mA 65mA 850nm -40℃~+90℃ 1.45V 0603 Infrared (IR) LEDs ROHS"/>
       <property name="ki_keywords" value="LED diode Red 0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2360,7 +2364,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
       <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2371,7 +2375,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
       <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2382,7 +2386,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
       <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2393,7 +2397,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Mounting Hole with connection"/>
       <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2421,7 +2425,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C47647/C47647"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="1x2P PH 1 2mm 2 SMD,P=2mm Wire To Board / Wire To Wire Connector ROHS"/>
       <property name="ki_keywords" value="connector 2mm JST PH series"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2449,7 +2453,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0 usb c"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2460,7 +2464,7 @@
       <footprint>Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2486,7 +2490,7 @@
       <property name="SPN1" value="C124359"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/125634-B_2100S20PB110/C124359"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Straight 2.54mm 6mm -40℃~+105℃ 2 3mm 20 2.54mm Black Brass 2x10P 2.54mm Straight,P=2.54mm Pin Headers ROHS"/>
       <property name="ki_keywords" value="connector 2.54mm THT"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2520,7 +2524,7 @@
       <property name="LNK2" value="https://jlcpcb.com/partdetail/AmphenolIcc-1011482910102LF/C239062"/>
       <property name="SNB2" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="1x2P 1 1.25mm 2 Phosphor bronze Straight,P=1.25mm Wire To Board / Wire To Wire Connector ROHS&#xA;"/>
       <property name="ki_keywords" value="connector 1.25mm"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2548,7 +2552,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Jushuo-AFC01_S24FCC00/C262276"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Clamshell 24 Bottom Contact Surface Mount 0.5mm SMD,P=0.5mm FFC/FPC Connectors ROHS"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2559,7 +2563,7 @@
       <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2570,14 +2574,14 @@
       <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f6ddd46d-185b-4061-9858-93ada877c3d0</tstamps>
     </comp>
     <comp ref="L1">
-      <value>0805_FB_220R@100MHz_BLM21PG221SN1D</value>
+      <value>FB_2A_0805_220R@100MHz_BLM21PG221SN1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840</field>
@@ -2586,10 +2590,10 @@
         <field name="Rating">2A</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C85840</field>
-        <field name="UserValue">Bead</field>
+        <field name="UserValue">FB</field>
       </fields>
-      <libsource lib="00-kiml-inductors" part="0805_FB_220R@100MHz_BLM21PG221SN1D" description="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
-      <property name="UserValue" value="Bead"/>
+      <libsource lib="00-kiml-inductors" part="FB_2A_0805_220R@100MHz_BLM21PG221SN1D" description="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
+      <property name="UserValue" value="FB"/>
       <property name="MFR" value="Murata Electronics"/>
       <property name="MPN" value="BLM21PG221SN1D"/>
       <property name="SPL1" value="JLCPCB"/>
@@ -2597,14 +2601,14 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840"/>
       <property name="Rating" value="2A"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ce882202-f146-45d5-94a5-3ac1355b8ba0</tstamps>
     </comp>
     <comp ref="L2">
-      <value>0805_FB_220R@100MHz_BLM21PG221SN1D</value>
+      <value>FB_2A_0805_220R@100MHz_BLM21PG221SN1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840</field>
@@ -2613,10 +2617,10 @@
         <field name="Rating">2A</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C85840</field>
-        <field name="UserValue">Bead</field>
+        <field name="UserValue">220R@100 MHz</field>
       </fields>
-      <libsource lib="00-kiml-inductors" part="0805_FB_220R@100MHz_BLM21PG221SN1D" description="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
-      <property name="UserValue" value="Bead"/>
+      <libsource lib="00-kiml-inductors" part="FB_2A_0805_220R@100MHz_BLM21PG221SN1D" description="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
+      <property name="UserValue" value="220R@100 MHz"/>
       <property name="MFR" value="Murata Electronics"/>
       <property name="MPN" value="BLM21PG221SN1D"/>
       <property name="SPL1" value="JLCPCB"/>
@@ -2624,18 +2628,18 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840"/>
       <property name="Rating" value="2A"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>24eafb2e-ed84-4b9b-afb9-121181bb43c6</tstamps>
     </comp>
     <comp ref="L3">
-      <value>10u_SWPA4030S100MT</value>
+      <value>10u_1.5A_4x4mm_SWPA4030S100MT</value>
       <footprint>00-kiml-inductor-smd:L_Sunlord_SWPA40xxS</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S100MT_C38117.pdf</datasheet>
       <fields>
-        <field name="ESR">130m</field>
+        <field name="DCR">130m</field>
         <field name="LNK1">https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117</field>
         <field name="MFR">Sunlord</field>
         <field name="MPN">SWPA4030S100MT</field>
@@ -2644,7 +2648,7 @@
         <field name="SPN1">C38117</field>
         <field name="UserValue">10u</field>
       </fields>
-      <libsource lib="00-kiml-inductors" part="10u_SWPA4030S100MT" description="1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS"/>
+      <libsource lib="00-kiml-inductors" part="10u_1.5A_4x4mm_SWPA4030S100MT" description="1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS"/>
       <property name="UserValue" value="10u"/>
       <property name="MFR" value="Sunlord"/>
       <property name="MPN" value="SWPA4030S100MT"/>
@@ -2652,16 +2656,16 @@
       <property name="SPN1" value="C38117"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117"/>
       <property name="Rating" value="1.5A"/>
-      <property name="ESR" value="130m"/>
+      <property name="DCR" value="130m"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4bc0788c-1afc-4c95-9ba9-0f06aa06619b</tstamps>
     </comp>
     <comp ref="L4">
-      <value>0805_FB_220R@100MHz_BLM21PG221SN1D</value>
+      <value>FB_2A_0805_220R@100MHz_BLM21PG221SN1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840</field>
@@ -2670,10 +2674,10 @@
         <field name="Rating">2A</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C85840</field>
-        <field name="UserValue">Bead</field>
+        <field name="UserValue">FB</field>
       </fields>
-      <libsource lib="00-kiml-inductors" part="0805_FB_220R@100MHz_BLM21PG221SN1D" description="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
-      <property name="UserValue" value="Bead"/>
+      <libsource lib="00-kiml-inductors" part="FB_2A_0805_220R@100MHz_BLM21PG221SN1D" description="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
+      <property name="UserValue" value="FB"/>
       <property name="MFR" value="Murata Electronics"/>
       <property name="MPN" value="BLM21PG221SN1D"/>
       <property name="SPL1" value="JLCPCB"/>
@@ -2681,18 +2685,18 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840"/>
       <property name="Rating" value="2A"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f0f916f5-ea48-4df5-b653-b3b2d736753e</tstamps>
     </comp>
     <comp ref="L5">
-      <value>10u_SWPA4030S100MT</value>
+      <value>10u_1.5A_4x4mm_SWPA4030S100MT</value>
       <footprint>00-kiml-inductor-smd:L_Sunlord_SWPA40xxS</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S100MT_C38117.pdf</datasheet>
       <fields>
-        <field name="ESR">130m</field>
+        <field name="DCR">130m</field>
         <field name="LNK1">https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117</field>
         <field name="MFR">Sunlord</field>
         <field name="MPN">SWPA4030S100MT</field>
@@ -2701,7 +2705,7 @@
         <field name="SPN1">C38117</field>
         <field name="UserValue">10u</field>
       </fields>
-      <libsource lib="00-kiml-inductors" part="10u_SWPA4030S100MT" description="1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS"/>
+      <libsource lib="00-kiml-inductors" part="10u_1.5A_4x4mm_SWPA4030S100MT" description="1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS"/>
       <property name="UserValue" value="10u"/>
       <property name="MFR" value="Sunlord"/>
       <property name="MPN" value="SWPA4030S100MT"/>
@@ -2709,9 +2713,9 @@
       <property name="SPN1" value="C38117"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117"/>
       <property name="Rating" value="1.5A"/>
-      <property name="ESR" value="130m"/>
+      <property name="DCR" value="130m"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2723,7 +2727,7 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/1810151612_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/9040-2N7002/C8545</field>
-        <field name="MFR">Jiangsu</field>
+        <field name="MFR">JCET</field>
         <field name="MPN">2N7002</field>
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
@@ -2732,14 +2736,14 @@
       </fields>
       <libsource lib="00-kiml-transistor-fet" part="2N7002" description="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="UserValue" value="2N7002"/>
-      <property name="MFR" value="Jiangsu"/>
+      <property name="MFR" value="JCET"/>
       <property name="MPN" value="2N7002"/>
       <property name="SPL1" value="JLCPCB"/>
       <property name="SPN1" value="C8545"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/9040-2N7002/C8545"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2751,7 +2755,7 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/1810151612_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/9040-2N7002/C8545</field>
-        <field name="MFR">Jiangsu</field>
+        <field name="MFR">JCET</field>
         <field name="MPN">2N7002</field>
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
@@ -2760,14 +2764,14 @@
       </fields>
       <libsource lib="00-kiml-transistor-fet" part="2N7002" description="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="UserValue" value="2N7002"/>
-      <property name="MFR" value="Jiangsu"/>
+      <property name="MFR" value="JCET"/>
       <property name="MPN" value="2N7002"/>
       <property name="SPL1" value="JLCPCB"/>
       <property name="SPN1" value="C8545"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/9040-2N7002/C8545"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2801,7 +2805,7 @@
       <property name="LNK2" value="https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3401A/C15127"/>
       <property name="SNB2" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="transistor, p-channel, mosfet"/>
       <property name="ki_keywords" value="30V P-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2835,7 +2839,7 @@
       <property name="LNK2" value="https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3401A/C15127"/>
       <property name="SNB2" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="transistor, p-channel, mosfet"/>
       <property name="ki_keywords" value="30V P-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2847,7 +2851,7 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/1810151612_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/9040-2N7002/C8545</field>
-        <field name="MFR">Jiangsu</field>
+        <field name="MFR">JCET</field>
         <field name="MPN">2N7002</field>
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
@@ -2856,14 +2860,14 @@
       </fields>
       <libsource lib="00-kiml-transistor-fet" part="2N7002" description="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="UserValue" value="2N7002"/>
-      <property name="MFR" value="Jiangsu"/>
+      <property name="MFR" value="JCET"/>
       <property name="MPN" value="2N7002"/>
       <property name="SPL1" value="JLCPCB"/>
       <property name="SPN1" value="C8545"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/9040-2N7002/C8545"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2897,7 +2901,7 @@
       <property name="LNK2" value="https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3401A/C15127"/>
       <property name="SNB2" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="transistor, p-channel, mosfet"/>
       <property name="ki_keywords" value="30V P-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2909,7 +2913,7 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/1810151612_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/9040-2N7002/C8545</field>
-        <field name="MFR">Jiangsu</field>
+        <field name="MFR">JCET</field>
         <field name="MPN">2N7002</field>
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
@@ -2918,14 +2922,14 @@
       </fields>
       <libsource lib="00-kiml-transistor-fet" part="2N7002" description="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="UserValue" value="2N7002"/>
-      <property name="MFR" value="Jiangsu"/>
+      <property name="MFR" value="JCET"/>
       <property name="MPN" value="2N7002"/>
       <property name="SPL1" value="JLCPCB"/>
       <property name="SPN1" value="C8545"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/9040-2N7002/C8545"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2959,7 +2963,7 @@
       <property name="LNK2" value="https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3401A/C15127"/>
       <property name="SNB2" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="transistor, p-channel, mosfet"/>
       <property name="ki_keywords" value="30V P-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2971,7 +2975,7 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/1810151612_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/9040-2N7002/C8545</field>
-        <field name="MFR">Jiangsu</field>
+        <field name="MFR">JCET</field>
         <field name="MPN">2N7002</field>
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
@@ -2980,14 +2984,14 @@
       </fields>
       <libsource lib="00-kiml-transistor-fet" part="2N7002" description="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="UserValue" value="2N7002"/>
-      <property name="MFR" value="Jiangsu"/>
+      <property name="MFR" value="JCET"/>
       <property name="MPN" value="2N7002"/>
       <property name="SPL1" value="JLCPCB"/>
       <property name="SPN1" value="C8545"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/9040-2N7002/C8545"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2999,7 +3003,7 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/1810151612_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/9040-2N7002/C8545</field>
-        <field name="MFR">Jiangsu</field>
+        <field name="MFR">JCET</field>
         <field name="MPN">2N7002</field>
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
@@ -3008,14 +3012,14 @@
       </fields>
       <libsource lib="00-kiml-transistor-fet" part="2N7002" description="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="UserValue" value="2N7002"/>
-      <property name="MFR" value="Jiangsu"/>
+      <property name="MFR" value="JCET"/>
       <property name="MPN" value="2N7002"/>
       <property name="SPL1" value="JLCPCB"/>
       <property name="SPN1" value="C8545"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/9040-2N7002/C8545"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA N Channel SOT-23(SOT-23-3) MOSFETs"/>
       <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3045,7 +3049,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416212-0402WGD9763TCE/C423262"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 976kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 976k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3075,7 +3079,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416212-0402WGD9763TCE/C423262"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 976kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 976k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3105,7 +3109,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3137,7 +3141,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 1kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 1k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3169,7 +3173,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 1kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 1k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3203,7 +3207,7 @@
       <property name="SNB1" value="Basic part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3237,7 +3241,7 @@
       <property name="SNB1" value="Basic part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3267,7 +3271,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100mW Thick Film Resistors 75V ±100ppm/℃ ±1% -55℃~+155℃ 5.1kΩ 0603 Chip Resistor"/>
       <property name="ki_keywords" value="R res resistor 5.1k"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3297,7 +3301,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="100mW Thick Film Resistors 75V ±100ppm/℃ ±1% -55℃~+155℃ 5.1kΩ 0603 Chip Resistor"/>
       <property name="ki_keywords" value="R res resistor 5.1k"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3331,7 +3335,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3365,7 +3369,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3399,7 +3403,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3429,7 +3433,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3463,7 +3467,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3493,7 +3497,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3523,7 +3527,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3553,7 +3557,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3583,7 +3587,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3613,7 +3617,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3647,7 +3651,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3677,7 +3681,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3707,7 +3711,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3737,7 +3741,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416212-0402WGD9763TCE/C423262"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 976kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 976k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3767,7 +3771,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3797,7 +3801,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3831,7 +3835,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3865,7 +3869,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3897,7 +3901,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 1kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 1k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3931,7 +3935,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3965,7 +3969,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"/>
       <property name="SNB1" value="Basic part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% -55℃~+155℃ 10kΩ 0402"/>
       <property name="ki_keywords" value="R res resistor 10k 0402 1% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3995,7 +3999,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4025,7 +4029,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/416249-0402WGD2153TCE/C423299"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±0.5% -55℃~+155℃ 215kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
       <property name="ki_keywords" value="R res resistor 215k 0402 0.5% 62.5mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4055,7 +4059,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/244308-0805W8F243KT5E/C247100"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="125mW Thick Film Resistors 150V ±1% ±200ppm/℃ -55℃~+155℃ 2.43Ω 0805 Chip Resistor - Surface Mount"/>
       <property name="ki_keywords" value="R res resistor 2.43R 0805 1% 125mW"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4063,28 +4067,28 @@
     </comp>
     <comp ref="SW1">
       <value>SW_PB_90deg_K2-1102AQ-H4CW-01</value>
-      <footprint>00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01</footprint>
+      <footprint>00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738</field>
         <field name="MFR">Korean Hroparts</field>
-        <field name="MPN">K2-1102AQ-H4CW-01</field>
+        <field name="MPN">K2-1102AQ-N4CW-01</field>
         <field name="SNB1">Extended Part</field>
         <field name="SPL1">JLCPCB</field>
-        <field name="SPN1">C961738</field>
-        <field name="UserValue">PWRON</field>
+        <field name="SPN1">C338650</field>
+        <field name="UserValue">PWR_ON</field>
       </fields>
-      <libsource lib="00-kiml-button-switch-tht" part="SW_PB_90deg_K2-1102AQ-H4CW-01" description="-25℃~+85℃ 6mm 7.5mm 50mA Lying 6mm 100MΩ 100000 250gf@±30gf 12V Plugin Tactile Switches ROHS"/>
-      <property name="UserValue" value="PWRON"/>
+      <libsource lib="00-kiml-switch-button-tht" part="SW_PB_90deg_K2-1102AQ-N4CW-01" description="50mA 100MΩ 100000 Times 250gf@±30gf 12V Lying SPST Plugin Tactile Switches"/>
+      <property name="UserValue" value="PWR_ON"/>
       <property name="MFR" value="Korean Hroparts"/>
-      <property name="MPN" value="K2-1102AQ-H4CW-01"/>
+      <property name="MPN" value="K2-1102AQ-N4CW-01"/>
       <property name="SPL1" value="JLCPCB"/>
-      <property name="SPN1" value="C961738"/>
+      <property name="SPN1" value="C338650"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
-      <property name="ki_description" value="-25℃~+85℃ 6mm 7.5mm 50mA Lying 6mm 100MΩ 100000 250gf@±30gf 12V Plugin Tactile Switches ROHS"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
+      <property name="ki_description" value="50mA 100MΩ 100000 Times 250gf@±30gf 12V Lying SPST Plugin Tactile Switches"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button Tactile Switches 90 degrees"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>da03128e-5bbd-4499-a632-18e9f377ba50</tstamps>
@@ -4100,10 +4104,10 @@
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C318884</field>
-        <field name="UserValue">ESP_BOOT</field>
+        <field name="UserValue">BOOT</field>
       </fields>
-      <libsource lib="00-kiml-button-switch-smd" part="SW_PB_TS-1187A-B-A-B" description="Push button switch, normally open SPST SMD"/>
-      <property name="UserValue" value="ESP_BOOT"/>
+      <libsource lib="00-kiml-switch-button-smd" part="SW_PB_TS-1187A-B-A-B" description="Push button switch, normally open SPST SMD"/>
+      <property name="UserValue" value="BOOT"/>
       <property name="MFR" value="XKB Connectivity"/>
       <property name="MPN" value="TS-1187A-B-A-B"/>
       <property name="SPL1" value="JLCPCB"/>
@@ -4111,7 +4115,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Push button switch, normally open SPST SMD"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button Tactile Switches"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4128,10 +4132,10 @@
         <field name="SNB1">Basic Part</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C318884</field>
-        <field name="UserValue">ESP_EN</field>
+        <field name="UserValue">EN</field>
       </fields>
-      <libsource lib="00-kiml-button-switch-smd" part="SW_PB_TS-1187A-B-A-B" description="Push button switch, normally open SPST SMD"/>
-      <property name="UserValue" value="ESP_EN"/>
+      <libsource lib="00-kiml-switch-button-smd" part="SW_PB_TS-1187A-B-A-B" description="Push button switch, normally open SPST SMD"/>
+      <property name="UserValue" value="EN"/>
       <property name="MFR" value="XKB Connectivity"/>
       <property name="MPN" value="TS-1187A-B-A-B"/>
       <property name="SPL1" value="JLCPCB"/>
@@ -4139,7 +4143,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Push button switch, normally open SPST SMD"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button Tactile Switches"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4147,28 +4151,28 @@
     </comp>
     <comp ref="SW4">
       <value>SW_PB_90deg_K2-1102AQ-H4CW-01</value>
-      <footprint>00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01</footprint>
+      <footprint>00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738</field>
         <field name="MFR">Korean Hroparts</field>
-        <field name="MPN">K2-1102AQ-H4CW-01</field>
+        <field name="MPN">K2-1102AQ-N4CW-01</field>
         <field name="SNB1">Extended Part</field>
         <field name="SPL1">JLCPCB</field>
-        <field name="SPN1">C961738</field>
-        <field name="UserValue">USR_BTN</field>
+        <field name="SPN1">C338650</field>
+        <field name="UserValue">USR</field>
       </fields>
-      <libsource lib="00-kiml-button-switch-tht" part="SW_PB_90deg_K2-1102AQ-H4CW-01" description="-25℃~+85℃ 6mm 7.5mm 50mA Lying 6mm 100MΩ 100000 250gf@±30gf 12V Plugin Tactile Switches ROHS"/>
-      <property name="UserValue" value="USR_BTN"/>
+      <libsource lib="00-kiml-switch-button-tht" part="SW_PB_90deg_K2-1102AQ-N4CW-01" description="50mA 100MΩ 100000 Times 250gf@±30gf 12V Lying SPST Plugin Tactile Switches"/>
+      <property name="UserValue" value="USR"/>
       <property name="MFR" value="Korean Hroparts"/>
-      <property name="MPN" value="K2-1102AQ-H4CW-01"/>
+      <property name="MPN" value="K2-1102AQ-N4CW-01"/>
       <property name="SPL1" value="JLCPCB"/>
-      <property name="SPN1" value="C961738"/>
+      <property name="SPN1" value="C338650"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
-      <property name="ki_description" value="-25℃~+85℃ 6mm 7.5mm 50mA Lying 6mm 100MΩ 100000 250gf@±30gf 12V Plugin Tactile Switches ROHS"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
+      <property name="ki_description" value="50mA 100MΩ 100000 Times 250gf@±30gf 12V Lying SPST Plugin Tactile Switches"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button Tactile Switches 90 degrees"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>25208463-9ed3-4182-ba82-c157c0cb5aef</tstamps>
@@ -4178,7 +4182,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4189,7 +4193,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4200,7 +4204,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4211,7 +4215,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4222,7 +4226,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4233,7 +4237,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4244,7 +4248,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4255,7 +4259,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4266,7 +4270,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4277,7 +4281,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4288,7 +4292,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4299,7 +4303,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4310,7 +4314,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4321,7 +4325,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4332,7 +4336,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4343,7 +4347,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4354,7 +4358,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4365,7 +4369,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4376,7 +4380,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4387,7 +4391,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4398,7 +4402,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4409,7 +4413,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4420,7 +4424,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4431,7 +4435,7 @@
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="test point"/>
       <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4459,7 +4463,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/12599-TP4057_42_SOT26R/C12044"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="SOT-23-6 Battery Management ICs ROHS"/>
       <property name="ki_keywords" value="battery ic charger"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4487,42 +4491,42 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Yongyutai-XC6206_28V/C2892669"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="250mA -40℃~+85℃@(Tj) Fixed 2.8V Positive 6V SOT-23-3L Linear Voltage Regulators (LDO) ROHS"/>
       <property name="ki_keywords" value="250mA LDO Regulator Fixed Positive 2.8V"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5c47364b-3014-430f-9628-d18e2641d234</tstamps>
     </comp>
     <comp ref="U3">
-      <value>PCF85063AT_SO8</value>
+      <value>PCF85063AT</value>
       <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf</datasheet>
       <fields>
         <field name="LNK1">https://jlcpcb.com/partdetail/NxpSemicon-PCF85063ATAAZ/C2157792</field>
         <field name="MFR">NXP Semiconductors</field>
-        <field name="MPN">PCF85063ATL/1,118</field>
+        <field name="MPN">PCF85063AT/AAZ</field>
         <field name="SNB1">Extended Part</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C2157792</field>
         <field name="UserValue">PCF85063A</field>
       </fields>
-      <libsource lib="00-kiml-timer-rtc" part="PCF85063AT_SO8" description="I2C Real-Time Clock Calendar w/ Alarm, SO8"/>
+      <libsource lib="00-kiml-timer-rtc" part="PCF85063AT/AAZ" description="I2C Real-Time Clock Calendar w/ Alarm, SO8"/>
       <property name="UserValue" value="PCF85063A"/>
       <property name="MFR" value="NXP Semiconductors"/>
-      <property name="MPN" value="PCF85063ATL/1,118"/>
+      <property name="MPN" value="PCF85063AT/AAZ"/>
       <property name="SPL1" value="JLCPCB"/>
       <property name="SPN1" value="C2157792"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/NxpSemicon-PCF85063ATAAZ/C2157792"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="I2C Real-Time Clock Calendar w/ Alarm, SO8"/>
       <property name="ki_keywords" value="RTC I2C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2e437560-e8f0-4687-9e75-a5c0058481e4</tstamps>
     </comp>
     <comp ref="U4">
-      <value>SOT-23-6_SN74LVC1G373DBVR_TI</value>
+      <value>TI_SN74LVC1G373DBVR</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>https://www.ti.com/cn/lit/ds/symlink/sn74lvc1g373.pdf</datasheet>
       <fields>
@@ -4534,7 +4538,7 @@
         <field name="SPN1">C128413</field>
         <field name="UserValue">D-LATCH</field>
       </fields>
-      <libsource lib="00-kiml-74xGxx" part="SOT-23-6_SN74LVC1G373DBVR_TI" description="Single D Latch, Low-Voltage CMOS"/>
+      <libsource lib="00-kiml-74xGxx" part="TI_SN74LVC1G373DBVR" description="Single D Latch, Low-Voltage CMOS"/>
       <property name="UserValue" value="D-LATCH"/>
       <property name="MFR" value="Texas Instruments"/>
       <property name="MPN" value="SN74LVC1G373DBVR"/>
@@ -4543,7 +4547,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/TexasInstruments-SN74LVC1G373DBVR/C128413"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Single D Latch, Low-Voltage CMOS"/>
       <property name="ki_keywords" value="Single D Latch CMOS"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4571,7 +4575,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/SilergyCorp-SY8089AAAC/C78988"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Step-down type SOT-23-5 DC-DC Converters"/>
       <property name="ki_keywords" value="DC-DC converter adjustable"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4599,7 +4603,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Senba_SensingTech-AS312/C90465"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="Human Body Sensing Sensor AS312"/>
       <property name="ki_keywords" value="PIR AS312 Human Body Sensing Sensor Opto"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4627,7 +4631,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/Yongyutai-XC6206_28V/C2892669"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="250mA -40℃~+85℃@(Tj) Fixed 2.8V Positive 6V SOT-23-3L Linear Voltage Regulators (LDO) ROHS"/>
       <property name="ki_keywords" value="250mA LDO Regulator Fixed Positive 2.8V"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4655,7 +4659,7 @@
       <property name="SNB1" value="Extended Part"/>
       <property name="LNK1" value="https://jlcpcb.com/partdetail/RichtekTech-RT916612GVL/C29175"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="55dB@(1kHz) 300mA 230mV@(300mA) Fixed 1.2V SOT-23-3L Linear Voltage Regulators (LDO) ROHS"/>
       <property name="ki_keywords" value="230mV LDO Regulator Fixed Positive 1.2V"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4689,7 +4693,7 @@
       <property name="LNK2" value="https://jlcpcb.com/partdetail/324117-AP1511B/C347457"/>
       <property name="SNB2" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="SOT-23-6 Motor Driver ICs ROHS"/>
       <property name="ki_keywords" value="Motor Driver"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4723,7 +4727,7 @@
       <property name="LNK2" value="https://jlcpcb.com/partdetail/3198300-ESP32_S3_WROOM_1N16R8/C2913202"/>
       <property name="SNB2" value="Extended part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"/>
       <property name="ki_keywords" value="esp32 ESP32-S3-WROOM-1 wifi"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4751,7 +4755,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/xi_an_AerosemiTech-MT928428J/C181780"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="SOT-23-6 LED Drivers ROHS"/>
       <property name="ki_keywords" value="LED Driver"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4762,7 +4766,7 @@
       <footprint>00-kiml-optical:Lite-On_LTR-303ALS-01</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Lite-On-LTR-303ALS-01_C364577.pdf</datasheet>
       <fields>
-        <field name="LNK1">https://lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-308ALS-01_C492382.html</field>
+        <field name="LNK1">https://www.lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-303ALS-01_C364577.html</field>
         <field name="MFR">Lite-On</field>
         <field name="MPN">LTR-303ALS-01</field>
         <field name="SNB1">Extended Part</field>
@@ -4776,10 +4780,10 @@
       <property name="MPN" value="LTR-303ALS-01"/>
       <property name="SPL1" value="JLCPCB"/>
       <property name="SPN1" value="C364577"/>
-      <property name="LNK1" value="https://lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-308ALS-01_C492382.html"/>
+      <property name="LNK1" value="https://www.lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-303ALS-01_C364577.html"/>
       <property name="SNB1" value="Extended Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="SMD Ambient Light Sensors ROHS"/>
       <property name="ki_keywords" value="Ambient light sensor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4807,7 +4811,7 @@
       <property name="LNK1" value="https://jlcpcb.com/partdetail/SeikoEpson-Q13FC1350000400/C32346"/>
       <property name="SNB1" value="Basic Part"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ai-camera-rev2.kicad_sch"/>
+      <property name="Sheetfile" value="ai-camera-rev3.kicad_sch"/>
       <property name="ki_description" value="32.768kHz SMD Crystal Resonator 12.5pF 70kΩ ±20ppm -40℃~+85℃ SMD3215-2P Crystals ROHS"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator 32kHz 32.768 32768"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4815,7 +4819,7 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="00-kiml-74xGxx" part="SOT-23-6_SN74LVC1G373DBVR_TI">
+    <libpart lib="00-kiml-74xGxx" part="TI_SN74LVC1G373DBVR">
       <description>Single D Latch, Low-Voltage CMOS</description>
       <docs>https://www.ti.com/cn/lit/ds/symlink/sn74lvc1g373.pdf</docs>
       <footprints>
@@ -4824,7 +4828,7 @@
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">SOT-23-6_SN74LVC1G373DBVR_TI</field>
+        <field name="Value">TI_SN74LVC1G373DBVR</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
         <field name="Datasheet">https://www.ti.com/cn/lit/ds/symlink/sn74lvc1g373.pdf</field>
         <field name="UserValue">D-LATCH</field>
@@ -4867,48 +4871,6 @@
         <pin num="4" name="V_{cc}" type="power_in"/>
         <pin num="5" name="~{STDBY}" type="open_collector"/>
         <pin num="6" name="PROG" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="00-kiml-button-switch-smd" part="SW_PB_TS-1187A-B-A-B">
-      <description>Push button switch, normally open SPST SMD</description>
-      <docs>https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</docs>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_PB_TS-1187A-B-A-B</field>
-        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
-        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</field>
-        <field name="UserValue">PB</field>
-        <field name="MFR">XKB Connectivity</field>
-        <field name="MPN">TS-1187A-B-A-B</field>
-        <field name="SPL1">JLCPCB</field>
-        <field name="SPN1">C318884</field>
-        <field name="LNK1">https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884</field>
-        <field name="SNB1">Basic Part</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="00-kiml-button-switch-tht" part="SW_PB_90deg_K2-1102AQ-H4CW-01">
-      <description>-25℃~+85℃ 6mm 7.5mm 50mA Lying 6mm 100MΩ 100000 250gf@±30gf 12V Plugin Tactile Switches ROHS</description>
-      <docs>https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf</docs>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_PB_90deg_K2-1102AQ-H4CW-01</field>
-        <field name="Footprint">00-kiml-button-switch-tht:SW_PB_90deg_K2-1102AQ-H4CW-01</field>
-        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf</field>
-        <field name="UserValue">PB</field>
-        <field name="MFR">Korean Hroparts</field>
-        <field name="MPN">K2-1102AQ-H4CW-01</field>
-        <field name="SPL1">JLCPCB</field>
-        <field name="SPN1">C961738</field>
-        <field name="LNK1">https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738</field>
-        <field name="SNB1">Extended Part</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="00-kiml-capacitors-smd" part="100u_CASE-B-3528_TAJB107K006RNJ">
@@ -5193,8 +5155,7 @@
       </pins>
     </libpart>
     <libpart lib="00-kiml-diode" part="B5819W-SL_SOD-123">
-      <description>40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS
-</description>
+      <description>40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes (SBD) ROHS</description>
       <docs>https://datasheet.lcsc.com/lcsc/1809140216_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf</docs>
       <footprints>
         <fp>D*DO?35*</fp>
@@ -5204,13 +5165,14 @@
         <field name="Value">B5819W-SL_SOD-123</field>
         <field name="Footprint">Diode_SMD:D_SOD-123</field>
         <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1809140216_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf</field>
+        <field name="UserValue">D</field>
         <field name="MFR">Jiangsu Changjing Electronics Technology</field>
         <field name="MPN">B5819W SL</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C8598</field>
         <field name="LNK1">https://jlcpcb.com/partdetail/9093-B5819WSL/C8598</field>
-        <field name="UserValue">D</field>
         <field name="SNB1">Basic Part</field>
+        <field name="Rating">1A</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -5242,34 +5204,7 @@
         <pin num="6" name="VIN" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="00-kiml-inductors" part="0805_FB_220R@100MHz_BLM21PG221SN1D">
-      <description>Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">0805_FB_220R@100MHz_BLM21PG221SN1D</field>
-        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="UserValue">220R@100 MHz</field>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">BLM21PG221SN1D</field>
-        <field name="SPL1">JLCPCB</field>
-        <field name="SPN1">C85840</field>
-        <field name="LNK1">https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840</field>
-        <field name="Rating">2A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="00-kiml-inductors" part="10u_SWPA4030S100MT">
+    <libpart lib="00-kiml-inductors" part="10u_1.5A_4x4mm_SWPA4030S100MT">
       <description>1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS</description>
       <docs>https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S100MT_C38117.pdf</docs>
       <footprints>
@@ -5280,17 +5215,44 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">10u_SWPA4030S100MT</field>
+        <field name="Value">10u_1.5A_4x4mm_SWPA4030S100MT</field>
         <field name="Footprint">00-kiml-inductor-smd:L_Sunlord_SWPA40xxS</field>
         <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S100MT_C38117.pdf</field>
         <field name="UserValue">10u</field>
+        <field name="Rating">1.5A</field>
+        <field name="DCR">130m</field>
         <field name="MFR">Sunlord</field>
         <field name="MPN">SWPA4030S100MT</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C38117</field>
         <field name="LNK1">https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117</field>
-        <field name="Rating">1.5A</field>
-        <field name="ESR">130m</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="00-kiml-inductors" part="FB_2A_0805_220R@100MHz_BLM21PG221SN1D">
+      <description>Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">FB_2A_0805_220R@100MHz_BLM21PG221SN1D</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="UserValue">220R@100 MHz</field>
+        <field name="Rating">2A</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">BLM21PG221SN1D</field>
+        <field name="SPL1">JLCPCB</field>
+        <field name="SPN1">C85840</field>
+        <field name="LNK1">https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -5420,7 +5382,7 @@
         <field name="MPN">LTR-303ALS-01</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C364577</field>
-        <field name="LNK1">https://lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-308ALS-01_C492382.html</field>
+        <field name="LNK1">https://www.lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-303ALS-01_C364577.html</field>
         <field name="SNB1">Extended Part</field>
       </fields>
       <pins>
@@ -5771,7 +5733,49 @@
         <pin num="41" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="00-kiml-timer-rtc" part="PCF85063AT_SO8">
+    <libpart lib="00-kiml-switch-button-smd" part="SW_PB_TS-1187A-B-A-B">
+      <description>Push button switch, normally open SPST SMD</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PB_TS-1187A-B-A-B</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</field>
+        <field name="UserValue">PB</field>
+        <field name="MFR">XKB Connectivity</field>
+        <field name="MPN">TS-1187A-B-A-B</field>
+        <field name="SPL1">JLCPCB</field>
+        <field name="SPN1">C318884</field>
+        <field name="LNK1">https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884</field>
+        <field name="SNB1">Basic Part</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="00-kiml-switch-button-tht" part="SW_PB_90deg_K2-1102AQ-N4CW-01">
+      <description>50mA 100MΩ 100000 Times 250gf@±30gf 12V Lying SPST Plugin Tactile Switches</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PB_90deg_K2-1102AQ-H4CW-01</field>
+        <field name="Footprint">00-kiml-switch-button-tht:SW_PB_90deg_K2-1102AQ-H4CW-01</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2012052036_Korean-Hroparts-Elec-K2-1102AQ-H4CW-01_C961738.pdf</field>
+        <field name="UserValue">PB</field>
+        <field name="MFR">Korean Hroparts</field>
+        <field name="MPN">K2-1102AQ-N4CW-01</field>
+        <field name="SPL1">JLCPCB</field>
+        <field name="SPN1">C338650</field>
+        <field name="LNK1">https://jlcpcb.com/partdetail/1041843-K2_1102AQ_H4CW01/C961738</field>
+        <field name="SNB1">Extended Part</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="00-kiml-timer-rtc" part="PCF85063AT/AAZ">
       <description>I2C Real-Time Clock Calendar w/ Alarm, SO8</description>
       <docs>https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf</docs>
       <footprints>
@@ -5779,12 +5783,12 @@
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">PCF85063AT_SO8</field>
+        <field name="Value">PCF85063AT</field>
         <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf</field>
         <field name="UserValue">PCF85063A</field>
         <field name="MFR">NXP Semiconductors</field>
-        <field name="MPN">PCF85063ATL/1,118</field>
+        <field name="MPN">PCF85063AT/AAZ</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C2157792</field>
         <field name="LNK1">https://jlcpcb.com/partdetail/NxpSemicon-PCF85063ATAAZ/C2157792</field>
@@ -5813,7 +5817,7 @@
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1810151612_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf</field>
         <field name="UserValue">2N7002</field>
-        <field name="MFR">Jiangsu</field>
+        <field name="MFR">JCET</field>
         <field name="MPN">2N7002</field>
         <field name="SPL1">JLCPCB</field>
         <field name="SPN1">C8545</field>
@@ -5930,12 +5934,6 @@
     <library logical="00-kiml-battery-management">
       <uri>/home/maxpayne/projects/maxlab/internal/kiml/symbols/00-kiml-battery-management.kicad_sym</uri>
     </library>
-    <library logical="00-kiml-button-switch-smd">
-      <uri>/home/maxpayne/projects/maxlab/internal/kiml/symbols/00-kiml-button-switch-smd.kicad_sym</uri>
-    </library>
-    <library logical="00-kiml-button-switch-tht">
-      <uri>/home/maxpayne/projects/maxlab/internal/kiml/symbols/00-kiml-button-switch-tht.kicad_sym</uri>
-    </library>
     <library logical="00-kiml-capacitors-smd">
       <uri>/home/maxpayne/projects/maxlab/internal/kiml/symbols/00-kiml-capacitors-smd.kicad_sym</uri>
     </library>
@@ -5986,6 +5984,12 @@
     </library>
     <library logical="00-kiml-rf-module">
       <uri>/home/maxpayne/projects/maxlab/internal/kiml/symbols/00-kiml-rf-module.kicad_sym</uri>
+    </library>
+    <library logical="00-kiml-switch-button-smd">
+      <uri>/home/maxpayne/projects/maxlab/internal/kiml/symbols/00-kiml-switch-button-smd.kicad_sym</uri>
+    </library>
+    <library logical="00-kiml-switch-button-tht">
+      <uri>/home/maxpayne/projects/maxlab/internal/kiml/symbols/00-kiml-switch-button-tht.kicad_sym</uri>
     </library>
     <library logical="00-kiml-timer-rtc">
       <uri>/home/maxpayne/projects/maxlab/internal/kiml/symbols/00-kiml-timer-rtc.kicad_sym</uri>
