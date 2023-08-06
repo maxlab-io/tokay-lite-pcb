@@ -1,3 +1,5 @@
+View this project on [CADLAB.io](https://cadlab.io/project/27230). 
+
 # [![Tokay Lite: Low Power ESP32 Edge AI Camera](https://docs.maxlab.io/images/tokay-lite/edge-ai-angle.jpeg)](https://maxlab.io/store/edge-ai-camera/)
 
 [Tokay Lite](https://maxlab.io/store/edge-ai-camera/) is the ESP32 camera development board ideal for low-power image
