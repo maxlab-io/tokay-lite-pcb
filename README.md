@@ -1,4 +1,3 @@
-View this project on [CADLAB.io](https://cadlab.io/project/27230). 
 
 # [![Tokay Lite: Low Power ESP32 Edge AI Camera](https://docs.maxlab.io/images/tokay-lite/edge-ai-angle.jpeg)](https://maxlab.io/store/edge-ai-camera/)
 
@@ -61,3 +60,10 @@ The project is licensed under [the CERN Open Hardware Licence Version 2 - Permis
 If you have the camera-related questions or inquiries, please drop us an email
 on [hi@maxlab.io](mailto:hi@maxlab.io) or send us a message trough
 [the Contact Us form](https://maxlab.io/contact/).
+
+## Other Links
+
+* [CADLAB.io](https://cadlab.io/project/27230). 
+* [Hackaday](https://hackaday.io/project/189135-tokay-lite-multi-purpose-esp32-ai-camera)
+
+
