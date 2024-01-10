@@ -15552,7 +15552,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 135.89 58.42 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b683e4d6-f3cb-4757-8d09-d2e5da87b4bb)
     (property "Reference" "J3" (at 133.35 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
