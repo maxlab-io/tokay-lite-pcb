@@ -34,7 +34,7 @@ as can be seen from a following drawing:
 The Tokay AI Camera is powered by the ESP-IDF framework.
 
 Check the [GitHub firmware repository]() for the source code
-or [the camera docuemntation page](https://docs.maxlab.io/docs/edge-ai-tokay-lite/firmware/)
+or [the camera documentation page](https://docs.maxlab.io/docs/edge-ai-tokay-lite/firmware/)
 for more information on how to build an flash the firmware.
 
 ## KiCAD Dependencies
